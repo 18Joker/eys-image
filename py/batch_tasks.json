@@ -1,0 +1,50 @@
+[
+  {
+    "task_id": "duck_cannibal_v1",
+    "type": "text_to_image",
+    "prompt": "American retro comic book pop-art style, 1:1 square headshot extreme close-up. A devious white cartoon duck with hungry, glittering eyes and a wide, greedy grin, licking its beak with a pink tongue. It clutches a cartoon roasted chicken drumstick with a clean bite taken out of it (showing a pink cartoon interior) close to its face. Bold black ink outlines, comic-style hatching shadows. High contrast neon lime green lighting from below. Background of deep purple and lime green radial speed lines, clean composition, no body.",
+    "prompt_zh": "美式复古漫画波普风格，1：1正方形头像极近特写。一只狡猾的小白鸭眼神饥饿闪烁，带着贪婪宽大的坏笑，用粉色舌头舔着鸟嘴。它双爪将一根被咬掉一口的卡通烤鸡腿（露出粉色卡通内里，致敬原图）紧贴在脸旁。粗黑墨水勾边，漫画风格排线阴影。高对比度霓虹青柠绿光从下方打亮。背景为深紫色与青柠绿放射线速度线，无身体。",
+    "size": "1024x1024",
+    "output_path": "image2/duck/duck_食鸟鸭_v1.png"
+  },
+  {
+    "task_id": "duck_cannibal_v2",
+    "type": "text_to_image",
+    "prompt": "American retro comic book pop-art style, 1:1 square headshot extreme close-up. An orange cartoon duck looking highly excited with a manic, hungry smirk, wearing a red-and-white checkered picnic bib. It holds a cartoon roasted chicken leg with a neat bite mark close to its chest. Bold black ink outlines, action-style fragmented hatching shadows. High contrast bright yellow underlighting illuminating its face. Background of royal blue and yellow sunburst speed lines with halftone dots, no body.",
+    "prompt_zh": "美式复古漫画波普风格，1：1正方形头像极近特写。一只橘色卡通鸭表情极度兴奋，带着狂躁饥饿的坏笑，脖子上戴着红白格子野餐围兜。它双爪抓着一根带整齐咬痕的卡通烤鸡腿贴在胸前。粗黑墨水勾边，动作风格碎片排线阴影。高对比度明黄色光从下方打亮鸭脸。背景为宝蓝色与黄色放射线速度线，夹杂半调网点，无身体。",
+    "size": "1024x1024",
+    "output_path": "image2/duck/duck_食鸟鸭_v2.png"
+  },
+  {
+    "task_id": "duck_cannibal_v3",
+    "type": "text_to_image",
+    "prompt": "American retro comic book pop-art style, 1:1 square headshot extreme close-up. A sneaky white cartoon duck looking guilty yet smug, with a few cartoon crumbs around its beak, hiding a cartoon bitten roasted chicken leg behind its cheek. Heavy black ink shadows covering half of its face, one sharp yellow eye gleaming with mischief. Bold outlines, retro comic print texture. High contrast hot pink lighting. Background of dark teal and pink speed rings, no body.",
+    "prompt_zh": "美式复古漫画波普风格，1：1正方形头像极近特写。一只小白鸭神情心虚又得意，鸟嘴周围挂着几粒卡通碎屑，在脸颊旁藏着一根被咬过的卡通烤鸡腿。浓重的黑色墨水阴影覆盖了半张脸，一只锐利的黄色眼睛闪烁着恶作剧的光芒。粗黑轮廓，复古漫画印刷纹理。高对比度暖粉色光。背景为深青色与粉色速度环线，无身体。",
+    "size": "1024x1024",
+    "output_path": "image2/duck/duck_食鸟鸭_v3.png"
+  },
+  {
+    "task_id": "duck_cannibal_v4",
+    "type": "text_to_image",
+    "prompt": "American retro comic book pop-art style, 1:1 square headshot extreme close-up. A yellow-white cartoon duck head looking deviously at a cartoon roasted chicken leg in the foreground that has a large bite mark (referencing the original logo). The duck has a cunning, confident expression. Bold black ink outlines, dramatic high-contrast ink-wash hatching shadows. High contrast orange glow reflecting from the roasted leg onto its face. Background of deep purple and orange concentric speed lines, no body.",
+    "prompt_zh": "美式复古漫画波普风格，1：1正方形头像极近特写。一只黄白色的卡通鸭头，正狡黠地盯着前景中一根带有巨大咬痕的卡通烤鸡腿（致敬原图Logo）。鸭子神情狡猾而自信。粗黑墨水勾边，戏剧性高对比度墨水排线阴影。高对比度橙光从烤鸡腿上反射打亮鸭脸。背景为深紫色与橙色同心圆速度线，无身体。",
+    "size": "1024x1024",
+    "output_path": "image2/duck/duck_食鸟鸭_v4.png"
+  },
+  {
+    "task_id": "duck_cannibal_v5",
+    "type": "text_to_image",
+    "prompt": "American retro comic book pop-art style, 1:1 square headshot extreme close-up. A comical yet slightly evil white cartoon duck wearing a tiny white chef's hat, looking wickedly at a cartoon roasted drumstick with a bite taken out of it. It holds a small toy-like salt shaker in its webbed hand. Bold outlines, clean comic halftone shading. High contrast cyan and magenta neon glow. Background of dark charcoal and vivid cyan radial speed lines. Clean headshot framing, no body.",
+    "prompt_zh": "美式复古漫画波普风格，1：1正方形头像极近特写。一只滑稽又带点微邪恶的小白鸭戴着迷你白色厨师帽，邪恶地看着一根被咬掉一口的卡通烤鼓槌。它鸭爪里握着一个玩具般的小盐罐。粗黑轮廓，干净的漫画半调阴影。高对比度青色与洋红色霓虹荧光。背景为深炭灰色与鲜艳青色放射线速度线。干净头像，无身体。",
+    "size": "1024x1024",
+    "output_path": "image2/duck/duck_食鸟鸭_v5.png"
+  },
+  {
+    "task_id": "duck_cannibal_v6",
+    "type": "text_to_image",
+    "prompt": "American retro comic book pop-art style, 1:1 square headshot extreme close-up. A ravenous cartoon duck head biting down directly on a giant cartoon roasted chicken leg with a prominent clean bite mark. Wild, playful googly eyes (resembling cartoon aesthetics), no blood or gore, purely funny and greedy. Bold black ink outlines, clean flat pop-art colors. High contrast crimson red and deep violet sunburst background, extremely readable UI look, no body.",
+    "prompt_zh": "美式复古漫画波普风格，1：1正方形头像极近特写。一只狼吞虎咽的卡通鸭头，直接一口咬在一根带有明显整齐咬痕的巨大卡通烤鸡腿上。狂野又好笑的搞怪大眼睛，没有任何血腥，纯粹幽默贪吃。粗黑墨水勾边，干净的波普纯色平涂。高对比度深红与深紫放射线背景，极易辨识的UI视觉，无身体。",
+    "size": "1024x1024",
+    "output_path": "image2/duck/duck_食鸟鸭_v6.png"
+  }
+]
