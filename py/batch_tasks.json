@@ -1,21 +1,29 @@
 [
   {
-    "task_id": "official_goose_侦探",
+    "task_id": "colored_goose_正义使者",
     "type": "image_to_image",
-    "prompt": "High-definition restoration,一个放大镜,纯白色背景",
-    "prompt_zh": "高清修复",
+    "prompt": "High-definition restoration, replace background with solid deep dark green #1a3a2a color, keep the character unchanged, pure flat color background",
+    "prompt_zh": "高清修复，替换背景色",
     "size": "1024x1024",
-    "local_image_path": "D:\\program\\project\\front\\eys-image\\official\\goose\\goose_侦探.png",
-    "output_path": "official2/goose/goose_侦探.png"
+    "local_image_path": "D:\\program\\project\\front\\eys-image\\official2\\goose\\goose_正义使者.png",
+    "output_path": "official2_colored/goose/goose_正义使者.png"
   },
-
   {
-    "task_id": "official_goose_殡仪员",
+    "task_id": "colored_duck_鸭子",
     "type": "image_to_image",
-    "prompt": "High-definition restoration,纯白色背景",
-    "prompt_zh": "高清修复",
+    "prompt": "High-definition restoration, replace background with solid deep dark red #3a1a1a color, keep the character unchanged, pure flat color background",
+    "prompt_zh": "高清修复，替换背景色",
     "size": "1024x1024",
-    "local_image_path": "D:\\program\\project\\front\\eys-image\\official\\goose\\goose_殡仪员.png",
-    "output_path": "official2/goose/goose_殡仪员.png"
+    "local_image_path": "D:\\program\\project\\front\\eys-image\\official2\\duck\\duck_鸭子.png",
+    "output_path": "official2_colored/duck/duck_鸭子.png"
+  },
+  {
+    "task_id": "colored_neutral_猎鹰",
+    "type": "image_to_image",
+    "prompt": "High-definition restoration, replace background with solid deep dark amber #3a2e1a color, keep the character unchanged, pure flat color background",
+    "prompt_zh": "高清修复，替换背景色",
+    "size": "1024x1024",
+    "local_image_path": "D:\\program\\project\\front\\eys-image\\official2\\neutral\\neutral_猎鹰.png",
+    "output_path": "official2_colored/neutral/neutral_猎鹰.png"
   }
 ]

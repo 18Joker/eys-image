@@ -1,5 +1,5 @@
 {
-  "version": "3.2.2",
+  "version": "3.2.3",
   "slotCount": 15,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -13,20 +13,20 @@
       "name": "美式复古",
       "type": "image",
       "pathPrefix": "/american_retro_style",
-      "description": "当前默认图片风格"
+      "description": "个性化图标"
     },
     {
       "id": "style2",
       "name": "官方图标",
       "type": "image",
-      "pathPrefix": "/official2",
-      "description": "另一种图片风格"
+      "pathPrefix": "/official_v3",
+      "description": "基于官方图标，AI写实生成图标"
     },
     {
       "id": "text",
       "name": "文字模式",
       "type": "text",
-      "description": "低流量、清晰文字识别"
+      "description": "低流量、清晰文字图标"
     }
   ],
   "factions": [
