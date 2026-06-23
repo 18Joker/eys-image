@@ -16,6 +16,13 @@
       "description": "当前默认图片风格"
     },
     {
+      "id": "style2",
+      "name": "官方图标",
+      "type": "image",
+      "pathPrefix": "/official",
+      "description": "另一种图片风格"
+    },
+    {
       "id": "text",
       "name": "文字模式",
       "type": "text",
