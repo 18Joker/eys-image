@@ -13,14 +13,6 @@ from pathlib import Path
 # ==================== 全局配置 ====================
 # 支持填入多个 API Key
 API_KEYS = [
-    "wk-PcwgWhFNx0g0YzUjHHZ0yCUAG1scrq4SMhXtBFUyYk3KD110",
-    "wk-FIzBhOWqTUgGj6jZo9cjN6pP2EHEgROqCVqIPPVghJA5dep9",
-    "wk-M8KppwUWv8RlKQ6n4p4L2kuYX16QBsZ7J5refe3pppE7t4ir",
-    "wk-zynqGMQKSyStyFHAwiE1T6lwhlDKGhedgh0qbmaJ4i22hZBo",
-    "wk-HVJO2a07DmR0pt5ogbXcTGhTkrnFYGzd8TpK4lOWaNYeDcz6",
-    "wk-yBS4vP6yCD16tJ0rgQQOqCv5EHYigzSiMtiHR27NYGgmsK69",
-    "wk-SHxAuoXVvUQoNiiiDf2UckAXm1Mn2O0j2fnfegpYhpLL8roT",
-    "wk-aBlZhpt7fuRC0WbKp7Q7sHaWRu945rzrQRfckTHYHcAZRaBk",
     "wk-KyLbGDsypO862KC9dBbBolyscal8p3hmvSf96Un0lzpUtNpr",
     "wk-tMZW7YP1ob8fsXcwoax9Iyl8mxl6QJuRIJhs4dCrT7Vky1S7",
     "wk-v4GDHCYCtZxnFbaYxgqj4sTQFida53rfTgQBcxBVrAOl7IkP",
@@ -30,10 +22,18 @@ API_KEYS = [
     "wk-M0kqYE2im38ldxhpggGcAdd24i5bIqc17mkalN6OckDxzJSX",
     "wk-JLIt1hBlc3NX8gH2cXEPY8Oc9BbLU3fgdsgnxhtrjoMuLJWe",
     "wk-XhVB17B38RSAQ6Ic2qJjSyAjKUP0GQa4Kc2lsRei34fRo9Rm",
+    "wk-PcwgWhFNx0g0YzUjHHZ0yCUAG1scrq4SMhXtBFUyYk3KD110",
+    "wk-FIzBhOWqTUgGj6jZo9cjN6pP2EHEgROqCVqIPPVghJA5dep9",
+    "wk-M8KppwUWv8RlKQ6n4p4L2kuYX16QBsZ7J5refe3pppE7t4ir",
+    "wk-zynqGMQKSyStyFHAwiE1T6lwhlDKGhedgh0qbmaJ4i22hZBo",
+    "wk-HVJO2a07DmR0pt5ogbXcTGhTkrnFYGzd8TpK4lOWaNYeDcz6",
+    "wk-yBS4vP6yCD16tJ0rgQQOqCv5EHYigzSiMtiHR27NYGgmsK69",
+    "wk-SHxAuoXVvUQoNiiiDf2UckAXm1Mn2O0j2fnfegpYhpLL8roT",
+    "wk-aBlZhpt7fuRC0WbKp7Q7sHaWRu945rzrQRfckTHYHcAZRaBk",
 ]
 
 # 每个 Key 支持的稳定并发度
-CONCURRENCY_PER_KEY = 3
+CONCURRENCY_PER_KEY = 1
 
 BASE_URL = "https://apihub.agnes-ai.com/v1"  # 官方接口地址
 JSON_CONFIG_PATH = "D:\\program\\project\\front\\eys-image\\py\\batch_tasks.json"  # JSON 任务配置文件路径
