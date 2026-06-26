@@ -1,5 +1,5 @@
 {
-  "version": "3.2.4",
+  "version": "3.2.5",
   "slotCount": 15,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -148,6 +148,12 @@
       "name": "大白鹅",
       "faction": "goose",
       "img": "/goose/goose_大白鹅.png"
+    },
+    {
+      "id": "goose_180",
+      "name": "猪头",
+      "faction": "goose",
+      "img": "/goose/goose_猪头.png"
     },
     {
       "id": "neutral_20",
