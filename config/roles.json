@@ -1,5 +1,5 @@
 {
-  "version": "3.2.3",
+  "version": "3.2.4",
   "slotCount": 15,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -12,7 +12,7 @@
       "id": "classic",
       "name": "美式复古",
       "type": "image",
-      "pathPrefix": "/american_retro_style",
+      "pathPrefix": "/american_retro_style_v2",
       "description": "个性化图标"
     },
     {
