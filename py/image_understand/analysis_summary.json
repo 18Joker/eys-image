@@ -1,0 +1,83 @@
+[
+  {
+    "task_id": "示例3",
+    "result": {
+      "players": [
+        {
+          "number": "06",
+          "role": "模仿者"
+        },
+        {
+          "number": "07",
+          "role": "大白鹅"
+        },
+        {
+          "number": "08",
+          "role": "探测员"
+        },
+        {
+          "number": "10",
+          "role": "工程师"
+        },
+        {
+          "number": "11",
+          "role": "加拿大鹅"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "示例2",
+    "result": {
+      "players": [
+        {
+          "number": "01",
+          "role": "刺客"
+        },
+        {
+          "number": "02",
+          "role": "专业杀手"
+        },
+        {
+          "number": "03",
+          "role": "工程师"
+        },
+        {
+          "number": "04",
+          "role": "巫医"
+        },
+        {
+          "number": "06",
+          "role": "侦探"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "示例1",
+    "result": {
+      "players": [
+        {
+          "number": "03",
+          "role": "猎鹰"
+        },
+        {
+          "number": "05",
+          "role": "喜鹊"
+        },
+        {
+          "number": "06",
+          "role": "爆炸王"
+        },
+        {
+          "number": "07",
+          "role": "食鸟鸭"
+        },
+        {
+          "number": "08",
+          "role": "跟踪者"
+        }
+      ]
+    }
+  }
+]

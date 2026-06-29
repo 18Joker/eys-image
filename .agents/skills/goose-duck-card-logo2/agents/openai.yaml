@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goose Duck Card Logo"
+  short_description: "为鹅鸭杀角色按套图风格生成六版 Logo 批量任务"
+  default_prompt: "Use $goose-duck-card-logo to design and generate six logo options for a Goose Goose Duck role across selected style sets."

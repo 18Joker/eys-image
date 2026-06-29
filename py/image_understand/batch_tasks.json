@@ -1,0 +1,20 @@
+[
+  {
+    "task_id": "示例1",
+    "type": "image_analysis",
+    "local_image_path": "./image/示例1.jpg",
+    "output_json": "./output/示例1_result.json"
+  },
+  {
+    "task_id": "示例2",
+    "type": "image_analysis",
+    "local_image_path": "./image/示例2.jpg",
+    "output_json": "./output/示例2_result.json"
+  },
+  {
+    "task_id": "示例3",
+    "type": "image_analysis",
+    "local_image_path": "./image/示例3.jpg",
+    "output_json": "./output/示例3_result.json"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "skill_name": "image-border-remover",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我处理 D:\\test_images 文件夹下的图片，去除所有图片的边框，然后生成对比页面让我看看效果",
+      "expected_output": "扫描test_images文件夹下的图片，生成图生图任务JSON，执行图片生成脚本，输出到test_images_no_border文件夹，生成对比HTML并打开浏览器",
+      "files": [],
+      "assertions": [
+        {
+          "name": "生成图生图任务JSON",
+          "description": "检查是否生成了batch_tasks.json文件，且包含正确的任务配置",
+          "type": "file_exists",
+          "expected": "D:\\test_images_no_border\\batch_tasks.json"
+        },
+        {
+          "name": "执行图片生成脚本",
+          "description": "检查是否成功执行了图片生成脚本",
+          "type": "command_success",
+          "expected": "python image_generate_v4.py"
+        },
+        {
+          "name": "生成新图片",
+          "description": "检查是否在输出文件夹中生成了新图片",
+          "type": "file_count",
+          "expected": 3,
+          "path": "D:\\test_images_no_border"
+        },
+        {
+          "name": "生成对比HTML",
+          "description": "检查是否生成了comparison.html文件",
+          "type": "file_exists",
+          "expected": "D:\\test_images_no_border\\comparison.html"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "我有一批产品图片在 D:\\product_images 里面，这些图片都有白色边框，需要批量去除。处理完生成一个对比页面，我要确认效果再决定是否继续处理其他图片",
+      "expected_output": "扫描product_images文件夹下的图片，生成图生图任务JSON，执行图片生成脚本，输出到product_images_no_border文件夹，生成对比HTML并打开浏览器",
+      "files": [],
+      "assertions": [
+        {
+          "name": "生成图生图任务JSON",
+          "description": "检查是否生成了batch_tasks.json文件，且包含正确的任务配置",
+          "type": "file_exists",
+          "expected": "D:\\product_images_no_border\\batch_tasks.json"
+        },
+        {
+          "name": "执行图片生成脚本",
+          "description": "检查是否成功执行了图片生成脚本",
+          "type": "command_success",
+          "expected": "python image_generate_v4.py"
+        },
+        {
+          "name": "生成新图片",
+          "description": "检查是否在输出文件夹中生成了新图片",
+          "type": "file_count",
+          "expected": 3,
+          "path": "D:\\product_images_no_border"
+        },
+        {
+          "name": "生成对比HTML",
+          "description": "检查是否生成了comparison.html文件",
+          "type": "file_exists",
+          "expected": "D:\\product_images_no_border\\comparison.html"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "D:\\icon_images 文件夹里有20多张图标图片，每张都有装饰性边框，需要全部去除。处理完生成对比页面，我要检查每张图的效果",
+      "expected_output": "扫描icon_images文件夹下的图片，生成图生图任务JSON，执行图片生成脚本，输出到icon_images_no_border文件夹，生成对比HTML并打开浏览器",
+      "files": [],
+      "assertions": [
+        {
+          "name": "生成图生图任务JSON",
+          "description": "检查是否生成了batch_tasks.json文件，且包含正确的任务配置",
+          "type": "file_exists",
+          "expected": "D:\\icon_images_no_border\\batch_tasks.json"
+        },
+        {
+          "name": "执行图片生成脚本",
+          "description": "检查是否成功执行了图片生成脚本",
+          "type": "command_success",
+          "expected": "python image_generate_v4.py"
+        },
+        {
+          "name": "生成新图片",
+          "description": "检查是否在输出文件夹中生成了新图片",
+          "type": "file_count",
+          "expected": 5,
+          "path": "D:\\icon_images_no_border"
+        },
+        {
+          "name": "生成对比HTML",
+          "description": "检查是否生成了comparison.html文件",
+          "type": "file_exists",
+          "expected": "D:\\icon_images_no_border\\comparison.html"
+        }
+      ]
+    }
+  ]
+}

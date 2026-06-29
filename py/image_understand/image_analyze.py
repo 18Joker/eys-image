@@ -88,81 +88,52 @@ def file_to_base64_uri(file_path: str) -> str:
     return f"data:{mime_type};base64,{b64_data}"
 
 
-def download_image(sess: requests.Session, url: str, save_path: str, log_prefix: str, retries: int = 3, backoff: float = 1.0) -> bool:
-    """下载生成的图片并保存到本地，带指数退避重试机制（使用连接池复用）"""
-    for attempt in range(1, retries + 1):
-        try:
-            # 设 5 秒连接超时，120 秒读取超时
-            response = sess.get(url, timeout=(5, 120))
-            response.raise_for_status()
-
-            path = Path(save_path)
-            path.parent.mkdir(parents=True, exist_ok=True)
-
-            with open(path, 'wb') as f:
-                f.write(response.content)
-            logging.info(f"{log_prefix} 👉 [成功] 图片已保存至: {save_path}")
-            return True
-        except Exception as e:
-            if attempt < retries:
-                # 加上微小随机干扰打散重试时间
-                wait = backoff * (2 ** (attempt - 1)) + random.uniform(0.1, 0.5)
-                logging.warning(f"{log_prefix} ⚠️ [第{attempt}/{retries}次] 下载失败: {e}，{wait:.1f}秒后重试...")
-                time.sleep(wait)
-            else:
-                logging.error(f"{log_prefix} ❌ [错误] 图片下载失败（已重试{retries}次）: {e}")
-                return False
-
-
-def process_single_task(task: dict, key_queue: queue.Queue) -> str | None:
+def analyze_single_image(task: dict, key_queue: queue.Queue) -> dict | None:
     """
-    执行单个生图任务
+    执行单个图片分析任务
     从密钥队列中动态获取可用的 API Key，并在调用完成后立即释放（支持坏Key自动剔除与API重试）
     """
     task_id = task.get("task_id", "Unknown")
-    task_type = task.get("type", "text_to_image")
-    prompt = task.get("prompt")
-    size = task.get("size", "1024x1024")
-    output_path = task.get("output_path", f"./output_{task_id}.png")
-
+    local_image_path = task.get("local_image_path")
+    output_json = task.get("output_json", f"./output_{task_id}.json")
+    
     log_prefix = f"[{task_id}]"
 
-    # 自动匹配最佳模型
-    model = task.get("model")
-    if not model:
-        if task_type == "text_to_image":
-            model = "agnes-image-2.1-flash"
-        elif task_type == "image_to_image":
-            model = "agnes-image-2.0-flash"
+    if not local_image_path:
+        logging.error(f"{log_prefix} ❌ [失败] 必须提供本地图片路径 'local_image_path'。")
+        return None
 
-    logging.info(f"{log_prefix} 🚀 任务启动 | 类型: {task_type} | 模型: {model} | 分辨率: {size}")
+    # 构建视觉模型 prompt - 专门用于提取角色信息
+    prompt = """请分析这张游戏截图，识别左侧玩家列表中的序号和对应的角色名称。
 
-    # 构建通用 payload
-    payload = {
-        "model": model,
-        "prompt": prompt,
-        "size": size
-    }
+要求：
+1. 只关注左侧的玩家列表区域
+2. 提取每个玩家的序号（如：06号、07号等）
+3. 提取每个玩家的角色名称（如：模仿者、大白鹅、探测员等）
+4. 忽略"随机"选项
+5. 返回JSON格式，包含以下结构：
+   {
+     "players": [
+       {"number": "06", "role": "模仿者"},
+       {"number": "07", "role": "大白鹅"}
+     ]
+   }
 
-    if task_type == "image_to_image":
-        local_image_path = task.get("local_image_path")
-        if not local_image_path:
-            logging.error(f"{log_prefix} ❌ [失败] 图生图任务必须提供本地图片路径 'local_image_path'。")
-            return None
+注意：
+- number字段只需要数字部分（不带"号"字）
+- role字段是完整的角色名称
+- 按序号从小到大排序
+"""
 
-        try:
-            # 提示：如果是极高分辨率的本地大图，建议在转 Base64 之前先进行尺寸压制，以节约网络上传带宽
-            base64_uri = file_to_base64_uri(local_image_path)
-            payload["extra_body"] = {
-                "image": [base64_uri]
-            }
-        except Exception as e:
-            logging.error(f"{log_prefix} ❌ [本地错误] 读取本地图片失败: {e}")
-            return None
+    try:
+        base64_uri = file_to_base64_uri(local_image_path)
+    except Exception as e:
+        logging.error(f"{log_prefix} ❌ [本地错误] 读取本地图片失败: {e}")
+        return None
 
-    endpoint = f"{BASE_URL}/images/generations"
-    generated_url = None
-
+    endpoint = f"{BASE_URL}/chat/completions"
+    result_data = None
+    
     max_api_retries = 3
 
     # 针对 API 请求阶段建立重试机制，每次重试均从队列重新抓取 Key 进行调用
@@ -180,23 +151,55 @@ def process_single_task(task: dict, key_queue: queue.Queue) -> str | None:
                 "Content-Type": "application/json"
             }
 
+            # 构建多模态消息 payload
+            payload = {
+                "model": "agnes-2.0-flash",
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": prompt
+                            },
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": base64_uri
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "temperature": 0.1,
+                "max_tokens": 1000
+            }
+
             # 发送 API 请求（连接超时 5s，读取超时 90s）
             response = session.post(endpoint, headers=headers, json=payload, timeout=(5, 90))
 
             # 1. 请求成功
             if response.status_code == 200:
                 res_json = response.json()
-                image_list = res_json.get("data", [])
-
-                if image_list and len(image_list) > 0:
-                    generated_url = image_list[0].get("url")
-                    if not generated_url:
-                        logging.error(f"{log_prefix} ❌ [解析错误] 返回结构正常，但没有找到图片 URL")
-                    else:
-                        # 成功获取到图片 URL，终止重试循环
-                        break
+                content = res_json.get("choices", [{}])[0].get("message", {}).get("content", "")
+                
+                if content:
+                    # 尝试解析 JSON 内容
+                    try:
+                        # 如果返回的内容包含在代码块中，提取出来
+                        if "```json" in content:
+                            content = content.split("```json")[1].split("```")[0].strip()
+                        elif "```" in content:
+                            content = content.split("```")[1].split("```")[0].strip()
+                        
+                        result_data = json.loads(content)
+                        break  # 成功获取结果，终止重试循环
+                    except json.JSONDecodeError as e:
+                        logging.warning(f"{log_prefix} ⚠️ [解析警告] JSON解析失败: {e}")
+                        logging.debug(f"{log_prefix} 原始内容: {content[:200]}")
+                        # 继续重试
                 else:
-                    logging.error(f"{log_prefix} ❌ [响应异常] 接口返回值未包含预期图像：{res_json}")
+                    logging.error(f"{log_prefix} ❌ [响应异常] 接口返回值未包含预期内容：{res_json}")
 
             # 2. 鉴权失败/额度不足 (401/403)
             elif response.status_code in (401, 403):
@@ -221,85 +224,27 @@ def process_single_task(task: dict, key_queue: queue.Queue) -> str | None:
             logging.warning(f"{log_prefix} ⚠️ [网络错误 (尝试 {attempt}/{max_api_retries})] 请求 API 失败: {e}，将在 {wait_time} 秒后重试...")
             time.sleep(wait_time)
         except Exception as e:
-            logging.error(f"{log_prefix} ❌ [未知异常] 执行过程中出错: {e}")
+            logging.error(f"{log_prefix}  [未知异常] 执行过程中出错: {e}")
         finally:
             # 关键改动：如果判断 Key 未失效，将其完好放回队列供后续复用
             # 如果 Key 被判定为失效(401/403)，则不返回队列（即动态从系统里过滤掉此 Key）
             if is_key_valid:
                 key_queue.put(api_key)
 
-    # 在释放 Key 后，在本地线程里慢慢进行下载（下载不占用 API 的 Key 限制）
-    if generated_url:
-        logging.info(f"{log_prefix} 🎨 图像已由 Agnes 生成成功，正在下载中...")
-        if download_image(session, generated_url, output_path, log_prefix):
-            return output_path
+    # 保存结果到 JSON 文件
+    if result_data:
+        logging.info(f"{log_prefix} ✅ [成功] 图片分析完成，正在保存结果...")
+        
+        path = Path(output_json)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(result_data, f, ensure_ascii=False, indent=2)
+        
+        logging.info(f"{log_prefix} 👉 [成功] 结果已保存至: {output_json}")
+        return result_data
 
     return None
-
-
-def generate_html_gallery(image_paths: list[str], output_html: str):
-    """将成功生成的图片列表写入一个 HTML 页面，图片尺寸与实际尺寸适配"""
-    cards = []
-    for idx, path in enumerate(image_paths):
-        abs_path = os.path.abspath(path)
-        filename = os.path.basename(abs_path)
-        file_uri = Path(abs_path).as_uri()
-        cards.append(f"""    <div class="card" id="card-{idx}">
-      <img src="{file_uri}" alt="{filename}" loading="lazy" data-idx="{idx}" onload="adjustCardSize(this)">
-      <div class="info">
-        <div class="filename">{filename}</div>
-        <div class="filepath">{abs_path}</div>
-      </div>
-    </div>""")
-
-    html = f"""<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 图片生成结果 - 共 {len(image_paths)} 张</title>
-<style>
-* {{ margin: 0; padding: 0; box-sizing: border-box; }}
-body {{ font-family: -apple-system, 'Segoe UI', sans-serif; background: #f5f5f5; padding: 30px; }}
-h1 {{ font-size: 24px; margin-bottom: 20px; color: #333; }}
-h1 span {{ font-weight: normal; font-size: 16px; color: #888; }}
-.gallery {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }}
-.card {{ background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.08); transition: transform 0.15s; display: flex; flex-direction: column; }}
-.card:hover {{ transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.12); }}
-.card img {{ width: 100%; display: block; cursor: pointer; object-fit: contain; background: #fafafa; }}
-.card .info {{ padding: 12px 16px; }}
-.card .filename {{ font-size: 14px; font-weight: 600; color: #222; word-break: break-all; }}
-.card .filepath {{ font-size: 11px; color: #999; word-break: break-all; margin-top: 4px; }}
-</style>
-</head>
-<body>
-<h1>AI 图片生成结果 <span>共 {len(image_paths)} 张</span></h1>
-<div class="gallery">
-{chr(10).join(cards)}
-</div>
-<script>
-function adjustCardSize(img) {{
-  // 获取图片原始宽高比
-  const ratio = img.naturalWidth / img.naturalHeight;
-  // 设置最大高度为 500px，根据宽高比计算实际高度
-  const maxHeight = 500;
-  const maxWidth = img.parentElement.offsetWidth;
-  let height = Math.min(maxWidth / ratio, maxHeight);
-  // 如果高度受限，则根据高度反算宽度
-  if (height < maxWidth / ratio) {{
-    img.style.width = (height * ratio) + 'px';
-    img.style.height = height + 'px';
-  }}
-}}
-</script>
-</body>
-</html>"""
-
-    with open(output_html, 'w', encoding='utf-8') as f:
-        f.write(html)
-
-    abs_html = os.path.abspath(output_html)
-    logging.info(f"HTML 页面已生成: {abs_html}")
 
 
 def run_batch_concurrency(config_path: str):
@@ -318,20 +263,20 @@ def run_batch_concurrency(config_path: str):
     # 1. 初始化线程安全的 API Key 队列
     key_queue = queue.Queue()
     for key in API_KEYS:
-        # 每个 Key 放入 CONCURRENCY_PER_KEY 次，作为并发“通行证”
+        # 每个 Key 放入 CONCURRENCY_PER_KEY 次，作为并发"通行证"
         for _ in range(CONCURRENCY_PER_KEY):
             key_queue.put(key)
 
-    logging.info("批量并发任务开始运行。")
+    logging.info("批量并发图片分析任务开始运行。")
     logging.info(f"检测到已配置 {len(API_KEYS)} 个 API Key，每个 Key 限制并发数为: {CONCURRENCY_PER_KEY}")
     logging.info(f"系统最大并发工作线程数已自动调整为: {MAX_WORKERS}")
 
-    successful_images = []
+    successful_results = []
 
     # 2. 采用线程池执行任务
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         # 提交所有任务
-        futures = {executor.submit(process_single_task, task, key_queue): task for task in tasks}
+        futures = {executor.submit(analyze_single_image, task, key_queue): task for task in tasks}
 
         # 观察并等待所有任务完成
         for future in concurrent.futures.as_completed(futures):
@@ -340,20 +285,25 @@ def run_batch_concurrency(config_path: str):
             try:
                 result = future.result()
                 if result:
-                    successful_images.append(result)
+                    successful_results.append({
+                        "task_id": task_id,
+                        "result": result
+                    })
             except Exception as e:
                 logging.error(f"[{task_id}] 线程执行期间产生致命故障: {e}")
 
-    logging.info(f"并发任务队列处理完毕，成功生成了 {len(successful_images)} 张图片。")
-
-    if successful_images:
-        successful_images.sort()
-        html_path = os.path.join(os.path.dirname(config_path), "image_gallery.html")
-        generate_html_gallery(successful_images, html_path)
+    logging.info(f"并发任务队列处理完毕，成功分析了 {len(successful_results)} 张图片。")
+    
+    # 汇总所有结果到一个总文件
+    if successful_results:
+        summary_path = os.path.join(os.path.dirname(config_path), "analysis_summary.json")
+        with open(summary_path, 'w', encoding='utf-8') as f:
+            json.dump(successful_results, f, ensure_ascii=False, indent=2)
+        logging.info(f"汇总结果已保存至: {summary_path}")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='AI 图片批量生成脚本')
+    parser = argparse.ArgumentParser(description='AI 图片批量分析脚本 - 从游戏截图中提取角色信息')
     parser.add_argument('-c', '--config', type=str, default=JSON_CONFIG_PATH,
                         help=f'JSON 配置文件路径 (默认: {JSON_CONFIG_PATH})')
     args = parser.parse_args()
