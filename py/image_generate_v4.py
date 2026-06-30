@@ -114,7 +114,7 @@ def download_image(sess: requests.Session, url: str, save_path: str, log_prefix:
                 return False
 
 
-def process_single_task(task: dict, key_queue: queue.Queue) -> str | None:
+def process_single_task(task: dict, key_queue: queue.Queue, project_root: str = None) -> str | None:
     """
     执行单个生图任务
     从密钥队列中动态获取可用的 API Key，并在调用完成后立即释放（支持坏Key自动剔除与API重试）
@@ -124,6 +124,10 @@ def process_single_task(task: dict, key_queue: queue.Queue) -> str | None:
     prompt = task.get("prompt")
     size = task.get("size", "1024x1024")
     output_path = task.get("output_path", f"./output_{task_id}.png")
+
+    # 如果指定了项目根目录，将相对 output_path 解析为绝对路径
+    if project_root and not os.path.isabs(output_path):
+        output_path = os.path.join(project_root, output_path)
 
     log_prefix = f"[{task_id}]"
 
@@ -312,6 +316,32 @@ def run_batch_concurrency(config_path: str):
         logging.error("请在全局配置区中正确配置 API_KEYS 列表。")
         return
 
+    # 从配置文件路径推导项目根目录
+    config_dir = os.path.dirname(os.path.abspath(config_path))
+    # 新结构: output/{style_set}/{run_id}/batch_tasks.json
+    #   config_dir = output/{style_set}/{run_id}
+    #   项目根 = config_dir 向上三级
+    # 旧结构: output/{style_set}/batch_tasks.json
+    #   config_dir = output/{style_set}
+    #   项目根 = config_dir 向上二级
+    # 更旧结构: py/batch_tasks.json
+    #   config_dir = py
+    #   项目根 = config_dir 向上一级
+    parent1 = os.path.basename(config_dir)  # {run_id} or {style_set} or "py"
+    parent2 = os.path.basename(os.path.dirname(config_dir))  # {style_set} or "output" or project_root
+    parent3 = os.path.basename(os.path.dirname(os.path.dirname(config_dir)))  # "output" or ...
+    
+    if parent3 == "output":
+        # 新结构: output/{style_set}/{run_id}/
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(config_dir)))
+    elif parent2 == "output":
+        # 旧结构: output/{style_set}/
+        project_root = os.path.dirname(os.path.dirname(config_dir))
+    else:
+        # 更旧结构: py/
+        project_root = os.path.dirname(config_dir)
+    logging.info(f"项目根目录推导结果: {project_root}")
+
     with open(config_path, 'r', encoding='utf-8') as f:
         tasks = json.load(f)
 
@@ -331,7 +361,7 @@ def run_batch_concurrency(config_path: str):
     # 2. 采用线程池执行任务
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         # 提交所有任务
-        futures = {executor.submit(process_single_task, task, key_queue): task for task in tasks}
+        futures = {executor.submit(process_single_task, task, key_queue, project_root): task for task in tasks}
 
         # 观察并等待所有任务完成
         for future in concurrent.futures.as_completed(futures):

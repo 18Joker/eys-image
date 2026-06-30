@@ -1,5 +1,5 @@
 {
-  "version": "3.3.1",
+  "version": "3.3.2",
   "slotCount": 15,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -93,7 +93,7 @@
       "id": "goose_210",
       "name": "生存者",
       "faction": "goose",
-      "img": "/goose/goose_生存主义者.png"
+      "img": "/goose/goose_生存主义者_v2.png"
     },
     {
       "id": "goose_120",
@@ -274,6 +274,12 @@
       "name": "丘比特",
       "faction": "duck",
       "img": "/duck/duck_丘比特.png"
+    },
+    {
+      "id": "duck_190",
+      "name": "身份窃贼",
+      "faction": "duck",
+      "img": "/duck/duck_身份窃贼.png"
     },
     {
       "id": "duck_30",
