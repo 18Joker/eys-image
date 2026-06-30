@@ -1,5 +1,5 @@
 {
-  "version": "3.3.0",
+  "version": "3.3.1",
   "slotCount": 15,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -303,7 +303,7 @@
       "id": "duck_180",
       "name": "牧师",
       "faction": "duck",
-      "img": "/duck/duck_牧师.png"
+      "img": "/duck/duck_牧师_v2.png"
     },
     {
       "id": "duck_130",
