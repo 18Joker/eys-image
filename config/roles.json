@@ -1,5 +1,5 @@
 {
-  "version": "3.2.5",
+  "version": "3.3.0",
   "slotCount": 15,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -66,6 +66,12 @@
       "img": "/goose/goose_士兵.png"
     },
     {
+      "id": "goose_200",
+      "name": "说客",
+      "faction": "goose",
+      "img": "/goose/goose_说客.png"
+    },
+    {
       "id": "goose_40",
       "name": "复仇",
       "faction": "goose",
@@ -76,6 +82,18 @@
       "name": "加拿大鹅",
       "faction": "goose",
       "img": "/goose/goose_加拿大鹅.png"
+    },
+    {
+      "id": "goose_190",
+      "name": "网红",
+      "faction": "goose",
+      "img": "/goose/goose_网红.png"
+    },
+    {
+      "id": "goose_210",
+      "name": "生存者",
+      "faction": "goose",
+      "img": "/goose/goose_生存主义者.png"
     },
     {
       "id": "goose_120",
@@ -240,6 +258,12 @@
       "img": "/duck/duck_专杀.png"
     },
     {
+      "id": "duck_170",
+      "name": "连环杀手",
+      "faction": "duck",
+      "img": "/duck/duck_杀手.png"
+    },
+    {
       "id": "duck_150",
       "name": "忍者",
       "faction": "duck",
@@ -274,6 +298,12 @@
       "name": "狙击手",
       "faction": "duck",
       "img": "/duck/duck_狙击手.png"
+    },
+    {
+      "id": "duck_180",
+      "name": "牧师",
+      "faction": "duck",
+      "img": "/duck/duck_牧师.png"
     },
     {
       "id": "duck_130",
