@@ -51,12 +51,12 @@ API_KEYS = [
 ]
 
 # 每个 Key 支持的稳定并发度
-CONCURRENCY_PER_KEY = 1
+CONCURRENCY_PER_KEY = 3
 
 BASE_URL = "https://apihub.agnes-ai.com/v1"  # 官方接口地址
 # 默认配置文件路径（相对于脚本所在目录）
 DEFAULT_JSON_CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "batch_tasks.json")
-JSON_CONFIG_PATH = None  # 运行时动态设置
+JSON_CONFIG_PATH = DEFAULT_JSON_CONFIG_PATH  # 使用默认配置文件路径
 
 # ==================== 初始化全局 HTTP 连接池 ====================
 # 计算最大工作线程数
