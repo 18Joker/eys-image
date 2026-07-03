@@ -1,6 +1,6 @@
 {
-  "version": "3.3.2",
-  "slotCount": 15,
+  "version": "3.3.3",
+  "slotCount": 16,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
     "goose": "goose_10",
