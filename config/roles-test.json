@@ -1,0 +1,374 @@
+{
+  "version": "4.0.0",
+  "slotCount": 16,
+  "defaultLogoSet": "classic",
+  "previewRoleIds": {
+    "goose": "goose_20",
+    "duck": "duck_20",
+    "neutral": "neutral_20"
+  },
+  "panelConfig": {
+    "layout": "vertical",
+    "verticalColumns": 6,
+    "horizontalRows": 2,
+    "common": {
+      "enabled": true,
+      "roleIds": [
+        "goose_20",
+        "goose_40",
+        "goose_200",
+        "goose_220",
+        "duck_20",
+        "duck_40",
+        "duck_60",
+        "neutral_40",
+        "neutral_60"
+      ]
+    },
+    "search": {
+      "enabled": false,
+      "aliases": {}
+    }
+  },
+  "logoSets": [
+    {
+      "id": "classic",
+      "name": "美式复古",
+      "type": "image",
+      "pathPrefix": "/american_retro_style_v2",
+      "description": "个性化图标"
+    },
+    {
+      "id": "style2",
+      "name": "官方图标",
+      "type": "image",
+      "pathPrefix": "/official_v3",
+      "description": "基于官方图标，AI写实生成图标"
+    },
+    {
+      "id": "text",
+      "name": "文字模式",
+      "type": "text",
+      "description": "低流量、清晰文字图标"
+    }
+  ],
+  "factions": [
+    {
+      "key": "goose",
+      "name": "鹅阵营",
+      "color": "#2ecc71"
+    },
+    {
+      "key": "duck",
+      "name": "鸭阵营",
+      "color": "#e74c3c"
+    },
+    {
+      "key": "neutral",
+      "name": "中立阵营",
+      "color": "#f1c40f"
+    }
+  ],
+  "roles": [
+    {
+      "id": "goose_20",
+      "name": "警长",
+      "faction": "goose",
+      "img": "/goose/goose_警长.png"
+    },
+    {
+      "id": "goose_40",
+      "name": "正义使者",
+      "faction": "goose",
+      "img": "/goose/goose_正义使者.png"
+    },
+    {
+      "id": "goose_60",
+      "name": "士兵",
+      "faction": "goose",
+      "img": "/goose/goose_士兵.png"
+    },
+    {
+      "id": "goose_80",
+      "name": "说客",
+      "faction": "goose",
+      "img": "/goose/goose_说客.png"
+    },
+    {
+      "id": "goose_100",
+      "name": "复仇",
+      "faction": "goose",
+      "img": "/goose/goose_复仇.png"
+    },
+    {
+      "id": "goose_120",
+      "name": "加拿大鹅",
+      "faction": "goose",
+      "img": "/goose/goose_加拿大鹅.png"
+    },
+    {
+      "id": "goose_140",
+      "name": "网红",
+      "faction": "goose",
+      "img": "/goose/goose_网红.png"
+    },
+    {
+      "id": "goose_160",
+      "name": "生存者",
+      "faction": "goose",
+      "img": "/goose/goose_生存主义者_v2.png"
+    },
+    {
+      "id": "goose_180",
+      "name": "模仿者",
+      "faction": "goose",
+      "img": "/goose/goose_模仿者.png"
+    },
+    {
+      "id": "goose_200",
+      "name": "工程师",
+      "faction": "goose",
+      "img": "/goose/goose_工程师.png"
+    },
+    {
+      "id": "goose_220",
+      "name": "观鸟",
+      "faction": "goose",
+      "img": "/goose/goose_观鸟.png"
+    },
+    {
+      "id": "goose_240",
+      "name": "星界",
+      "faction": "goose",
+      "img": "/goose/goose_星界.png"
+    },
+    {
+      "id": "goose_260",
+      "name": "探测",
+      "faction": "goose",
+      "img": "/goose/goose_探测.png"
+    },
+    {
+      "id": "goose_280",
+      "name": "跟踪",
+      "faction": "goose",
+      "img": "/goose/goose_跟踪.png"
+    },
+    {
+      "id": "goose_300",
+      "name": "殡仪员",
+      "faction": "goose",
+      "img": "/goose/goose_殡仪员.png"
+    },
+    {
+      "id": "goose_320",
+      "name": "侦探",
+      "faction": "goose",
+      "img": "/goose/goose_侦探.png"
+    },
+    {
+      "id": "goose_340",
+      "name": "肉汁",
+      "faction": "goose",
+      "img": "/goose/goose_肉汁.png"
+    },
+    {
+      "id": "goose_360",
+      "name": "法医",
+      "faction": "goose",
+      "img": "/goose/goose_法医.png"
+    },
+    {
+      "id": "goose_380",
+      "name": "通灵",
+      "faction": "goose",
+      "img": "/goose/goose_通灵.png"
+    },
+    {
+      "id": "goose_400",
+      "name": "大白鹅",
+      "faction": "goose",
+      "img": "/goose/goose_大白鹅.png"
+    },
+    {
+      "id": "goose_420",
+      "name": "猪头",
+      "faction": "goose",
+      "img": "/goose/goose_猪头.png"
+    },
+    {
+      "id": "duck_20",
+      "name": "巫医",
+      "faction": "duck",
+      "img": "/duck/duck_巫医.png"
+    },
+    {
+      "id": "duck_40",
+      "name": "刺客",
+      "faction": "duck",
+      "img": "/duck/duck_刺客.png"
+    },
+    {
+      "id": "duck_60",
+      "name": "隐形",
+      "faction": "duck",
+      "img": "/duck/duck_隐形.png"
+    },
+    {
+      "id": "duck_80",
+      "name": "专杀",
+      "faction": "duck",
+      "img": "/duck/duck_专杀.png"
+    },
+    {
+      "id": "duck_100",
+      "name": "连环杀手",
+      "faction": "duck",
+      "img": "/duck/duck_杀手.png"
+    },
+    {
+      "id": "duck_120",
+      "name": "忍者",
+      "faction": "duck",
+      "img": "/duck/duck_忍者.png"
+    },
+    {
+      "id": "duck_140",
+      "name": "丘比特",
+      "faction": "duck",
+      "img": "/duck/duck_丘比特.png"
+    },
+    {
+      "id": "duck_160",
+      "name": "身份窃贼",
+      "faction": "duck",
+      "img": "/duck/duck_身份窃贼.png"
+    },
+    {
+      "id": "duck_180",
+      "name": "变形",
+      "faction": "duck",
+      "img": "/duck/duck_变形.png"
+    },
+    {
+      "id": "duck_200",
+      "name": "食鸟鸭",
+      "faction": "duck",
+      "img": "/duck/duck_食鸟鸭.png"
+    },
+    {
+      "id": "duck_220",
+      "name": "小丑",
+      "faction": "duck",
+      "img": "/duck/duck_小丑.png"
+    },
+    {
+      "id": "duck_240",
+      "name": "狙击手",
+      "faction": "duck",
+      "img": "/duck/duck_狙击手.png"
+    },
+    {
+      "id": "duck_260",
+      "name": "牧师",
+      "faction": "duck",
+      "img": "/duck/duck_牧师_v2.png"
+    },
+    {
+      "id": "duck_280",
+      "name": "鸭子",
+      "faction": "duck",
+      "img": "/duck/duck_鸭子.png"
+    },
+    {
+      "id": "duck_300",
+      "name": "掠夺者",
+      "faction": "duck",
+      "img": "/duck/duck_掠夺者.png"
+    },
+    {
+      "id": "duck_320",
+      "name": "间谍",
+      "faction": "duck",
+      "img": "/duck/duck_间谍.png"
+    },
+    {
+      "id": "duck_340",
+      "name": "投毒者",
+      "faction": "duck",
+      "img": "/duck/duck_投毒者.png"
+    },
+    {
+      "id": "duck_360",
+      "name": "炸弹",
+      "faction": "duck",
+      "img": "/duck/duck_炸弹.png"
+    },
+    {
+      "id": "duck_380",
+      "name": "超能力",
+      "faction": "duck",
+      "img": "/duck/duck_超能力.png"
+    },
+    {
+      "id": "neutral_20",
+      "name": "猎鹰",
+      "faction": "neutral",
+      "img": "/neutral/neutral_猎鹰.png"
+    },
+    {
+      "id": "neutral_40",
+      "name": "鹈鹕",
+      "faction": "neutral",
+      "img": "/neutral/neutral_醍醐.png"
+    },
+    {
+      "id": "neutral_60",
+      "name": "渡鸦",
+      "faction": "neutral",
+      "img": "/neutral/neutral_渡鸦.png"
+    },
+    {
+      "id": "neutral_80",
+      "name": "决斗呆呆",
+      "faction": "neutral",
+      "img": "/neutral/neutral_决斗呆呆.png"
+    },
+    {
+      "id": "neutral_100",
+      "name": "决斗呆呆",
+      "faction": "neutral",
+      "img": "/neutral/neutral_决斗呆呆.png"
+    },
+    {
+      "id": "neutral_120",
+      "name": "呆呆鸟",
+      "faction": "neutral",
+      "img": "/neutral/neutral_呆呆鸟.png"
+    },
+    {
+      "id": "neutral_140",
+      "name": "喜鹊",
+      "faction": "neutral",
+      "img": "/neutral/neutral_喜鹊.png"
+    },
+    {
+      "id": "neutral_160",
+      "name": "布谷鸟",
+      "faction": "neutral",
+      "img": "/neutral/neutral_布谷鸟.png"
+    },
+    {
+      "id": "neutral_180",
+      "name": "秃鹫",
+      "faction": "neutral",
+      "img": "/neutral/neutral_秃鹫.png"
+    },
+    {
+      "id": "neutral_200",
+      "name": "鸽子",
+      "faction": "neutral",
+      "img": "/neutral/neutral_鸽子.png"
+    }
+  ]
+}
