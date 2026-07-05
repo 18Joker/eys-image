@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0",
+  "version": "4.2.0",
   "slotCount": 16,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -26,559 +26,7 @@
       ]
     },
     "search": {
-      "enabled": false,
-      "aliases": {
-        "goose_20": [
-          "sheriff",
-          "sherif",
-          "jz",
-          "jingshang",
-          "警",
-          "警官",
-          "jc"
-        ],
-        "goose_40": [
-          "vigilante",
-          "zysz",
-          "zhengyishizhe",
-          "正义",
-          "义",
-          "义勇兵"
-        ],
-        "goose_60": [
-          "soldier",
-          "ss",
-          "shibing",
-          "兵",
-          "战士",
-          "zs"
-        ],
-        "goose_80": [
-          "demagogue",
-          "sk",
-          "shuoke",
-          "说",
-          "客",
-          "煽动者",
-          "csz"
-        ],
-        "goose_100": [
-          "avenger",
-          "fuchou",
-          "fc",
-          "复仇",
-          "仇",
-          "复仇者",
-          "fuczhou"
-        ],
-        "goose_120": [
-          "canadian",
-          "canada",
-          "jnd",
-          "jiseda'e",
-          "加",
-          "加鹅",
-          "加拿大",
-          "加国",
-          "jd"
-        ],
-        "goose_140": [
-          "influencer",
-          "wanghong",
-          "wh",
-          "hw",
-          "网",
-          "红",
-          "网红",
-          "博主",
-          "bz"
-        ],
-        "goose_160": [
-          "survivor",
-          "shengcunzhe",
-          "scz",
-          "生",
-          "存",
-          "生存",
-          "幸存者",
-          "xyxz"
-        ],
-        "goose_180": [
-          "mimic",
-          "monangzhe",
-          "mfz",
-          "模仿",
-          "仿",
-          "冒充者",
-          "cmz",
-          "copy"
-        ],
-        "goose_200": [
-          "engineer",
-          "gongchengshi",
-          "gcs",
-          "工",
-          "程",
-          "维修",
-          "wx",
-          "修"
-        ],
-        "goose_220": [
-          "birdwatcher",
-          "guanniao",
-          "gn",
-          "观",
-          "鸟",
-          "观鸟者",
-          "gnz",
-          "鸟类学家"
-        ],
-        "goose_240": [
-          "astral",
-          "xingjie",
-          "xj",
-          "星",
-          "界",
-          "星界体",
-          "星体",
-          "xingti"
-        ],
-        "goose_260": [
-          "detector",
-          "tance",
-          "tc",
-          "探",
-          "测",
-          "探测器",
-          "tanceqi",
-          "雷达",
-          "ld"
-        ],
-        "goose_280": [
-          "tracker",
-          "genzong",
-          "gz",
-          "跟",
-          "踪",
-          "跟踪者",
-          "gz",
-          "尾行",
-          "wx"
-        ],
-        "goose_300": [
-          "mortician",
-          "binyiyuan",
-          "byy",
-          "殡",
-          "葬礼",
-          "礼仪",
-          "yl",
-          "殡葬",
-          "尸体",
-          "st"
-        ],
-        "goose_320": [
-          "detective",
-          "zhentan",
-          "zt",
-          "侦",
-          "探",
-          "侦探",
-          "探长",
-          "tz"
-        ],
-        "goose_340": [
-          "gravy",
-          "rouzhi",
-          "rz",
-          "肉",
-          "汁",
-          "肉汁",
-          "酱汁",
-          "jz"
-        ],
-        "goose_360": [
-          "forensic",
-          "fayi",
-          "fy",
-          "法",
-          "医",
-          "法医",
-          "尸检",
-          "sj",
-          "鉴定"
-        ],
-        "goose_380": [
-          "medium",
-          "tongling",
-          "tl",
-          "通",
-          "灵",
-          "通灵板",
-          "通灵",
-          "灵媒",
-          "lm",
-          "灵"
-        ],
-        "goose_400": [
-          "white",
-          "dabai'e",
-          "db",
-          "白",
-          "白鹅",
-          "大白",
-          "大鹅",
-          "d'e"
-        ],
-        "goose_420": [
-          "pighead",
-          "zhutou",
-          "zt",
-          "猪",
-          "头",
-          "猪头",
-          "猪头肉",
-          "ztr"
-        ],
-        "duck_20": [
-          "witch doctor",
-          "wy",
-          "巫",
-          "医",
-          "巫医",
-          "wu",
-          "doctor",
-          "ws"
-        ],
-        "duck_40": [
-          "assassin",
-          "ck",
-          "刺",
-          "客",
-          "刺客",
-          "杀手",
-          "sha",
-          "sha"
-        ],
-        "duck_60": [
-          "invisible",
-          "yx",
-          "隐",
-          "形",
-          "隐形",
-          "隐身",
-          "ys",
-          "透明",
-          "tm"
-        ],
-        "duck_80": [
-          "serial killer",
-          "zs",
-          "专",
-          "杀",
-          "专业杀手",
-          "zy",
-          "职业",
-          "zhiye"
-        ],
-        "duck_100": [
-          "serial",
-          "lh",
-          "连环",
-          "杀手",
-          "lianhuan",
-          "lhsh",
-          "连环杀",
-          "serialkiller"
-        ],
-        "duck_120": [
-          "ninja",
-          "rz",
-          "忍",
-          "者",
-          "忍者",
-          "忍术",
-          "rs",
-          "暗杀",
-          "ash"
-        ],
-        "duck_140": [
-          "cupid",
-          "qbt",
-          "丘",
-          "比特",
-          "爱神",
-          "as",
-          "丘比特",
-          "丘比",
-          "qb"
-        ],
-        "duck_160": [
-          "identity thief",
-          "sfqz",
-          "身份",
-          "窃贼",
-          "偷身份",
-          "tou",
-          "冒充",
-          "mm",
-          "identity",
-          "thief"
-        ],
-        "duck_180": [
-          "shapeshifter",
-          "bx",
-          "变形",
-          "变",
-          "变身",
-          "bs",
-          "变形怪",
-          "bxg",
-          "shapeshift"
-        ],
-        "duck_200": [
-          "bird eater",
-          "sny",
-          "食鸟",
-          "吃",
-          "鸟鸭",
-          "niaoy",
-          "食",
-          "eat",
-          "吞",
-          "tun"
-        ],
-        "duck_220": [
-          "jester",
-          "xc",
-          "丑",
-          "小丑",
-          "丑角",
-          "choujue",
-          "混乱",
-          "hunluan",
-          "hl"
-        ],
-        "duck_240": [
-          "sniper",
-          "jjs",
-          "狙",
-          "击",
-          "狙击",
-          "远距离",
-          "yjj",
-          "枪",
-          "qiang",
-          "sniper"
-        ],
-        "duck_260": [
-          "priest",
-          "ms",
-          "牧",
-          "师",
-          "牧师",
-          "传教",
-          "cj",
-          "神父",
-          "sf",
-          "father"
-        ],
-        "duck_280": [
-          "duck",
-          "yz",
-          "鸭",
-          "鸭子",
-          "普通鸭",
-          "pty",
-          "pt",
-          "正常",
-          "zc",
-          "普通"
-        ],
-        "duck_300": [
-          "plunderer",
-          "ldz",
-          "掠夺",
-          "掠",
-          "抢劫",
-          "qj",
-          "盗贼",
-          "dz",
-          "强盗",
-          "qd"
-        ],
-        "duck_320": [
-          "spy",
-          "jd",
-          "间",
-          "谍",
-          "间谍",
-          "卧底",
-          "wd",
-          "眼线",
-          "yx",
-          "情报",
-          "qingbao"
-        ],
-        "duck_340": [
-          "poisoner",
-          "tdz",
-          "投毒",
-          "毒",
-          "毒师",
-          "ds",
-          "下毒",
-          "xd",
-          "毒药",
-          "dy",
-          "poison"
-        ],
-        "duck_360": [
-          "bomber",
-          "zd",
-          "炸",
-          "弹",
-          "炸弹",
-          "爆破",
-          "bp",
-          "爆炸",
-          "bz",
-          "bomb"
-        ],
-        "duck_380": [
-          "psychic",
-          "cnl",
-          "超能",
-          "能",
-          "超能力",
-          "心灵",
-          "xinling",
-          "xl",
-          "透视",
-          "ts",
-          "预见",
-          "yj"
-        ],
-        "neutral_20": [
-          "hawk",
-          "ly",
-          "鹰",
-          "猎鹰",
-          "猎",
-          "lieying",
-          "猛禽",
-          "mq"
-        ],
-        "neutral_40": [
-          "pelican",
-          "epy",
-          "ep",
-          "鹈",
-          "鹕",
-          "鹈鹕",
-          "大嘴",
-          "dz",
-          "吞",
-          "tun"
-        ],
-        "neutral_60": [
-          "raven",
-          "dy",
-          "渡",
-          "鸦",
-          "渡鸦",
-          "乌鸦",
-          "wuya",
-          "黑鸟",
-          "hn"
-        ],
-        "neutral_80": [
-          "duel dummy",
-          "jd",
-          "决斗",
-          "呆",
-          "呆呆",
-          "木偶",
-          "mk",
-          "dummy",
-          "分身",
-          "fen'shen"
-        ],
-        "neutral_100": [
-          "duel dummy",
-          "jd",
-          "决斗",
-          "呆",
-          "呆呆",
-          "木偶",
-          "mk",
-          "dummy",
-          "分身",
-          "fen'shen"
-        ],
-        "neutral_120": [
-          "dodo",
-          "ddn",
-          "呆",
-          "鸟",
-          "呆呆鸟",
-          "渡渡",
-          "dudu",
-          "灭绝",
-          "mjj",
-          "傻鸟",
-          "sn"
-        ],
-        "neutral_140": [
-          "magpie",
-          "xq",
-          "喜",
-          "鹊",
-          "喜鹊",
-          "报喜",
-          "bx",
-          "鹊桥",
-          "qq"
-        ],
-        "neutral_160": [
-          "cuckoo",
-          "bgn",
-          "布谷",
-          "谷",
-          "布谷鸟",
-          "咕咕",
-          "gg",
-          "报时",
-          "bs",
-          "时钟",
-          "sj"
-        ],
-        "neutral_180": [
-          "vulture",
-          "tq",
-          "秃",
-          "鹫",
-          "秃鹫",
-          "食腐",
-          "sf",
-          "清道夫",
-          "qds",
-          "qdsf"
-        ],
-        "neutral_200": [
-          "dove",
-          "gz",
-          "鸽",
-          "子",
-          "鸽子",
-          "和平",
-          "hp",
-          "白鸽",
-          "bg",
-          "信鸽",
-          "xg"
-        ]
-      }
+      "enabled": false
     }
   },
   "logoSets": [
@@ -625,301 +73,351 @@
       "id": "goose_20",
       "name": "警长",
       "faction": "goose",
-      "img": "/goose/goose_警长.png"
+      "img": "/goose/goose_警长.png",
+      "aliases": ["警长", "jc", "jingchang", "警", "长", "sheriff"]
     },
     {
       "id": "goose_40",
       "name": "正义使者",
       "faction": "goose",
-      "img": "/goose/goose_正义使者.png"
+      "img": "/goose/goose_正义使者.png",
+      "aliases": ["正义使者", "正义", "zysz", "zy", "zhengyishizhe", "zhengyi", "正", "义", "使", "者", "vigilante", "paladin"]
     },
     {
       "id": "goose_60",
       "name": "士兵",
       "faction": "goose",
-      "img": "/goose/goose_士兵.png"
+      "img": "/goose/goose_士兵.png",
+      "aliases": ["士兵", "sb", "shibing", "士", "兵", "soldier"]
     },
     {
       "id": "goose_80",
       "name": "说客",
       "faction": "goose",
-      "img": "/goose/goose_说客.png"
+      "img": "/goose/goose_说客.png",
+      "aliases": ["说客", "sk", "shuoke", "说", "客", "orator", "politician"]
     },
     {
       "id": "goose_100",
       "name": "复仇",
       "faction": "goose",
-      "img": "/goose/goose_复仇.png"
+      "img": "/goose/goose_复仇.png",
+      "aliases": ["复仇", "复仇者", "fc", "fcz", "fuchou", "fuchouzhe", "复", "仇", "avenger"]
     },
     {
       "id": "goose_120",
       "name": "加拿大鹅",
       "faction": "goose",
-      "img": "/goose/goose_加拿大鹅.png"
+      "img": "/goose/goose_加拿大鹅.png",
+      "aliases": ["加拿大鹅", "加拿大", "jnde", "jnd", "jianadae", "jianada", "加", "拿", "大", "鹅", "canadagoose", "canadian"]
     },
     {
       "id": "goose_140",
       "name": "网红",
       "faction": "goose",
-      "img": "/goose/goose_网红.png"
+      "img": "/goose/goose_网红.png",
+      "aliases": ["网红", "wh", "wanghong", "网", "红", "influencer", "celebrity"]
     },
     {
       "id": "goose_160",
       "name": "生存者",
       "faction": "goose",
-      "img": "/goose/goose_生存主义者_v2.png"
+      "img": "/goose/goose_生存主义者_v2.png",
+      "aliases": ["生存者", "生存", "scz", "sc", "shengcunzhe", "shengcun", "生", "存", "者", "survivor", "survivalist"]
     },
     {
       "id": "goose_180",
       "name": "模仿者",
       "faction": "goose",
-      "img": "/goose/goose_模仿者.png"
+      "img": "/goose/goose_模仿者.png",
+      "aliases": ["模仿者", "模仿", "mfz", "mf", "mofangzhe", "mofang", "模", "仿", "者", "mimic"]
     },
     {
       "id": "goose_200",
       "name": "工程师",
       "faction": "goose",
-      "img": "/goose/goose_工程师.png"
+      "img": "/goose/goose_工程师.png",
+      "aliases": ["工程师", "工程", "gcs", "gc", "gongchengshi", "gongcheng", "工", "程", "师", "engineer", "mechanic"]
     },
     {
       "id": "goose_220",
       "name": "观鸟",
       "faction": "goose",
-      "img": "/goose/goose_观鸟.png"
+      "img": "/goose/goose_观鸟.png",
+      "aliases": ["观鸟", "观鸟者", "gn", "gnz", "guanniao", "guanniaozhe", "观", "鸟", "birdwatcher"]
     },
     {
       "id": "goose_240",
       "name": "星界",
       "faction": "goose",
-      "img": "/goose/goose_星界.png"
+      "img": "/goose/goose_星界.png",
+      "aliases": ["星界", "xj", "xingjie", "星", "界", "astral"]
     },
     {
       "id": "goose_260",
       "name": "探测",
       "faction": "goose",
-      "img": "/goose/goose_探测.png"
+      "img": "/goose/goose_探测.png",
+      "aliases": ["探测", "tc", "tance", "探", "测", "detector"]
     },
     {
       "id": "goose_280",
       "name": "跟踪",
       "faction": "goose",
-      "img": "/goose/goose_跟踪.png"
+      "img": "/goose/goose_跟踪.png",
+      "aliases": ["跟踪", "gz", "genzong", "跟", "踪", "tracker", "stalker"]
     },
     {
       "id": "goose_300",
       "name": "殡仪员",
       "faction": "goose",
-      "img": "/goose/goose_殡仪员.png"
+      "img": "/goose/goose_殡仪员.png",
+      "aliases": ["殡仪员", "殡仪", "byy", "by", "binyiyuan", "binyi", "殡", "仪", "员", "funeral", "mortician", "undertaker"]
     },
     {
       "id": "goose_320",
       "name": "侦探",
       "faction": "goose",
-      "img": "/goose/goose_侦探.png"
+      "img": "/goose/goose_侦探.png",
+      "aliases": ["侦探", "zt", "zhentan", "侦", "探", "detective"]
     },
     {
       "id": "goose_340",
       "name": "肉汁",
       "faction": "goose",
-      "img": "/goose/goose_肉汁.png"
+      "img": "/goose/goose_肉汁.png",
+      "aliases": ["肉汁", "rz", "rouzhi", "肉", "汁", "gravy", "sauce"]
     },
     {
       "id": "goose_360",
       "name": "法医",
       "faction": "goose",
-      "img": "/goose/goose_法医.png"
+      "img": "/goose/goose_法医.png",
+      "aliases": ["法医", "fy", "fayi", "法", "医", "coroner"]
     },
     {
       "id": "goose_380",
       "name": "通灵",
       "faction": "goose",
-      "img": "/goose/goose_通灵.png"
+      "img": "/goose/goose_通灵.png",
+      "aliases": ["通灵", "通灵鹅", "tl", "tongling", "通", "灵", "medium"]
     },
     {
       "id": "goose_400",
       "name": "大白鹅",
       "faction": "goose",
-      "img": "/goose/goose_大白鹅.png"
+      "img": "/goose/goose_大白鹅.png",
+      "aliases": ["大白鹅", "大白", "白鹅", "dbe", "db", "dabaie", "dabai", "大", "白", "鹅", "snowgoose", "goose"]
     },
     {
       "id": "goose_420",
       "name": "猪头",
       "faction": "goose",
-      "img": "/goose/goose_猪头.png"
+      "img": "/goose/goose_猪头.png",
+      "aliases": ["猪头", "zt", "zhutou", "猪", "头", "pighead"]
     },
     {
       "id": "duck_20",
       "name": "巫医",
       "faction": "duck",
-      "img": "/duck/duck_巫医.png"
+      "img": "/duck/duck_巫医.png",
+      "aliases": ["巫医", "wy", "wuyi", "巫", "医", "warlock", "witchdoctor"]
     },
     {
       "id": "duck_40",
       "name": "刺客",
       "faction": "duck",
-      "img": "/duck/duck_刺客.png"
+      "img": "/duck/duck_刺客.png",
+      "aliases": ["刺客", "ck", "cike", "刺", "客", "assassin"]
     },
     {
       "id": "duck_60",
       "name": "隐形",
       "faction": "duck",
-      "img": "/duck/duck_隐形.png"
+      "img": "/duck/duck_隐形.png",
+      "aliases": ["隐形", "yx", "yinxing", "隐", "形", "invisible", "invisibility"]
     },
     {
       "id": "duck_80",
       "name": "专杀",
       "faction": "duck",
-      "img": "/duck/duck_专杀.png"
+      "img": "/duck/duck_专杀.png",
+      "aliases": ["专杀", "zs", "zhuansha", "专", "杀", "professional"]
     },
     {
       "id": "duck_100",
       "name": "连环杀手",
       "faction": "duck",
-      "img": "/duck/duck_杀手.png"
+      "img": "/duck/duck_杀手.png",
+      "aliases": ["连环杀手", "连环", "lhss", "lh", "lianhuanshaoshou", "lianhuan", "连", "环", "杀", "手", "serialkiller"]
     },
     {
       "id": "duck_120",
       "name": "忍者",
       "faction": "duck",
-      "img": "/duck/duck_忍者.png"
+      "img": "/duck/duck_忍者.png",
+      "aliases": ["忍者", "rz", "renzhe", "忍", "者", "ninja"]
     },
     {
       "id": "duck_140",
       "name": "丘比特",
       "faction": "duck",
-      "img": "/duck/duck_丘比特.png"
+      "img": "/duck/duck_丘比特.png",
+      "aliases": ["丘比特", "qbt", "qiubite", "丘", "比", "特", "cupid"]
     },
     {
       "id": "duck_160",
       "name": "身份窃贼",
       "faction": "duck",
-      "img": "/duck/duck_身份窃贼.png"
+      "img": "/duck/duck_身份窃贼.png",
+      "aliases": ["身份窃贼", "身份", "窃贼", "sfqz", "sf", "shenfenqiezei", "shenfen", "身", "份", "窃", "贼", "identitythief"]
     },
     {
       "id": "duck_180",
       "name": "变形",
       "faction": "duck",
-      "img": "/duck/duck_变形.png"
+      "img": "/duck/duck_变形.png",
+      "aliases": ["变形", "bx", "bianxing", "变", "形", "shapeshifter", "morphling"]
     },
     {
       "id": "duck_200",
       "name": "食鸟鸭",
       "faction": "duck",
-      "img": "/duck/duck_食鸟鸭.png"
+      "img": "/duck/duck_食鸟鸭.png",
+      "aliases": ["食鸟鸭", "食鸟", "sny", "sn", "shiniaoya", "shiniao", "食", "鸟", "鸭", "cannibal", "birdpredator"]
     },
     {
       "id": "duck_220",
       "name": "小丑",
       "faction": "duck",
-      "img": "/duck/duck_小丑.png"
+      "img": "/duck/duck_小丑.png",
+      "aliases": ["小丑", "xc", "xiaochou", "小", "丑", "jester", "partyduck", "party"]
     },
     {
       "id": "duck_240",
       "name": "狙击手",
       "faction": "duck",
-      "img": "/duck/duck_狙击手.png"
+      "img": "/duck/duck_狙击手.png",
+      "aliases": ["狙击手", "狙击", "jjs", "jj", "jujishou", "juji", "狙", "击", "手", "sniper"]
     },
     {
       "id": "duck_260",
       "name": "牧师",
       "faction": "duck",
-      "img": "/duck/duck_牧师_v2.png"
+      "img": "/duck/duck_牧师_v2.png",
+      "aliases": ["牧师", "ms", "mushi", "牧", "师", "pastor", "preacher"]
     },
     {
       "id": "duck_280",
       "name": "鸭子",
       "faction": "duck",
-      "img": "/duck/duck_鸭子.png"
+      "img": "/duck/duck_鸭子.png",
+      "aliases": ["鸭子", "白板鸭", "ya", "yazi", "鸭", "子", "duck"]
     },
     {
       "id": "duck_300",
       "name": "掠夺者",
       "faction": "duck",
-      "img": "/duck/duck_掠夺者.png"
+      "img": "/duck/duck_掠夺者.png",
+      "aliases": ["掠夺者", "掠夺", "ldz", "ld", "lueduozhe", "lueduo", "掠", "夺", "者", "pillager"]
     },
     {
       "id": "duck_320",
       "name": "间谍",
       "faction": "duck",
-      "img": "/duck/duck_间谍.png"
+      "img": "/duck/duck_间谍.png",
+      "aliases": ["间谍", "jd", "jiandie", "间", "谍", "spy"]
     },
     {
       "id": "duck_340",
       "name": "投毒者",
       "faction": "duck",
-      "img": "/duck/duck_投毒者.png"
+      "img": "/duck/duck_投毒者.png",
+      "aliases": ["投毒者", "投毒", "tdz", "td", "touduzhe", "toudu", "投", "毒", "者", "poisoner"]
     },
     {
       "id": "duck_360",
       "name": "炸弹",
       "faction": "duck",
-      "img": "/duck/duck_炸弹.png"
+      "img": "/duck/duck_炸弹.png",
+      "aliases": ["炸弹", "炸弹鸭", "zd", "zhadan", "炸", "弹", "bomber"]
     },
     {
       "id": "duck_380",
       "name": "超能力",
       "faction": "duck",
-      "img": "/duck/duck_超能力.png"
+      "img": "/duck/duck_超能力.png",
+      "aliases": ["超能力", "cnl", "cn", "chaonengli", "超", "能", "力", "psychic", "telepath"]
     },
     {
       "id": "neutral_20",
       "name": "猎鹰",
       "faction": "neutral",
-      "img": "/neutral/neutral_猎鹰.png"
+      "img": "/neutral/neutral_猎鹰.png",
+      "aliases": ["猎鹰", "ly", "lieying", "猎", "鹰", "falcon"]
     },
     {
       "id": "neutral_40",
       "name": "鹈鹕",
       "faction": "neutral",
-      "img": "/neutral/neutral_醍醐.png"
+      "img": "/neutral/neutral_醍醐.png",
+      "aliases": ["鹈鹕", "th", "tihu", "鹈", "鹕", "pelican"]
     },
     {
       "id": "neutral_60",
       "name": "渡鸦",
       "faction": "neutral",
-      "img": "/neutral/neutral_渡鸦.png"
+      "img": "/neutral/neutral_渡鸦.png",
+      "aliases": ["渡鸦", "dy", "duya", "渡", "鸦", "raven"]
     },
     {
       "id": "neutral_80",
       "name": "决斗呆呆",
       "faction": "neutral",
-      "img": "/neutral/neutral_决斗呆呆.png"
+      "img": "/neutral/neutral_决斗呆呆.png",
+      "aliases": ["决斗呆呆", "决斗呆呆鸟", "决斗", "呆呆", "jddd", "jd", "jueduodaidai", "jueduo", "决", "斗", "呆", "dodo"]
     },
     {
       "id": "neutral_100",
       "name": "决斗呆呆",
       "faction": "neutral",
-      "img": "/neutral/neutral_决斗呆呆.png"
+      "img": "/neutral/neutral_决斗呆呆.png",
+      "aliases": ["决斗呆呆", "决斗呆呆鸟", "决斗", "呆呆", "jddd", "jd", "jueduodaidai", "jueduo", "决", "斗", "呆", "dodo"]
     },
     {
       "id": "neutral_120",
       "name": "呆呆鸟",
       "faction": "neutral",
-      "img": "/neutral/neutral_呆呆鸟.png"
+      "img": "/neutral/neutral_呆呆鸟.png",
+      "aliases": ["呆呆鸟", "呆呆", "ddn", "dd", "daidainiao", "daidai", "呆", "鸟", "dodo"]
     },
     {
       "id": "neutral_140",
       "name": "喜鹊",
       "faction": "neutral",
-      "img": "/neutral/neutral_喜鹊.png"
+      "img": "/neutral/neutral_喜鹊.png",
+      "aliases": ["喜鹊", "xq", "xique", "喜", "鹊", "magpie"]
     },
     {
       "id": "neutral_160",
       "name": "布谷鸟",
       "faction": "neutral",
-      "img": "/neutral/neutral_布谷鸟.png"
+      "img": "/neutral/neutral_布谷鸟.png",
+      "aliases": ["布谷鸟", "布谷", "bgn", "bg", "buguniao", "bugu", "布", "谷", "鸟", "cuckoo"]
     },
     {
       "id": "neutral_180",
       "name": "秃鹫",
       "faction": "neutral",
-      "img": "/neutral/neutral_秃鹫.png"
+      "img": "/neutral/neutral_秃鹫.png",
+      "aliases": ["秃鹫", "tj", "tujiu", "秃", "鹫", "vulture"]
     },
     {
       "id": "neutral_200",
       "name": "鸽子",
       "faction": "neutral",
-      "img": "/neutral/neutral_鸽子.png"
+      "img": "/neutral/neutral_鸽子.png",
+      "aliases": ["鸽子", "gz", "gezi", "鸽", "子", "pigeon", "dove"]
     }
   ]
 }
