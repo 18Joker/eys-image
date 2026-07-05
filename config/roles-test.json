@@ -1,5 +1,5 @@
 {
-  "version": "4.2.0",
+  "version": "4.2.1",
   "slotCount": 16,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -74,7 +74,7 @@
       "name": "警长",
       "faction": "goose",
       "img": "/goose/goose_警长.png",
-      "aliases": ["警长", "jc", "jingchang", "警", "长", "sheriff"]
+      "aliases": ["警长", "jz", "jingzhang", "警", "长", "sheriff"]
     },
     {
       "id": "goose_40",
@@ -249,7 +249,7 @@
       "name": "连环杀手",
       "faction": "duck",
       "img": "/duck/duck_杀手.png",
-      "aliases": ["连环杀手", "连环", "lhss", "lh", "lianhuanshaoshou", "lianhuan", "连", "环", "杀", "手", "serialkiller"]
+      "aliases": ["连环杀手", "连环", "lhss", "lh", "lianhuanshashou", "lianhuan", "连", "环", "杀", "手", "serialkiller"]
     },
     {
       "id": "duck_120",
