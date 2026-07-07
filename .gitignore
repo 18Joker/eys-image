@@ -1,0 +1,8 @@
+# 工作区内部数据，不入库
+.workbuddy/
+.agents/**/__pycache__/
+__pycache__/
+*.pyc
+
+# 压缩中间产物（如需保留可删除本行）
+.compare_tmp/
