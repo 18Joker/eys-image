@@ -1,5 +1,5 @@
 {
-  "version": "4.2.4",
+  "version": "4.3.0",
   "slotCount": 15,
   "defaultLogoSet": "classic",
   "previewRoleIds": {
@@ -41,8 +41,8 @@
       "id": "style2",
       "name": "官方图标",
       "type": "image",
-      "pathPrefix": "/official_v4",
-      "description": "基于官方图标，AI写实生成图标"
+      "pathPrefix": "/official_camps_v3",
+      "description": "基于官方图标，AI修饰生成"
     },
     {
       "id": "text",
@@ -75,7 +75,14 @@
       "officialName": "警长",
       "faction": "goose",
       "img": "/goose/goose_警长.png",
-      "aliases": ["警长", "jz", "jingzhang", "警", "长", "sheriff"]
+      "aliases": [
+        "警长",
+        "jz",
+        "jingzhang",
+        "警",
+        "长",
+        "sheriff"
+      ]
     },
     {
       "id": "goose_40",
@@ -83,7 +90,20 @@
       "officialName": "正义使者",
       "faction": "goose",
       "img": "/goose/goose_正义使者.png",
-      "aliases": ["正义使者", "正义", "zysz", "zy", "zhengyishizhe", "zhengyi", "正", "义", "使", "者", "vigilante", "paladin"]
+      "aliases": [
+        "正义使者",
+        "正义",
+        "zysz",
+        "zy",
+        "zhengyishizhe",
+        "zhengyi",
+        "正",
+        "义",
+        "使",
+        "者",
+        "vigilante",
+        "paladin"
+      ]
     },
     {
       "id": "goose_60",
@@ -91,7 +111,14 @@
       "officialName": "士兵",
       "faction": "goose",
       "img": "/goose/goose_士兵.png",
-      "aliases": ["士兵", "sb", "shibing", "士", "兵", "soldier"]
+      "aliases": [
+        "士兵",
+        "sb",
+        "shibing",
+        "士",
+        "兵",
+        "soldier"
+      ]
     },
     {
       "id": "goose_80",
@@ -99,7 +126,15 @@
       "officialName": "说客",
       "faction": "goose",
       "img": "/goose/goose_说客.png",
-      "aliases": ["说客", "sk", "shuoke", "说", "客", "orator", "politician"]
+      "aliases": [
+        "说客",
+        "sk",
+        "shuoke",
+        "说",
+        "客",
+        "orator",
+        "politician"
+      ]
     },
     {
       "id": "goose_100",
@@ -107,7 +142,17 @@
       "officialName": "复仇者",
       "faction": "goose",
       "img": "/goose/goose_复仇.png",
-      "aliases": ["复仇", "复仇者", "fc", "fcz", "fuchou", "fuchouzhe", "复", "仇", "avenger"]
+      "aliases": [
+        "复仇",
+        "复仇者",
+        "fc",
+        "fcz",
+        "fuchou",
+        "fuchouzhe",
+        "复",
+        "仇",
+        "avenger"
+      ]
     },
     {
       "id": "goose_120",
@@ -115,7 +160,20 @@
       "officialName": "加拿大鹅",
       "faction": "goose",
       "img": "/goose/goose_加拿大鹅.png",
-      "aliases": ["加拿大鹅", "加拿大", "jnde", "jnd", "jianadae", "jianada", "加", "拿", "大", "鹅", "canadagoose", "canadian"]
+      "aliases": [
+        "加拿大鹅",
+        "加拿大",
+        "jnde",
+        "jnd",
+        "jianadae",
+        "jianada",
+        "加",
+        "拿",
+        "大",
+        "鹅",
+        "canadagoose",
+        "canadian"
+      ]
     },
     {
       "id": "goose_140",
@@ -123,7 +181,15 @@
       "officialName": "网红",
       "faction": "goose",
       "img": "/goose/goose_网红.png",
-      "aliases": ["网红", "wh", "wanghong", "网", "红", "influencer", "celebrity"]
+      "aliases": [
+        "网红",
+        "wh",
+        "wanghong",
+        "网",
+        "红",
+        "influencer",
+        "celebrity"
+      ]
     },
     {
       "id": "goose_160",
@@ -131,7 +197,19 @@
       "officialName": "生存主义者",
       "faction": "goose",
       "img": "/goose/goose_生存主义者_v2.png",
-      "aliases": ["生存者", "生存", "scz", "sc", "shengcunzhe", "shengcun", "生", "存", "者", "survivor", "survivalist"]
+      "aliases": [
+        "生存者",
+        "生存",
+        "scz",
+        "sc",
+        "shengcunzhe",
+        "shengcun",
+        "生",
+        "存",
+        "者",
+        "survivor",
+        "survivalist"
+      ]
     },
     {
       "id": "goose_180",
@@ -139,7 +217,18 @@
       "officialName": "模仿者",
       "faction": "goose",
       "img": "/goose/goose_模仿者.png",
-      "aliases": ["模仿者", "模仿", "mfz", "mf", "mofangzhe", "mofang", "模", "仿", "者", "mimic"]
+      "aliases": [
+        "模仿者",
+        "模仿",
+        "mfz",
+        "mf",
+        "mofangzhe",
+        "mofang",
+        "模",
+        "仿",
+        "者",
+        "mimic"
+      ]
     },
     {
       "id": "goose_200",
@@ -147,7 +236,19 @@
       "officialName": "工程师",
       "faction": "goose",
       "img": "/goose/goose_工程师.png",
-      "aliases": ["工程师", "工程", "gcs", "gc", "gongchengshi", "gongcheng", "工", "程", "师", "engineer", "mechanic"]
+      "aliases": [
+        "工程师",
+        "工程",
+        "gcs",
+        "gc",
+        "gongchengshi",
+        "gongcheng",
+        "工",
+        "程",
+        "师",
+        "engineer",
+        "mechanic"
+      ]
     },
     {
       "id": "goose_220",
@@ -155,7 +256,35 @@
       "officialName": "观鸟者",
       "faction": "goose",
       "img": "/goose/goose_观鸟.png",
-      "aliases": ["观鸟", "观鸟者", "gn", "gnz", "guanniao", "guanniaozhe", "观", "鸟", "birdwatcher"]
+      "aliases": [
+        "观鸟",
+        "观鸟者",
+        "gn",
+        "gnz",
+        "guanniao",
+        "guanniaozhe",
+        "观",
+        "鸟",
+        "birdwatcher"
+      ]
+    },
+    {
+      "id": "goose_230",
+      "name": "清醒梦者",
+      "officialName": "清醒梦者",
+      "faction": "goose",
+      "img": "/goose/goose_清醒梦者.png",
+      "aliases": [
+        "清醒梦者",
+        "qxmz",
+        "qingxingmzhe",
+        "清",
+        "醒",
+        "梦",
+        "者",
+        "清醒",
+        "梦者"
+      ]
     },
     {
       "id": "goose_240",
@@ -163,7 +292,14 @@
       "officialName": "星界使者",
       "faction": "goose",
       "img": "/goose/goose_星界.png",
-      "aliases": ["星界", "xj", "xingjie", "星", "界", "astral"]
+      "aliases": [
+        "星界",
+        "xj",
+        "xingjie",
+        "星",
+        "界",
+        "astral"
+      ]
     },
     {
       "id": "goose_260",
@@ -171,7 +307,14 @@
       "officialName": "探测员",
       "faction": "goose",
       "img": "/goose/goose_探测.png",
-      "aliases": ["探测", "tc", "tance", "探", "测", "detector"]
+      "aliases": [
+        "探测",
+        "tc",
+        "tance",
+        "探",
+        "测",
+        "detector"
+      ]
     },
     {
       "id": "goose_280",
@@ -179,7 +322,15 @@
       "officialName": "跟踪者",
       "faction": "goose",
       "img": "/goose/goose_跟踪.png",
-      "aliases": ["跟踪", "gz", "genzong", "跟", "踪", "tracker", "stalker"]
+      "aliases": [
+        "跟踪",
+        "gz",
+        "genzong",
+        "跟",
+        "踪",
+        "tracker",
+        "stalker"
+      ]
     },
     {
       "id": "goose_300",
@@ -187,7 +338,20 @@
       "officialName": "殡仪员",
       "faction": "goose",
       "img": "/goose/goose_殡仪员.png",
-      "aliases": ["殡仪员", "殡仪", "byy", "by", "binyiyuan", "binyi", "殡", "仪", "员", "funeral", "mortician", "undertaker"]
+      "aliases": [
+        "殡仪员",
+        "殡仪",
+        "byy",
+        "by",
+        "binyiyuan",
+        "binyi",
+        "殡",
+        "仪",
+        "员",
+        "funeral",
+        "mortician",
+        "undertaker"
+      ]
     },
     {
       "id": "goose_320",
@@ -195,7 +359,14 @@
       "officialName": "侦探",
       "faction": "goose",
       "img": "/goose/goose_侦探.png",
-      "aliases": ["侦探", "zt", "zhentan", "侦", "探", "detective"]
+      "aliases": [
+        "侦探",
+        "zt",
+        "zhentan",
+        "侦",
+        "探",
+        "detective"
+      ]
     },
     {
       "id": "goose_340",
@@ -203,7 +374,15 @@
       "officialName": "肉汁鹅",
       "faction": "goose",
       "img": "/goose/goose_肉汁.png",
-      "aliases": ["肉汁", "rz", "rouzhi", "肉", "汁", "gravy", "sauce"]
+      "aliases": [
+        "肉汁",
+        "rz",
+        "rouzhi",
+        "肉",
+        "汁",
+        "gravy",
+        "sauce"
+      ]
     },
     {
       "id": "goose_360",
@@ -211,7 +390,14 @@
       "officialName": "法医",
       "faction": "goose",
       "img": "/goose/goose_法医.png",
-      "aliases": ["法医", "fy", "fayi", "法", "医", "coroner"]
+      "aliases": [
+        "法医",
+        "fy",
+        "fayi",
+        "法",
+        "医",
+        "coroner"
+      ]
     },
     {
       "id": "goose_380",
@@ -219,7 +405,15 @@
       "officialName": "通灵者",
       "faction": "goose",
       "img": "/goose/goose_通灵.png",
-      "aliases": ["通灵", "通灵鹅", "tl", "tongling", "通", "灵", "medium"]
+      "aliases": [
+        "通灵",
+        "通灵鹅",
+        "tl",
+        "tongling",
+        "通",
+        "灵",
+        "medium"
+      ]
     },
     {
       "id": "goose_400",
@@ -227,7 +421,20 @@
       "officialName": "大白鹅",
       "faction": "goose",
       "img": "/goose/goose_大白鹅.png",
-      "aliases": ["大白鹅", "大白", "白鹅", "dbe", "db", "dabaie", "dabai", "大", "白", "鹅", "snowgoose", "goose"]
+      "aliases": [
+        "大白鹅",
+        "大白",
+        "白鹅",
+        "dbe",
+        "db",
+        "dabaie",
+        "dabai",
+        "大",
+        "白",
+        "鹅",
+        "snowgoose",
+        "goose"
+      ]
     },
     {
       "id": "goose_420",
@@ -235,7 +442,14 @@
       "officialName": "猪头",
       "faction": "goose",
       "img": "/goose/goose_猪头.png",
-      "aliases": ["猪头", "zt", "zhutou", "猪", "头", "pighead"]
+      "aliases": [
+        "猪头",
+        "zt",
+        "zhutou",
+        "猪",
+        "头",
+        "pighead"
+      ]
     },
     {
       "id": "duck_20",
@@ -243,7 +457,15 @@
       "officialName": "巫医",
       "faction": "duck",
       "img": "/duck/duck_巫医.png",
-      "aliases": ["巫医", "wy", "wuyi", "巫", "医", "warlock", "witchdoctor"]
+      "aliases": [
+        "巫医",
+        "wy",
+        "wuyi",
+        "巫",
+        "医",
+        "warlock",
+        "witchdoctor"
+      ]
     },
     {
       "id": "duck_40",
@@ -251,7 +473,14 @@
       "officialName": "刺客",
       "faction": "duck",
       "img": "/duck/duck_刺客.png",
-      "aliases": ["刺客", "ck", "cike", "刺", "客", "assassin"]
+      "aliases": [
+        "刺客",
+        "ck",
+        "cike",
+        "刺",
+        "客",
+        "assassin"
+      ]
     },
     {
       "id": "duck_60",
@@ -259,7 +488,15 @@
       "officialName": "隐形鸭",
       "faction": "duck",
       "img": "/duck/duck_隐形.png",
-      "aliases": ["隐形", "yx", "yinxing", "隐", "形", "invisible", "invisibility"]
+      "aliases": [
+        "隐形",
+        "yx",
+        "yinxing",
+        "隐",
+        "形",
+        "invisible",
+        "invisibility"
+      ]
     },
     {
       "id": "duck_80",
@@ -267,7 +504,14 @@
       "officialName": "专业杀手",
       "faction": "duck",
       "img": "/duck/duck_专杀.png",
-      "aliases": ["专杀", "zs", "zhuansha", "专", "杀", "professional"]
+      "aliases": [
+        "专杀",
+        "zs",
+        "zhuansha",
+        "专",
+        "杀",
+        "professional"
+      ]
     },
     {
       "id": "duck_100",
@@ -275,7 +519,19 @@
       "officialName": "杀手",
       "faction": "duck",
       "img": "/duck/duck_杀手.png",
-      "aliases": ["连环杀手", "连环", "lhss", "lh", "lianhuanshashou", "lianhuan", "连", "环", "杀", "手", "serialkiller"]
+      "aliases": [
+        "连环杀手",
+        "连环",
+        "lhss",
+        "lh",
+        "lianhuanshashou",
+        "lianhuan",
+        "连",
+        "环",
+        "杀",
+        "手",
+        "serialkiller"
+      ]
     },
     {
       "id": "duck_120",
@@ -283,7 +539,14 @@
       "officialName": "忍者",
       "faction": "duck",
       "img": "/duck/duck_忍者.png",
-      "aliases": ["忍者", "rz", "renzhe", "忍", "者", "ninja"]
+      "aliases": [
+        "忍者",
+        "rz",
+        "renzhe",
+        "忍",
+        "者",
+        "ninja"
+      ]
     },
     {
       "id": "duck_140",
@@ -291,7 +554,15 @@
       "officialName": "丘比特",
       "faction": "duck",
       "img": "/duck/duck_丘比特.png",
-      "aliases": ["丘比特", "qbt", "qiubite", "丘", "比", "特", "cupid"]
+      "aliases": [
+        "丘比特",
+        "qbt",
+        "qiubite",
+        "丘",
+        "比",
+        "特",
+        "cupid"
+      ]
     },
     {
       "id": "duck_160",
@@ -299,7 +570,20 @@
       "officialName": "身份窃贼",
       "faction": "duck",
       "img": "/duck/duck_身份窃贼.png",
-      "aliases": ["身份窃贼", "身份", "窃贼", "sfqz", "sf", "shenfenqiezei", "shenfen", "身", "份", "窃", "贼", "identitythief"]
+      "aliases": [
+        "身份窃贼",
+        "身份",
+        "窃贼",
+        "sfqz",
+        "sf",
+        "shenfenqiezei",
+        "shenfen",
+        "身",
+        "份",
+        "窃",
+        "贼",
+        "identitythief"
+      ]
     },
     {
       "id": "duck_180",
@@ -307,7 +591,33 @@
       "officialName": "变形者",
       "faction": "duck",
       "img": "/duck/duck_变形.png",
-      "aliases": ["变形", "bx", "bianxing", "变", "形", "shapeshifter", "morphling"]
+      "aliases": [
+        "变形",
+        "bx",
+        "bianxing",
+        "变",
+        "形",
+        "shapeshifter",
+        "morphling"
+      ]
+    },
+    {
+      "id": "duck_190",
+      "name": "默剧演员",
+      "officialName": "默剧演员",
+      "faction": "duck",
+      "img": "/duck/duck_默剧演员.png",
+      "aliases": [
+        "默剧演员",
+        "mjyy",
+        "mojuyanyuan",
+        "默",
+        "剧",
+        "演",
+        "员",
+        "默剧",
+        "演员"
+      ]
     },
     {
       "id": "duck_200",
@@ -315,7 +625,19 @@
       "officialName": "食鸟鸭",
       "faction": "duck",
       "img": "/duck/duck_食鸟鸭.png",
-      "aliases": ["食鸟鸭", "食鸟", "sny", "sn", "shiniaoya", "shiniao", "食", "鸟", "鸭", "cannibal", "birdpredator"]
+      "aliases": [
+        "食鸟鸭",
+        "食鸟",
+        "sny",
+        "sn",
+        "shiniaoya",
+        "shiniao",
+        "食",
+        "鸟",
+        "鸭",
+        "cannibal",
+        "birdpredator"
+      ]
     },
     {
       "id": "duck_220",
@@ -323,7 +645,16 @@
       "officialName": "小丑",
       "faction": "duck",
       "img": "/duck/duck_小丑.png",
-      "aliases": ["小丑", "xc", "xiaochou", "小", "丑", "jester", "partyduck", "party"]
+      "aliases": [
+        "小丑",
+        "xc",
+        "xiaochou",
+        "小",
+        "丑",
+        "jester",
+        "partyduck",
+        "party"
+      ]
     },
     {
       "id": "duck_240",
@@ -331,7 +662,18 @@
       "officialName": "狙击手",
       "faction": "duck",
       "img": "/duck/duck_狙击手.png",
-      "aliases": ["狙击手", "狙击", "jjs", "jj", "jujishou", "juji", "狙", "击", "手", "sniper"]
+      "aliases": [
+        "狙击手",
+        "狙击",
+        "jjs",
+        "jj",
+        "jujishou",
+        "juji",
+        "狙",
+        "击",
+        "手",
+        "sniper"
+      ]
     },
     {
       "id": "duck_260",
@@ -339,7 +681,15 @@
       "officialName": "牧师",
       "faction": "duck",
       "img": "/duck/duck_牧师_v2.png",
-      "aliases": ["牧师", "ms", "mushi", "牧", "师", "pastor", "preacher"]
+      "aliases": [
+        "牧师",
+        "ms",
+        "mushi",
+        "牧",
+        "师",
+        "pastor",
+        "preacher"
+      ]
     },
     {
       "id": "duck_280",
@@ -347,7 +697,15 @@
       "officialName": "鸭子",
       "faction": "duck",
       "img": "/duck/duck_鸭子.png",
-      "aliases": ["鸭子", "白板鸭", "ya", "yazi", "鸭", "子", "duck"]
+      "aliases": [
+        "鸭子",
+        "白板鸭",
+        "ya",
+        "yazi",
+        "鸭",
+        "子",
+        "duck"
+      ]
     },
     {
       "id": "duck_300",
@@ -355,7 +713,18 @@
       "officialName": "掠夺者",
       "faction": "duck",
       "img": "/duck/duck_掠夺者.png",
-      "aliases": ["掠夺者", "掠夺", "ldz", "ld", "lueduozhe", "lueduo", "掠", "夺", "者", "pillager"]
+      "aliases": [
+        "掠夺者",
+        "掠夺",
+        "ldz",
+        "ld",
+        "lueduozhe",
+        "lueduo",
+        "掠",
+        "夺",
+        "者",
+        "pillager"
+      ]
     },
     {
       "id": "duck_320",
@@ -363,7 +732,14 @@
       "officialName": "间谍",
       "faction": "duck",
       "img": "/duck/duck_间谍.png",
-      "aliases": ["间谍", "jd", "jiandie", "间", "谍", "spy"]
+      "aliases": [
+        "间谍",
+        "jd",
+        "jiandie",
+        "间",
+        "谍",
+        "spy"
+      ]
     },
     {
       "id": "duck_340",
@@ -371,7 +747,18 @@
       "officialName": "投毒者",
       "faction": "duck",
       "img": "/duck/duck_投毒者.png",
-      "aliases": ["投毒者", "投毒", "tdz", "td", "touduzhe", "toudu", "投", "毒", "者", "poisoner"]
+      "aliases": [
+        "投毒者",
+        "投毒",
+        "tdz",
+        "td",
+        "touduzhe",
+        "toudu",
+        "投",
+        "毒",
+        "者",
+        "poisoner"
+      ]
     },
     {
       "id": "duck_360",
@@ -379,7 +766,15 @@
       "officialName": "爆炸王",
       "faction": "duck",
       "img": "/duck/duck_炸弹.png",
-      "aliases": ["炸弹", "炸弹鸭", "zd", "zhadan", "炸", "弹", "bomber"]
+      "aliases": [
+        "炸弹",
+        "炸弹鸭",
+        "zd",
+        "zhadan",
+        "炸",
+        "弹",
+        "bomber"
+      ]
     },
     {
       "id": "duck_380",
@@ -387,7 +782,17 @@
       "officialName": "超能力者",
       "faction": "duck",
       "img": "/duck/duck_超能力.png",
-      "aliases": ["超能力", "cnl", "cn", "chaonengli", "超", "能", "力", "psychic", "telepath"]
+      "aliases": [
+        "超能力",
+        "cnl",
+        "cn",
+        "chaonengli",
+        "超",
+        "能",
+        "力",
+        "psychic",
+        "telepath"
+      ]
     },
     {
       "id": "neutral_20",
@@ -395,7 +800,14 @@
       "officialName": "猎鹰",
       "faction": "neutral",
       "img": "/neutral/neutral_猎鹰.png",
-      "aliases": ["猎鹰", "ly", "lieying", "猎", "鹰", "falcon"]
+      "aliases": [
+        "猎鹰",
+        "ly",
+        "lieying",
+        "猎",
+        "鹰",
+        "falcon"
+      ]
     },
     {
       "id": "neutral_40",
@@ -403,7 +815,14 @@
       "officialName": "鹈鹕",
       "faction": "neutral",
       "img": "/neutral/neutral_醍醐.png",
-      "aliases": ["鹈鹕", "th", "tihu", "鹈", "鹕", "pelican"]
+      "aliases": [
+        "鹈鹕",
+        "th",
+        "tihu",
+        "鹈",
+        "鹕",
+        "pelican"
+      ]
     },
     {
       "id": "neutral_60",
@@ -411,7 +830,14 @@
       "officialName": "渡鸦",
       "faction": "neutral",
       "img": "/neutral/neutral_渡鸦.png",
-      "aliases": ["渡鸦", "dy", "duya", "渡", "鸦", "raven"]
+      "aliases": [
+        "渡鸦",
+        "dy",
+        "duya",
+        "渡",
+        "鸦",
+        "raven"
+      ]
     },
     {
       "id": "neutral_80",
@@ -419,7 +845,20 @@
       "officialName": "决斗呆呆鸟",
       "faction": "neutral",
       "img": "/neutral/neutral_决斗呆呆.png",
-      "aliases": ["决斗呆呆", "决斗呆呆鸟", "决斗", "呆呆", "jddd", "jd", "jueduodaidai", "jueduo", "决", "斗", "呆", "dodo"]
+      "aliases": [
+        "决斗呆呆",
+        "决斗呆呆鸟",
+        "决斗",
+        "呆呆",
+        "jddd",
+        "jd",
+        "jueduodaidai",
+        "jueduo",
+        "决",
+        "斗",
+        "呆",
+        "dodo"
+      ]
     },
     {
       "id": "neutral_100",
@@ -427,7 +866,20 @@
       "officialName": "决斗呆呆鸟",
       "faction": "neutral",
       "img": "/neutral/neutral_决斗呆呆.png",
-      "aliases": ["决斗呆呆", "决斗呆呆鸟", "决斗", "呆呆", "jddd", "jd", "jueduodaidai", "jueduo", "决", "斗", "呆", "dodo"]
+      "aliases": [
+        "决斗呆呆",
+        "决斗呆呆鸟",
+        "决斗",
+        "呆呆",
+        "jddd",
+        "jd",
+        "jueduodaidai",
+        "jueduo",
+        "决",
+        "斗",
+        "呆",
+        "dodo"
+      ]
     },
     {
       "id": "neutral_120",
@@ -435,7 +887,17 @@
       "officialName": "呆呆鸟",
       "faction": "neutral",
       "img": "/neutral/neutral_呆呆鸟.png",
-      "aliases": ["呆呆鸟", "呆呆", "ddn", "dd", "daidainiao", "daidai", "呆", "鸟", "dodo"]
+      "aliases": [
+        "呆呆鸟",
+        "呆呆",
+        "ddn",
+        "dd",
+        "daidainiao",
+        "daidai",
+        "呆",
+        "鸟",
+        "dodo"
+      ]
     },
     {
       "id": "neutral_140",
@@ -443,7 +905,14 @@
       "officialName": "喜鹊",
       "faction": "neutral",
       "img": "/neutral/neutral_喜鹊.png",
-      "aliases": ["喜鹊", "xq", "xique", "喜", "鹊", "magpie"]
+      "aliases": [
+        "喜鹊",
+        "xq",
+        "xique",
+        "喜",
+        "鹊",
+        "magpie"
+      ]
     },
     {
       "id": "neutral_160",
@@ -451,7 +920,18 @@
       "officialName": "布谷鸟",
       "faction": "neutral",
       "img": "/neutral/neutral_布谷鸟.png",
-      "aliases": ["布谷鸟", "布谷", "bgn", "bg", "buguniao", "bugu", "布", "谷", "鸟", "cuckoo"]
+      "aliases": [
+        "布谷鸟",
+        "布谷",
+        "bgn",
+        "bg",
+        "buguniao",
+        "bugu",
+        "布",
+        "谷",
+        "鸟",
+        "cuckoo"
+      ]
     },
     {
       "id": "neutral_180",
@@ -459,7 +939,14 @@
       "officialName": "秃鹫",
       "faction": "neutral",
       "img": "/neutral/neutral_秃鹫.png",
-      "aliases": ["秃鹫", "tj", "tujiu", "秃", "鹫", "vulture"]
+      "aliases": [
+        "秃鹫",
+        "tj",
+        "tujiu",
+        "秃",
+        "鹫",
+        "vulture"
+      ]
     },
     {
       "id": "neutral_200",
@@ -467,7 +954,15 @@
       "officialName": "鸽子",
       "faction": "neutral",
       "img": "/neutral/neutral_鸽子.png",
-      "aliases": ["鸽子", "gz", "gezi", "鸽", "子", "pigeon", "dove"]
+      "aliases": [
+        "鸽子",
+        "gz",
+        "gezi",
+        "鸽",
+        "子",
+        "pigeon",
+        "dove"
+      ]
     }
   ]
 }

@@ -1,98 +1,502 @@
 [
   {
-    "task_id": "american_retro_style_v2_duck_牧师_1",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a smug white duck in a black suit and black tie behind a brown podium, six golden triangular sound-wave fragments floating around the head like preaching voice vibrations, thick black outlines, radial burst background in deep green and gold, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只自鸣得意的白色鸭子穿黑色西装配黑色领带站在棕色讲台后，六块金色三角形声波碎片漂浮在头部周围如传教声音震动，粗黑线条，深绿色和金色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_专杀",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_牧师_1.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_专杀.jpg",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_专杀.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_牧师_2",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a self-important white duck wearing a dark suit with white collar, standing at a brown stepped podium with a superior look, six golden chevron-shaped sound fragments arranged around the head like echoes of a sermon, halftone shading, radial burst background in burgundy and amber, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只自命不凡的白色鸭子穿深色西装配白衬衫领口，站在棕色阶梯讲台旁带着优越感的表情，六块金色人字形声音碎片排列在头部周围如布道回声，半调阴影，酒红色和琥珀色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_丘比特",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_牧师_2.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_丘比特.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_丘比特.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_牧师_3",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a haughty white duck in black formal jacket looking down with half-closed eyes, a brown tiered podium below, six golden triangular voice-wave pieces floating in a circle behind the head like radiating sound, bold comic outlines with flat fills, radial burst background in dark teal and warm gold, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只傲慢的白色鸭子黑色正装外套半闭眼俯视，下方棕色分层讲台，六块金色三角形声波块漂浮成头部后方圆形如辐射声音，粗漫画线条平面填充，深青色和温暖金色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_刺客",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_牧师_3.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_刺客.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_刺客.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_牧师_4",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a cunning white duck in profile wearing a dark suit with tie, a small podium at chest level, six golden sound-burst fragments floating behind the head like a crown of preaching echoes, warm comic coloring, radial burst background in forest green and orange, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只狡猾的白色鸭子侧面穿深色西装配领带，胸口处小讲台，六块金色声音爆发碎片漂浮在头后如布道回声皇冠，温暖漫画上色，森林绿和橙色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_变形",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_牧师_4.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_变形.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_变形.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_牧师_5",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a pompous white duck with smug half-closed eyes in a black suit behind a brown multi-layered podium, six golden triangular sound pieces arranged in a wide arc above the head like visible voice waves, vintage pop art shading, radial burst background in navy and gold, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只自大的白色鸭子半闭得意眼穿黑色西装站在棕色多层讲台后，六块金色三角形声音块排列成头部上方宽弧线如可见声波，复古波普艺术阴影，海军蓝和金色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_小丑",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_牧师_5.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_小丑.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_小丑.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_牧师_6",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a scheming white duck with closed smug eyes in a formal black jacket, a brown podium at chest level, six golden voice-vibration fragments in a perfect circle behind the head like a radiant halo of sermon sound, thick comic outlines, radial burst background in emerald green and cream gold, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只诡计多端的白色鸭子闭着得意的眼穿黑色正装外套，胸口处棕色讲台，六块金色声音震动碎片排列成头后完美圆形如布道声音光环，粗漫画线条，翡翠绿和奶油金放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_巫医",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_牧师_6.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_巫医.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_巫医.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_身份窃贼_1",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a white duck with one large wide-open eye and one small squinted eye, a thick black line crossing over the large eye like a mask strap, a flame-shaped orange headpiece with gold swirls, colorful blue yellow and red feather plumes behind the head, bold outlines, radial burst background in red and orange, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只白色鸭子一只大睁眼和一只小眯眼，粗黑线横跨大眼如面具带，火焰形橙色头饰配金色漩涡，身后蓝黄红色彩色羽毛，粗线条，红色和橙色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_忍者",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_身份窃贼_1.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_忍者.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_忍者.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_身份窃贼_2",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a tricky white duck with asymmetrical eyes — one big round eye with a black stripe across it, one tiny narrowed eye, an elaborate fiery crown headdress in orange and scarlet with gold accents, vivid feather plumes in blue yellow and red rising behind, halftone shading, radial burst background in purple and magenta, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只狡猾的白色鸭子不对称眼睛——一只大圆眼上有黑色条纹横跨，一只小眯眼，精致火焰皇冠头饰橙红色配金色装饰，身后蓝黄红色鲜艳羽毛，半调阴影，紫色和洋红色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_投毒者",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_身份窃贼_2.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_投毒者.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_投毒者.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_身份窃贼_3",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a mischievous white duck tilting its head, one oversized eye with a thick black band crossing over it, one small squinting eye, a flame-shaped orange-red headdress with gold decorative swirls, trailing blue yellow and crimson feathers with pointed tips, bold outlines, radial burst background in teal and gold, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只调皮的白色鸭子歪着头，一只超大眼上有粗黑带子横跨，一只小眯眼，火焰形橙红色头饰带金色装饰漩涡，拖曳蓝黄深红色尖锐羽毛，粗线条，青色和金色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_掠夺者",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_身份窃贼_3.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_掠夺者.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_掠夺者.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_身份窃贼_4",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a cunning white duck in profile with one large eye and one small eye, a black line crossing the large eye like an eyepatch strap, a fiery orange headdress with golden swirl accents, colorful blue yellow and red feather plumes fanning out behind, vintage comic coloring, radial burst background in green and coral, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只狡猾的白色鸭子侧面一只大眼一只小眼，黑色线横跨大眼如眼罩带，火焰形橙色头饰配金色漩涡装饰，身后展开蓝黄红色彩色羽毛，复古漫画上色，绿色和珊瑚色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_杀手",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_身份窃贼_4.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_杀手.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_杀手.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_身份窃贼_5",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a theatrical white duck with mismatched eyes — one huge wide eye with a black strap across it, one tiny squinted eye, a sweeping flame-shaped headdress in orange and pink with gold details, dramatic blue yellow and red feathers extending behind with sharp tips, bold outlines, radial burst background in navy and coral, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只戏剧性的白色鸭子不匹配的眼睛——一只巨大睁眼上有黑色带子横跨，一只小眯眼，流畅火焰形头饰橙粉色配金色细节，身后戏剧性延伸的蓝黄红色尖锐羽毛，粗线条，海军蓝和珊瑚色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_炸弹",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_身份窃贼_5.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_炸弹.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_炸弹.png",
+    "model": "agnes-image-2.0-flash"
   },
   {
-    "task_id": "american_retro_style_v2_duck_身份窃贼_6",
-    "type": "text_to_image",
-    "prompt": "American retro comic style, pop art, above the shoulders, a mysterious white duck facing forward with one large round eye crossed by a thick black line and one small narrowed eye, a majestic flame crown in deep red and orange with gold swirls, sharp feather plumes in blue yellow and red rising behind like a royal crest, thick outlines, radial burst background in royal purple and gold, no border",
-    "prompt_zh": "美式复古漫画风格，波普艺术，肩部以上，一只神秘的白色鸭子正面朝前一只大圆眼被粗黑线横跨和一只小眯眼，威严深红橙色火焰皇冠配金色漩涡，身后蓝黄红色尖锐羽毛如皇家冠饰，粗线条，皇家紫色和金色放射状光柱背景，无边框",
+    "task_id": "bg_duck_duck_牧师",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
     "size": "1024x1024",
-    "output_path": "output/american_retro_style_v2/duck/duck_身份窃贼_6.png"
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_牧师.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_牧师.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_duck_duck_狙击手",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_狙击手.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_狙击手.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_duck_duck_超能力",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_超能力.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_超能力.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_duck_duck_身份窃贼",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_身份窃贼.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_身份窃贼.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_duck_duck_间谍",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_间谍.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_间谍.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_duck_duck_隐形",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_隐形.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_隐形.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_duck_duck_食鸟鸭",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_食鸟鸭.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_食鸟鸭.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_duck_duck_鸭子",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_鸭子.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_鸭子.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_duck_duck_默剧演员",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a deep dark red (dark crimson, approximately #7A1F1F) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为深暗红色（深绯红，约 #7A1F1F）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/duck/duck_默剧演员.png",
+    "output_path": "official_camps/_clear-best_bg/duck/duck_默剧演员.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_侦探",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_侦探.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_侦探.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_加拿大鹅",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_加拿大鹅.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_加拿大鹅.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_士兵",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_士兵.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_士兵.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_复仇",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_复仇.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_复仇.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_大白鹅",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_大白鹅.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_大白鹅.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_工程师",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_工程师.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_工程师.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_探测",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_探测.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_探测.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_星界",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_星界.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_星界.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_模仿者",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_模仿者.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_模仿者.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_正义使者",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_正义使者.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_正义使者.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_殡仪员",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_殡仪员.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_殡仪员.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_法医",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_法医.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_法医.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_清醒梦者",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_清醒梦者.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_清醒梦者.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_生存主义者",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_生存主义者.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_生存主义者.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_网红",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_网红.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_网红.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_肉汁",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_肉汁.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_肉汁.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_观鸟",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_观鸟.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_观鸟.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_警长",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_警长.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_警长.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_说客",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_说客.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_说客.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_跟踪",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_跟踪.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_跟踪.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_goose_goose_通灵",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a clean gray-white (neutral light gray, approximately #E6E6E6) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为干净的灰白色（中性浅灰，约 #E6E6E6）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/goose/goose_通灵.png",
+    "output_path": "official_camps/_clear-best_bg/goose/goose_通灵.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_决斗呆呆",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_决斗呆呆.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_决斗呆呆.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_呆呆鸟",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_呆呆鸟.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_呆呆鸟.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_喜鹊",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_喜鹊.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_喜鹊.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_布谷鸟",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_布谷鸟.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_布谷鸟.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_渡鸦",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_渡鸦.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_渡鸦.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_猎鹰",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_猎鹰.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_猎鹰.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_秃鹫",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_秃鹫.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_秃鹫.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_醍醐",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_醍醐.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_醍醐.png",
+    "model": "agnes-image-2.0-flash"
+  },
+  {
+    "task_id": "bg_neutral_neutral_鸽子",
+    "type": "image_to_image",
+    "prompt": "Recolor ONLY the flat solid background of this 2D cartoon game icon to a soft light yellow (pale butter yellow, approximately #F5E9A8) solid color. The input is a flat 2D illustrated game asset with bold black outlines, flat cel-shaded color blocks, simple graphic shapes, and a plain uniform background. Preserve this exact 2D icon style 100% identical to the input: keep the subject/character, bold black outlines, flat colors, cel-shading, hard edges, line weights, and graphic flatness completely unchanged. Your ONLY change is the uniform background fill color. Do NOT transform the 2D icon into a 3D render, realistic object, or photograph. Do NOT add realistic material, texture, depth, volumetric lighting, physical shading, or soft gradients. Do NOT remove, thin, or soften the outlines. Do NOT alter, recolor, restyle, or reimagine any foreground content, character, or object. Do NOT change the brightness, contrast, saturation, or color balance of the foreground subject. Do NOT add, remove, or move any foreground element. Output the exact same 2D cartoon game icon with ONLY the background color changed. No new watermark, no text, no border, no crop.",
+    "prompt_zh": "仅将这张 2D 卡通游戏图标的纯色背景重新着色为柔和的淡黄色（浅奶油黄，约 #F5E9A8）纯色。输入图为扁平化 2D 插画游戏素材，带有粗黑描边、平涂色块/赛璐珞上色、简洁图形轮廓，背景为均匀纯色。必须严格保持这种 2D 图标风格与输入 100% 一致：主体/角色、粗黑描边、平涂颜色、硬边、线宽、图形扁平化均完全不变。你唯一的改动是背景纯色的填充颜色。不得把 2D 图标变成 3D 渲染、写实物体或照片。不得添加写实材质、纹理、景深、体积光、实体阴影或柔和渐变。不得删除、变细或柔化描边。不得修改、重新着色、改变风格或重新想象任何前景内容、角色或物体。不得改变前景主体的亮度、对比度、饱和度或色彩平衡。除背景色外，不得添加、删除或移动任何前景元素。输出与原图完全相同的 2D 卡通游戏图标，仅背景颜色被更改。不出现新水印、无文字、无边框、不裁切。",
+    "size": "1024x1024",
+    "local_image_path": "D:/program/project/front/eys-image/official_camps/_clear-best/neutral/neutral_鸽子.png",
+    "output_path": "official_camps/_clear-best_bg/neutral/neutral_鸽子.png",
+    "model": "agnes-image-2.0-flash"
   }
 ]

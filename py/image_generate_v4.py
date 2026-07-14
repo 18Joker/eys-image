@@ -51,7 +51,7 @@ API_KEYS = [
 ]
 
 # 每个 Key 支持的稳定并发度
-CONCURRENCY_PER_KEY = 3
+CONCURRENCY_PER_KEY = 1
 
 BASE_URL = "https://apihub.agnes-ai.com/v1"  # 官方接口地址
 # 默认配置文件路径（相对于脚本所在目录）
@@ -88,7 +88,7 @@ def file_to_base64_uri(file_path: str) -> str:
     return f"data:{mime_type};base64,{b64_data}"
 
 
-def download_image(sess: requests.Session, url: str, save_path: str, log_prefix: str, retries: int = 3, backoff: float = 1.0) -> bool:
+def download_image(sess: requests.Session, url: str, save_path: str, log_prefix: str, retries: int = 10, backoff: float = 1.0) -> bool:
     """下载生成的图片并保存到本地，带指数退避重试机制（使用连接池复用）"""
     for attempt in range(1, retries + 1):
         try:
@@ -106,7 +106,7 @@ def download_image(sess: requests.Session, url: str, save_path: str, log_prefix:
         except Exception as e:
             if attempt < retries:
                 # 加上微小随机干扰打散重试时间
-                wait = backoff * (2 ** (attempt - 1)) + random.uniform(0.1, 0.5)
+                wait = min(backoff * (2 ** (attempt - 1)), 5) + random.uniform(0.1, 0.5)
                 logging.warning(f"{log_prefix} ⚠️ [第{attempt}/{retries}次] 下载失败: {e}，{wait:.1f}秒后重试...")
                 time.sleep(wait)
             else:
@@ -167,7 +167,7 @@ def process_single_task(task: dict, key_queue: queue.Queue, project_root: str = 
     endpoint = f"{BASE_URL}/images/generations"
     generated_url = None
 
-    max_api_retries = 3
+    max_api_retries = 10
 
     # 针对 API 请求阶段建立重试机制，每次重试均从队列重新抓取 Key 进行调用
     for attempt in range(1, max_api_retries + 1):
@@ -210,18 +210,18 @@ def process_single_task(task: dict, key_queue: queue.Queue, project_root: str = 
 
             # 3. 频控限流 (429)
             elif response.status_code == 429:
-                wait_time = (2 ** attempt) + random.uniform(0.5, 1.5)
+                wait_time = min(2 ** attempt, 5) + random.uniform(0.5, 1.5)
                 logging.warning(f"{log_prefix} ⚠️ [触发频控 (429)] 等待 {wait_time:.1f} 秒后换 Key 重试...")
                 time.sleep(wait_time)
 
             # 4. 其他服务端错误 (5xx)
             else:
-                wait_time = 2 ** attempt
+                wait_time = min(2 ** attempt, 5)
                 logging.warning(f"{log_prefix} ⚠️ [服务端错误 (HTTP {response.status_code})] 将在 {wait_time} 秒后重试...")
                 time.sleep(wait_time)
 
         except requests.exceptions.RequestException as e:
-            wait_time = 2 ** attempt
+            wait_time = min(2 ** attempt, 5)
             logging.warning(f"{log_prefix} ⚠️ [网络错误 (尝试 {attempt}/{max_api_retries})] 请求 API 失败: {e}，将在 {wait_time} 秒后重试...")
             time.sleep(wait_time)
         except Exception as e:
