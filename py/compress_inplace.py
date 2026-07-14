@@ -32,7 +32,7 @@ from PIL import Image
 
 # ============================== 配置区 ==============================
 # 不传命令行参数时使用此目录（留空字符串 "" 则必须命令行传入）
-TARGET_DIR = ""
+TARGET_DIR = r"D:\program\project\front\eys-image\american_retro_style_v3"
 
 # 大小阈值（KB）：仅压缩大于此值的文件。默认 800KB
 THRESHOLD_KB = 800
@@ -50,8 +50,8 @@ ALLOWED_EXT = (".png", ".jpg", ".jpeg", ".webp", ".bmp", ".tiff")
 # ================================================================
 
 
-def compress_to_bytes(src_path):
-    """读取图片并压缩，返回压缩后的字节数据 `(ext, data, fmt)`；失败抛异常。"""
+def compress_to_bytes(src_path, mode):
+    """读取图片并压缩，返回压缩后的字节数据；失败抛异常。"""
     with Image.open(src_path) as im:
         im.load()
         fmt = (im.format or "PNG").upper()
@@ -60,7 +60,7 @@ def compress_to_bytes(src_path):
             or (im.mode == "P" and "transparency" in im.info)
         )
 
-        if MODE == "palette" and fmt in ("PNG", "WEBP"):
+        if mode == "palette" and fmt in ("PNG", "WEBP"):
             im = im.convert("RGBA") if has_alpha else im.convert("RGB")
             out = im.quantize(
                 colors=PALETTE_COLORS, method=Image.FASTOCTREE, dither=DITHER
@@ -82,14 +82,13 @@ def compress_to_bytes(src_path):
     return buf.getvalue()
 
 
-def compress_file(src_path):
+def compress_file(src_path, mode, threshold):
     """压缩单个文件并就地覆盖。返回 (原字节数, 压缩后字节数) 或 None（无需/未覆盖）。"""
     before = os.path.getsize(src_path)
-    threshold = THRESHOLD_KB * 1024
     if before <= threshold:
         return None  # 未超过阈值，跳过
 
-    data = compress_to_bytes(src_path)
+    data = compress_to_bytes(src_path, mode)
     after = len(data)
     if after >= before:
         return None  # 压缩后未变小，保留原文件
@@ -108,7 +107,7 @@ def compress_file(src_path):
     return before, after
 
 
-def process_dir(target_dir):
+def process_dir(target_dir, mode, threshold):
     if not os.path.isdir(target_dir):
         print(f"[错误] 目标文件夹不存在: {target_dir}")
         return
@@ -116,7 +115,7 @@ def process_dir(target_dir):
     total_before = total_after = 0
     count = skipped = 0
     print(f"\n▶ 目标文件夹: {target_dir}")
-    print(f"  阈值: >{THRESHOLD_KB}KB  |  模式: {MODE}")
+    print(f"  阈值: >{threshold/1024:.0f}KB  |  模式: {mode}")
     for root, _, files in os.walk(target_dir):
         for fname in files:
             ext = os.path.splitext(fname)[1].lower()
@@ -124,7 +123,7 @@ def process_dir(target_dir):
                 continue
             src_path = os.path.join(root, fname)
             try:
-                r = compress_file(src_path)
+                r = compress_file(src_path, mode, threshold)
             except Exception as e:
                 print(f"  [失败] {src_path}: {e}")
                 continue
@@ -167,10 +166,8 @@ def main():
         print("[错误] 未指定目标文件夹。请命令行传入路径，或在 CONFIG 中设置 TARGET_DIR。")
         return
 
-    global THRESHOLD_KB, MODE
-    THRESHOLD_KB = args.threshold
-    MODE = args.mode
-    process_dir(target)
+    threshold = args.threshold * 1024
+    process_dir(target, args.mode, threshold)
 
 
 if __name__ == "__main__":
