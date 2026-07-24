@@ -1,5 +1,5 @@
 {
-  "version": "4.3.1",
+  "version": "4.3.2",
   "slotCount": 15,
   "defaultLogoSet": "style2",
   "previewRoleIds": {
@@ -449,6 +449,21 @@
         "猪",
         "头",
         "pighead"
+      ]
+    },
+    {
+      "id": "duck_10",
+      "name": "小黄鸭",
+      "officialName": "小黄鸭",
+      "faction": "duck",
+      "img": "/duck/duck_小黄鸭.png",
+      "aliases": [
+        "小黄鸭",
+        "xhy",
+        "xiaohuangya",
+        "小",
+        "黄",
+        "鸭"
       ]
     },
     {

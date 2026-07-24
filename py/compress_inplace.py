@@ -32,7 +32,7 @@ from PIL import Image
 
 # ============================== 配置区 ==============================
 # 不传命令行参数时使用此目录（留空字符串 "" 则必须命令行传入）
-TARGET_DIR = r"D:\program\project\front\eys-image\american_retro_style_v3"
+TARGET_DIR = r"D:\program\project\front\eys-image\official_camps_v3"
 
 # 大小阈值（KB）：仅压缩大于此值的文件。默认 800KB
 THRESHOLD_KB = 800
@@ -152,7 +152,7 @@ def process_dir(target_dir, mode, threshold):
 
 def main():
     parser = argparse.ArgumentParser(description="图片就地压缩（覆盖原文件）")
-    parser.add_argument("target", nargs="?", default="", help="目标文件夹路径")
+    parser.add_argument("target", nargs="?", default="", help="目标文件夹路径 或 单张图片路径")
     parser.add_argument(
         "--threshold", type=int, default=THRESHOLD_KB, help="大小阈值(KB)，默认 800"
     )
@@ -163,10 +163,26 @@ def main():
 
     target = args.target or TARGET_DIR
     if not target:
-        print("[错误] 未指定目标文件夹。请命令行传入路径，或在 CONFIG 中设置 TARGET_DIR。")
+        print("[错误] 未指定目标文件夹或文件。请命令行传入路径，或在 CONFIG 中设置 TARGET_DIR。")
         return
 
     threshold = args.threshold * 1024
+
+    # 单张图片：直接复用 compress_file 就地压缩（原子覆盖、仅变小才写回）
+    if os.path.isfile(target):
+        ext = os.path.splitext(target)[1].lower()
+        if ext not in ALLOWED_EXT:
+            print(f"[跳过] 非图片格式，已忽略: {target}")
+            return
+        r = compress_file(target, args.mode, threshold)
+        if r is None:
+            print(f"[跳过] 未超阈值或压缩后未变小: {target}")
+        else:
+            before, after = r
+            ratio = (1 - after / before) * 100
+            print(f"{target}: {before/1024:8.1f}KB -> {after/1024:8.1f}KB  ({ratio:+.1f}%)")
+        return
+
     process_dir(target, args.mode, threshold)
 
 
