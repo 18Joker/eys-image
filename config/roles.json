@@ -1,5 +1,5 @@
 {
-  "version": "4.3.2",
+  "version": "4.4.0",
   "slotCount": 15,
   "defaultLogoSet": "style2",
   "previewRoleIds": {
@@ -369,6 +369,44 @@
       ]
     },
     {
+      "id": "goose_325",
+      "name": "冒险家",
+      "officialName": "冒险家",
+      "faction": "goose",
+      "img": "/goose/goose_冒险家.png",
+      "aliases": [
+        "冒险家",
+        "冒险者",
+        "冒险",
+        "mxj",
+        "maoxianjia",
+        "maoxian",
+        "冒",
+        "险",
+        "家",
+        "adventurer"
+      ]
+    },
+    {
+      "id": "goose_330",
+      "name": "替罪者",
+      "officialName": "替罪者",
+      "faction": "goose",
+      "img": "/goose/goose_替罪者.png",
+      "aliases": [
+        "替罪者",
+        "替罪",
+        "替罪羊",
+        "tzz",
+        "tizhuizhe",
+        "tizui",
+        "替",
+        "罪",
+        "者",
+        "scapegoat"
+      ]
+    },
+    {
       "id": "goose_340",
       "name": "肉汁",
       "officialName": "肉汁鹅",
@@ -464,6 +502,22 @@
         "小",
         "黄",
         "鸭"
+      ]
+    },
+    {
+      "id": "duck_15",
+      "name": "异形",
+      "officialName": "异形",
+      "faction": "duck",
+      "img": "/duck/duck_异形.png",
+      "aliases": [
+        "异形",
+        "异形鸭",
+        "yixing",
+        "异",
+        "形",
+        "drone",
+        "alien"
       ]
     },
     {
@@ -632,6 +686,24 @@
         "员",
         "默剧",
         "演员"
+      ]
+    },
+    {
+      "id": "duck_195",
+      "name": "静语者",
+      "officialName": "静语者",
+      "faction": "duck",
+      "img": "/duck/duck_静语者.png",
+      "aliases": [
+        "静语者",
+        "静语",
+        "jyz",
+        "jingyuzhe",
+        "jingyu",
+        "静",
+        "语",
+        "者",
+        "silencer"
       ]
     },
     {
