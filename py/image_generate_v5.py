@@ -31,24 +31,27 @@ def setup_logging():
 
 # ==================== 全局配置 ====================
 # 支持填入多个 API Key（均为无限量，尽管用，不考虑额度）
+# 注：旧的 17 个 wk-* Key 已于 2026-09-05 被平台全部停用
+#（生图接口统一返回 401"该令牌状态不可用"），注释留存备查。
 API_KEYS = [
-    "wk-KyLbGDsypO862KC9dBbBolyscal8p3hmvSf96Un0lzpUtNpr",
-    "wk-tMZW7YP1ob8fsXcwoax9Iyl8mxl6QJuRIJhs4dCrT7Vky1S7",
-    "wk-v4GDHCYCtZxnFbaYxgqj4sTQFida53rfTgQBcxBVrAOl7IkP",
-    "wk-P2bE9HAa1JCMbrzCTAZTAA48yxsrCu8MxpX5MoJEcQuRwxfv",
-    "wk-71T4z1tGUhn1ivOTEFhmy7sa77fSa0tFpfw06SxyxgrJwan6",
-    "wk-yAViE89LgfA1eemdPw8VP6oqxUzuqKix6HcqeTHOreO7d6Xw",
-    "wk-M0kqYE2im38ldxhpggGcAdd24i5bIqc17mkalN6OckDxzJSX",
-    "wk-JLIt1hBlc3NX8gH2cXEPY8Oc9BbLU3fgdsgnxhtrjoMuLJWe",
-    "wk-XhVB17B38RSAQ6Ic2qJjSyAjKUP0GQa4Kc2lsRei34fRo9Rm",
-    "wk-PcwgWhFNx0g0YzUjHHZ0yCUAG1scrq4SMhXtBFUyYk3KD110",
-    "wk-FIzBhOWqTUgGj6jZo9cjN6pP2EHEgROqCVqIPPVghJA5dep9",
-    "wk-M8KppwUWv8RlKQ6n4p4L2kuYX16QBsZ7J5refe3pppE7t4ir",
-    "wk-zynqGMQKSyStyFHAwiE1T6lwhlDKGhedgh0qbmaJ4i22hZBo",
-    "wk-HVJO2a07DmR0pt5ogbXcTGhTkrnFYGzd8TpK4lOWaNYeDcz6",
-    "wk-yBS4vP6yCD16tJ0rgQQOqCv5EHYigzSiMtiHR27NYGgmsK69",
-    "wk-SHxAuoXVvUQoNiiiDf2UckAXm1Mn2O0j2fnfegpYhpLL8roT",
-    "wk-aBlZhpt7fuRC0WbKp7Q7sHaWRu945rzrQRfckTHYHcAZRaBk",
+    "sk-cNZzzstirCylnMqkDlhLBQr37C6vuaFCEbhdDwMQp4pkFwHp",  # 2026-09-05 新 Key
+    # "wk-KyLbGDsypO862KC9dBbBolyscal8p3hmvSf96Un0lzpUtNpr",
+    # "wk-tMZW7YP1ob8fsXcwoax9Iyl8mxl6QJuRIJhs4dCrT7Vky1S7",
+    # "wk-v4GDHCYCtZxnFbaYxgqj4sTQFida53rfTgQBcxBVrAOl7IkP",
+    # "wk-P2bE9HAa1JCMbrzCTAZTAA48yxsrCu8MxpX5MoJEcQuRwxfv",
+    # "wk-71T4z1tGUhn1ivOTEFhmy7sa77fSa0tFpfw06SxyxgrJwan6",
+    # "wk-yAViE89LgfA1eemdPw8VP6oqxUzuqKix6HcqeTHOreO7d6Xw",
+    # "wk-M0kqYE2im38ldxhpggGcAdd24i5bIqc17mkalN6OckDxzJSX",
+    # "wk-JLIt1hBlc3NX8gH2cXEPY8Oc9BbLU3fgdsgnxhtrjoMuLJWe",
+    # "wk-XhVB17B38RSAQ6Ic2qJjSyAjKUP0GQa4Kc2lsRei34fRo9Rm",
+    # "wk-PcwgWhFNx0g0YzUjHHZ0yCUAG1scrq4SMhXtBFUyYk3KD110",
+    # "wk-FIzBhOWqTUgGj6jZo9cjN6pP2EHEgROqCVqIPPVghJA5dep9",
+    # "wk-M8KppwUWv8RlKQ6n4p4L2kuYX16QBsZ7J5refe3pppE7t4ir",
+    # "wk-zynqGMQKSyStyFHAwiE1T6lwhlDKGhedgh0qbmaJ4i22hZBo",
+    # "wk-HVJO2a07DmR0pt5ogbXcTGhTkrnFYGzd8TpK4lOWaNYeDcz6",
+    # "wk-yBS4vP6yCD16tJ0rgQQOqCv5EHYigzSiMtiHR27NYGgmsK69",
+    # "wk-SHxAuoXVvUQoNiiiDf2UckAXm1Mn2O0j2fnfegpYhpLL8roT",
+    # "wk-aBlZhpt7fuRC0WbKp7Q7sHaWRu945rzrQRfckTHYHcAZRaBk",
 ]
 
 # 每个 Key 支持的稳定并发度
@@ -334,7 +337,7 @@ def process_single_task(task: dict, key_queue: queue.Queue, project_root: str = 
     model = task.get("model")
     if not model:
         if task_type == "text_to_image":
-            model = "agnes-image-2.1-flash"
+            model = "agnes-image-2.5-flash"
         elif task_type == "image_to_image":
             model = "agnes-image-2.0-flash"
 
