@@ -1,7 +1,7 @@
 {
-  "version": "4.4.0",
+  "version": "4.5.0",
   "slotCount": 15,
-  "defaultLogoSet": "style2",
+  "defaultLogoSet": "style3",
   "previewRoleIds": {
     "goose": "goose_20",
     "duck": "duck_20",
@@ -43,6 +43,13 @@
       "type": "image",
       "pathPrefix": "/official_camps_v3",
       "description": "基于官方图标，AI修饰生成"
+    },
+    {
+      "id": "style3",
+      "name": "Q版萌趣",
+      "type": "image",
+      "pathPrefix": "/chibi_style_v1",
+      "description": "Q版萌趣风格，AI生成"
     },
     {
       "id": "text",
