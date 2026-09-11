@@ -1,0 +1,2914 @@
+{
+ "goose/goose_侦探.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#E1E0E0",
+  "subject_ratio": 0.747,
+  "unique_colors": 249,
+  "black_pct": 18.3,
+  "top_colors": [
+   {
+    "hex": "#77B2B4",
+    "pct": 29.8
+   },
+   {
+    "hex": "#92D3D5",
+    "pct": 23.1
+   },
+   {
+    "hex": "#000000",
+    "pct": 17.5
+   },
+   {
+    "hex": "#5D6871",
+    "pct": 8.1
+   },
+   {
+    "hex": "#A7845C",
+    "pct": 3.4
+   },
+   {
+    "hex": "#D3F0F0",
+    "pct": 3.3
+   },
+   {
+    "hex": "#5B656D",
+    "pct": 2.3
+   },
+   {
+    "hex": "#D2EEF0",
+    "pct": 2.0
+   },
+   {
+    "hex": "#775838",
+    "pct": 2.0
+   },
+   {
+    "hex": "#D2EDED",
+    "pct": 0.8
+   }
+  ]
+ },
+ "goose/goose_冒险家.png": {
+  "size": [
+   1254,
+   1254
+  ],
+  "bg_hex": "#E5E4E4",
+  "subject_ratio": 0.412,
+  "unique_colors": 119,
+  "black_pct": 46.4,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 33.7
+   },
+   {
+    "hex": "#6D5136",
+    "pct": 23.6
+   },
+   {
+    "hex": "#5A422A",
+    "pct": 10.9
+   },
+   {
+    "hex": "#2C2616",
+    "pct": 8.2
+   },
+   {
+    "hex": "#543D29",
+    "pct": 4.8
+   },
+   {
+    "hex": "#826343",
+    "pct": 3.7
+   },
+   {
+    "hex": "#221E11",
+    "pct": 3.3
+   },
+   {
+    "hex": "#75583A",
+    "pct": 3.3
+   },
+   {
+    "hex": "#684E33",
+    "pct": 1.8
+   },
+   {
+    "hex": "#7D5E40",
+    "pct": 1.7
+   }
+  ]
+ },
+ "goose/goose_加拿大鹅.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#E0DEDE",
+  "subject_ratio": 0.786,
+  "unique_colors": 227,
+  "black_pct": 21.5,
+  "top_colors": [
+   {
+    "hex": "#D12022",
+    "pct": 44.0
+   },
+   {
+    "hex": "#000000",
+    "pct": 20.9
+   },
+   {
+    "hex": "#D11E21",
+    "pct": 17.8
+   },
+   {
+    "hex": "#E35555",
+    "pct": 5.6
+   },
+   {
+    "hex": "#921716",
+    "pct": 4.2
+   },
+   {
+    "hex": "#CD2122",
+    "pct": 1.9
+   },
+   {
+    "hex": "#8D1615",
+    "pct": 1.6
+   },
+   {
+    "hex": "#CE1E21",
+    "pct": 0.5
+   },
+   {
+    "hex": "#DC5556",
+    "pct": 0.3
+   },
+   {
+    "hex": "#160204",
+    "pct": 0.2
+   }
+  ]
+ },
+ "goose/goose_士兵.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDE",
+  "subject_ratio": 0.597,
+  "unique_colors": 247,
+  "black_pct": 23.9,
+  "top_colors": [
+   {
+    "hex": "#4C7449",
+    "pct": 22.4
+   },
+   {
+    "hex": "#000000",
+    "pct": 21.6
+   },
+   {
+    "hex": "#335232",
+    "pct": 15.2
+   },
+   {
+    "hex": "#EC933B",
+    "pct": 10.7
+   },
+   {
+    "hex": "#FDFDFD",
+    "pct": 9.6
+   },
+   {
+    "hex": "#C6C5C4",
+    "pct": 2.1
+   },
+   {
+    "hex": "#BCBBB9",
+    "pct": 1.6
+   },
+   {
+    "hex": "#243A22",
+    "pct": 1.5
+   },
+   {
+    "hex": "#D2722C",
+    "pct": 1.2
+   },
+   {
+    "hex": "#202E1C",
+    "pct": 1.0
+   }
+  ]
+ },
+ "goose/goose_复仇.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DDDDDC",
+  "subject_ratio": 0.7,
+  "unique_colors": 248,
+  "black_pct": 26.4,
+  "top_colors": [
+   {
+    "hex": "#F3F3F2",
+    "pct": 42.2
+   },
+   {
+    "hex": "#000000",
+    "pct": 25.6
+   },
+   {
+    "hex": "#E38D39",
+    "pct": 7.1
+   },
+   {
+    "hex": "#EDA146",
+    "pct": 5.9
+   },
+   {
+    "hex": "#C6C6C3",
+    "pct": 4.3
+   },
+   {
+    "hex": "#9AA6AD",
+    "pct": 2.0
+   },
+   {
+    "hex": "#F0F0EE",
+    "pct": 1.5
+   },
+   {
+    "hex": "#D1762D",
+    "pct": 1.2
+   },
+   {
+    "hex": "#CC722B",
+    "pct": 0.8
+   },
+   {
+    "hex": "#C9D7DC",
+    "pct": 0.8
+   }
+  ]
+ },
+ "goose/goose_大白鹅.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDD",
+  "subject_ratio": 0.877,
+  "unique_colors": 217,
+  "black_pct": 24.3,
+  "top_colors": [
+   {
+    "hex": "#EDEDED",
+    "pct": 33.2
+   },
+   {
+    "hex": "#000000",
+    "pct": 23.7
+   },
+   {
+    "hex": "#FEFEFE",
+    "pct": 16.9
+   },
+   {
+    "hex": "#EA8E34",
+    "pct": 13.5
+   },
+   {
+    "hex": "#BBBBBA",
+    "pct": 4.5
+   },
+   {
+    "hex": "#C46321",
+    "pct": 2.2
+   },
+   {
+    "hex": "#EB9036",
+    "pct": 0.5
+   },
+   {
+    "hex": "#C4621E",
+    "pct": 0.5
+   },
+   {
+    "hex": "#C5C5C4",
+    "pct": 0.5
+   },
+   {
+    "hex": "#F6B264",
+    "pct": 0.5
+   }
+  ]
+ },
+ "goose/goose_工程师.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDE",
+  "subject_ratio": 0.505,
+  "unique_colors": 247,
+  "black_pct": 31.9,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 30.1
+   },
+   {
+    "hex": "#5D412A",
+    "pct": 24.2
+   },
+   {
+    "hex": "#936943",
+    "pct": 20.0
+   },
+   {
+    "hex": "#9A704A",
+    "pct": 2.1
+   },
+   {
+    "hex": "#654628",
+    "pct": 1.8
+   },
+   {
+    "hex": "#889295",
+    "pct": 1.4
+   },
+   {
+    "hex": "#C1CBCD",
+    "pct": 1.1
+   },
+   {
+    "hex": "#A7B2B5",
+    "pct": 1.1
+   },
+   {
+    "hex": "#838B8C",
+    "pct": 1.1
+   },
+   {
+    "hex": "#593E27",
+    "pct": 1.0
+   }
+  ]
+ },
+ "goose/goose_探测.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDE",
+  "subject_ratio": 0.606,
+  "unique_colors": 168,
+  "black_pct": 8.9,
+  "top_colors": [
+   {
+    "hex": "#3C9932",
+    "pct": 47.9
+   },
+   {
+    "hex": "#56BE3E",
+    "pct": 11.0
+   },
+   {
+    "hex": "#419935",
+    "pct": 6.0
+   },
+   {
+    "hex": "#171717",
+    "pct": 4.6
+   },
+   {
+    "hex": "#57BD40",
+    "pct": 3.2
+   },
+   {
+    "hex": "#377B2B",
+    "pct": 2.6
+   },
+   {
+    "hex": "#73D35A",
+    "pct": 2.0
+   },
+   {
+    "hex": "#3B992E",
+    "pct": 1.7
+   },
+   {
+    "hex": "#6CCB55",
+    "pct": 1.7
+   },
+   {
+    "hex": "#0C0C0C",
+    "pct": 1.4
+   }
+  ]
+ },
+ "goose/goose_星界.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#E2E2E2",
+  "subject_ratio": 0.809,
+  "unique_colors": 242,
+  "black_pct": 36.0,
+  "top_colors": [
+   {
+    "hex": "#131313",
+    "pct": 32.9
+   },
+   {
+    "hex": "#F8F8F8",
+    "pct": 18.0
+   },
+   {
+    "hex": "#EB9144",
+    "pct": 6.8
+   },
+   {
+    "hex": "#5E9DE1",
+    "pct": 6.6
+   },
+   {
+    "hex": "#609DE1",
+    "pct": 6.3
+   },
+   {
+    "hex": "#BBC0C0",
+    "pct": 5.4
+   },
+   {
+    "hex": "#C87135",
+    "pct": 3.3
+   },
+   {
+    "hex": "#4277B6",
+    "pct": 2.0
+   },
+   {
+    "hex": "#B8BCBB",
+    "pct": 1.5
+   },
+   {
+    "hex": "#619CDD",
+    "pct": 1.4
+   }
+  ]
+ },
+ "goose/goose_替罪者.png": {
+  "size": [
+   1254,
+   1254
+  ],
+  "bg_hex": "#E4E4E4",
+  "subject_ratio": 0.543,
+  "unique_colors": 242,
+  "black_pct": 25.4,
+  "top_colors": [
+   {
+    "hex": "#FDFDFD",
+    "pct": 56.2
+   },
+   {
+    "hex": "#020101",
+    "pct": 24.7
+   },
+   {
+    "hex": "#FE913A",
+    "pct": 6.4
+   },
+   {
+    "hex": "#C72222",
+    "pct": 2.3
+   },
+   {
+    "hex": "#F1720C",
+    "pct": 1.7
+   },
+   {
+    "hex": "#454749",
+    "pct": 1.3
+   },
+   {
+    "hex": "#FD8E36",
+    "pct": 1.1
+   },
+   {
+    "hex": "#FDA356",
+    "pct": 0.7
+   },
+   {
+    "hex": "#78797B",
+    "pct": 0.5
+   },
+   {
+    "hex": "#363738",
+    "pct": 0.5
+   }
+  ]
+ },
+ "goose/goose_模仿者.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDE",
+  "subject_ratio": 0.575,
+  "unique_colors": 247,
+  "black_pct": 25.4,
+  "top_colors": [
+   {
+    "hex": "#F7F7F7",
+    "pct": 30.7
+   },
+   {
+    "hex": "#000000",
+    "pct": 24.7
+   },
+   {
+    "hex": "#D53134",
+    "pct": 16.3
+   },
+   {
+    "hex": "#EA9A37",
+    "pct": 7.0
+   },
+   {
+    "hex": "#E18930",
+    "pct": 6.8
+   },
+   {
+    "hex": "#C6752A",
+    "pct": 1.6
+   },
+   {
+    "hex": "#AC2827",
+    "pct": 1.5
+   },
+   {
+    "hex": "#B7B7B5",
+    "pct": 1.3
+   },
+   {
+    "hex": "#9A2223",
+    "pct": 1.0
+   },
+   {
+    "hex": "#B02828",
+    "pct": 0.8
+   }
+  ]
+ },
+ "goose/goose_正义使者.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#E0E0E0",
+  "subject_ratio": 0.607,
+  "unique_colors": 97,
+  "black_pct": 26.8,
+  "top_colors": [
+   {
+    "hex": "#39393B",
+    "pct": 41.1
+   },
+   {
+    "hex": "#000000",
+    "pct": 22.1
+   },
+   {
+    "hex": "#4C4C4C",
+    "pct": 16.8
+   },
+   {
+    "hex": "#F1F1F1",
+    "pct": 12.5
+   },
+   {
+    "hex": "#262526",
+    "pct": 4.0
+   },
+   {
+    "hex": "#B6B6B4",
+    "pct": 1.4
+   },
+   {
+    "hex": "#171717",
+    "pct": 0.6
+   },
+   {
+    "hex": "#545453",
+    "pct": 0.2
+   },
+   {
+    "hex": "#C7C7C6",
+    "pct": 0.2
+   },
+   {
+    "hex": "#B1B1AE",
+    "pct": 0.1
+   }
+  ]
+ },
+ "goose/goose_殡仪员.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDE",
+  "subject_ratio": 0.387,
+  "unique_colors": 247,
+  "black_pct": 21.7,
+  "top_colors": [
+   {
+    "hex": "#A99165",
+    "pct": 22.7
+   },
+   {
+    "hex": "#010000",
+    "pct": 20.2
+   },
+   {
+    "hex": "#C1A977",
+    "pct": 18.2
+   },
+   {
+    "hex": "#BEA775",
+    "pct": 8.0
+   },
+   {
+    "hex": "#6D5941",
+    "pct": 2.9
+   },
+   {
+    "hex": "#513D27",
+    "pct": 2.2
+   },
+   {
+    "hex": "#715B41",
+    "pct": 2.0
+   },
+   {
+    "hex": "#6B563E",
+    "pct": 2.0
+   },
+   {
+    "hex": "#DDCCA2",
+    "pct": 2.0
+   },
+   {
+    "hex": "#8D734A",
+    "pct": 1.7
+   }
+  ]
+ },
+ "goose/goose_法医.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDE",
+  "subject_ratio": 0.716,
+  "unique_colors": 247,
+  "black_pct": 30.5,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 29.8
+   },
+   {
+    "hex": "#F5F5F5",
+    "pct": 20.4
+   },
+   {
+    "hex": "#57BAD6",
+    "pct": 17.9
+   },
+   {
+    "hex": "#65C7DC",
+    "pct": 5.8
+   },
+   {
+    "hex": "#4DA7C1",
+    "pct": 4.3
+   },
+   {
+    "hex": "#F0853B",
+    "pct": 3.2
+   },
+   {
+    "hex": "#3C859A",
+    "pct": 2.4
+   },
+   {
+    "hex": "#C5C4C2",
+    "pct": 2.0
+   },
+   {
+    "hex": "#7DD5E8",
+    "pct": 1.6
+   },
+   {
+    "hex": "#52AAC3",
+    "pct": 1.2
+   }
+  ]
+ },
+ "goose/goose_清醒梦者.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDE",
+  "subject_ratio": 0.754,
+  "unique_colors": 247,
+  "black_pct": 18.7,
+  "top_colors": [
+   {
+    "hex": "#78E6E9",
+    "pct": 19.7
+   },
+   {
+    "hex": "#161617",
+    "pct": 18.0
+   },
+   {
+    "hex": "#F4F3F3",
+    "pct": 9.3
+   },
+   {
+    "hex": "#71ACCB",
+    "pct": 6.1
+   },
+   {
+    "hex": "#C2C2C1",
+    "pct": 4.4
+   },
+   {
+    "hex": "#76D5D2",
+    "pct": 4.4
+   },
+   {
+    "hex": "#5CC2C5",
+    "pct": 4.2
+   },
+   {
+    "hex": "#85E6E8",
+    "pct": 2.9
+   },
+   {
+    "hex": "#6390AD",
+    "pct": 2.7
+   },
+   {
+    "hex": "#485E96",
+    "pct": 2.4
+   }
+  ]
+ },
+ "goose/goose_猪头.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#0B210D",
+  "subject_ratio": 1.0,
+  "unique_colors": 249,
+  "black_pct": 3.3,
+  "top_colors": [
+   {
+    "hex": "#173623",
+    "pct": 24.7
+   },
+   {
+    "hex": "#295634",
+    "pct": 4.5
+   },
+   {
+    "hex": "#14321D",
+    "pct": 4.4
+   },
+   {
+    "hex": "#1C432A",
+    "pct": 3.8
+   },
+   {
+    "hex": "#234B2B",
+    "pct": 3.0
+   },
+   {
+    "hex": "#E7C6BA",
+    "pct": 3.0
+   },
+   {
+    "hex": "#33633B",
+    "pct": 2.2
+   },
+   {
+    "hex": "#325B36",
+    "pct": 2.0
+   },
+   {
+    "hex": "#473727",
+    "pct": 1.8
+   },
+   {
+    "hex": "#D8B5A9",
+    "pct": 1.5
+   }
+  ]
+ },
+ "goose/goose_生存主义者_v2.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DDDCDC",
+  "subject_ratio": 0.611,
+  "unique_colors": 246,
+  "black_pct": 20.7,
+  "top_colors": [
+   {
+    "hex": "#638A4A",
+    "pct": 34.4
+   },
+   {
+    "hex": "#020101",
+    "pct": 18.5
+   },
+   {
+    "hex": "#496938",
+    "pct": 14.4
+   },
+   {
+    "hex": "#7B5937",
+    "pct": 3.5
+   },
+   {
+    "hex": "#A8A8A7",
+    "pct": 2.6
+   },
+   {
+    "hex": "#664628",
+    "pct": 2.5
+   },
+   {
+    "hex": "#E3AA5B",
+    "pct": 2.4
+   },
+   {
+    "hex": "#84603A",
+    "pct": 2.0
+   },
+   {
+    "hex": "#825E39",
+    "pct": 1.9
+   },
+   {
+    "hex": "#83B86A",
+    "pct": 1.2
+   }
+  ]
+ },
+ "goose/goose_网红.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DCDCDC",
+  "subject_ratio": 0.621,
+  "unique_colors": 246,
+  "black_pct": 18.2,
+  "top_colors": [
+   {
+    "hex": "#F3F3F3",
+    "pct": 20.7
+   },
+   {
+    "hex": "#E1B561",
+    "pct": 19.1
+   },
+   {
+    "hex": "#050602",
+    "pct": 11.2
+   },
+   {
+    "hex": "#E8822B",
+    "pct": 8.5
+   },
+   {
+    "hex": "#252934",
+    "pct": 8.2
+   },
+   {
+    "hex": "#B58A47",
+    "pct": 3.1
+   },
+   {
+    "hex": "#EBC575",
+    "pct": 2.9
+   },
+   {
+    "hex": "#BBBAB8",
+    "pct": 2.6
+   },
+   {
+    "hex": "#1C1107",
+    "pct": 1.4
+   },
+   {
+    "hex": "#333231",
+    "pct": 1.4
+   }
+  ]
+ },
+ "goose/goose_肉汁.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DAD9D9",
+  "subject_ratio": 0.557,
+  "unique_colors": 146,
+  "black_pct": 33.5,
+  "top_colors": [
+   {
+    "hex": "#CBAD7D",
+    "pct": 40.9
+   },
+   {
+    "hex": "#000000",
+    "pct": 32.8
+   },
+   {
+    "hex": "#957B56",
+    "pct": 17.6
+   },
+   {
+    "hex": "#D6B988",
+    "pct": 2.1
+   },
+   {
+    "hex": "#6B5738",
+    "pct": 1.5
+   },
+   {
+    "hex": "#CDB182",
+    "pct": 0.8
+   },
+   {
+    "hex": "#CDB07E",
+    "pct": 0.3
+   },
+   {
+    "hex": "#8A7555",
+    "pct": 0.3
+   },
+   {
+    "hex": "#9A815A",
+    "pct": 0.3
+   },
+   {
+    "hex": "#8C724D",
+    "pct": 0.2
+   }
+  ]
+ },
+ "goose/goose_观鸟.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#E3E3E3",
+  "subject_ratio": 0.727,
+  "unique_colors": 194,
+  "black_pct": 41.4,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 34.1
+   },
+   {
+    "hex": "#34393C",
+    "pct": 13.5
+   },
+   {
+    "hex": "#EC9039",
+    "pct": 10.5
+   },
+   {
+    "hex": "#8398AB",
+    "pct": 9.6
+   },
+   {
+    "hex": "#1D1C1C",
+    "pct": 5.7
+   },
+   {
+    "hex": "#F9F9F9",
+    "pct": 4.3
+   },
+   {
+    "hex": "#BCBCBA",
+    "pct": 3.3
+   },
+   {
+    "hex": "#B1C4D6",
+    "pct": 3.2
+   },
+   {
+    "hex": "#748798",
+    "pct": 1.7
+   },
+   {
+    "hex": "#373C40",
+    "pct": 1.6
+   }
+  ]
+ },
+ "goose/goose_警长.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#E2E1E1",
+  "subject_ratio": 0.789,
+  "unique_colors": 247,
+  "black_pct": 26.6,
+  "top_colors": [
+   {
+    "hex": "#EEB237",
+    "pct": 26.8
+   },
+   {
+    "hex": "#131313",
+    "pct": 23.6
+   },
+   {
+    "hex": "#EDAE33",
+    "pct": 13.8
+   },
+   {
+    "hex": "#F0B135",
+    "pct": 7.8
+   },
+   {
+    "hex": "#C78125",
+    "pct": 4.7
+   },
+   {
+    "hex": "#F5D26B",
+    "pct": 4.1
+   },
+   {
+    "hex": "#C27C24",
+    "pct": 3.5
+   },
+   {
+    "hex": "#F5D675",
+    "pct": 3.1
+   },
+   {
+    "hex": "#F0AE33",
+    "pct": 1.6
+   },
+   {
+    "hex": "#13110D",
+    "pct": 1.3
+   }
+  ]
+ },
+ "goose/goose_说客.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DBDBDB",
+  "subject_ratio": 0.774,
+  "unique_colors": 246,
+  "black_pct": 15.3,
+  "top_colors": [
+   {
+    "hex": "#F4F3F4",
+    "pct": 32.0
+   },
+   {
+    "hex": "#DDD4C1",
+    "pct": 18.2
+   },
+   {
+    "hex": "#010101",
+    "pct": 13.8
+   },
+   {
+    "hex": "#876B4B",
+    "pct": 5.3
+   },
+   {
+    "hex": "#BBBBB9",
+    "pct": 4.1
+   },
+   {
+    "hex": "#A6A6A4",
+    "pct": 2.8
+   },
+   {
+    "hex": "#F29031",
+    "pct": 2.7
+   },
+   {
+    "hex": "#664D33",
+    "pct": 1.3
+   },
+   {
+    "hex": "#B2A491",
+    "pct": 1.1
+   },
+   {
+    "hex": "#99A4A6",
+    "pct": 1.0
+   }
+  ]
+ },
+ "goose/goose_跟踪.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#DEDEDE",
+  "subject_ratio": 0.906,
+  "unique_colors": 249,
+  "black_pct": 26.8,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 25.8
+   },
+   {
+    "hex": "#E7A425",
+    "pct": 21.1
+   },
+   {
+    "hex": "#EDEDED",
+    "pct": 17.3
+   },
+   {
+    "hex": "#F5F6F6",
+    "pct": 5.5
+   },
+   {
+    "hex": "#CD7D45",
+    "pct": 4.7
+   },
+   {
+    "hex": "#E49C5D",
+    "pct": 3.8
+   },
+   {
+    "hex": "#DD5D76",
+    "pct": 2.7
+   },
+   {
+    "hex": "#F0BD3D",
+    "pct": 2.3
+   },
+   {
+    "hex": "#EEBB3C",
+    "pct": 1.8
+   },
+   {
+    "hex": "#BCBBBA",
+    "pct": 1.3
+   }
+  ]
+ },
+ "goose/goose_通灵.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#E3E2E2",
+  "subject_ratio": 0.532,
+  "unique_colors": 211,
+  "black_pct": 32.4,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 31.0
+   },
+   {
+    "hex": "#FCFDFD",
+    "pct": 24.7
+   },
+   {
+    "hex": "#F3B236",
+    "pct": 18.4
+   },
+   {
+    "hex": "#969C9D",
+    "pct": 8.8
+   },
+   {
+    "hex": "#9AA1A2",
+    "pct": 2.7
+   },
+   {
+    "hex": "#979EA0",
+    "pct": 2.3
+   },
+   {
+    "hex": "#D28622",
+    "pct": 1.4
+   },
+   {
+    "hex": "#F9D577",
+    "pct": 1.2
+   },
+   {
+    "hex": "#CD8321",
+    "pct": 0.9
+   },
+   {
+    "hex": "#161717",
+    "pct": 0.7
+   }
+  ]
+ },
+ "duck/duck_专杀.png": {
+  "size": [
+   1000,
+   1000
+  ],
+  "bg_hex": "#730009",
+  "subject_ratio": 0.804,
+  "unique_colors": 73,
+  "black_pct": 50.2,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 48.4
+   },
+   {
+    "hex": "#575C65",
+    "pct": 18.8
+   },
+   {
+    "hex": "#798494",
+    "pct": 6.4
+   },
+   {
+    "hex": "#747D8E",
+    "pct": 5.9
+   },
+   {
+    "hex": "#808A9A",
+    "pct": 2.8
+   },
+   {
+    "hex": "#757E90",
+    "pct": 2.0
+   },
+   {
+    "hex": "#6A7383",
+    "pct": 1.9
+   },
+   {
+    "hex": "#35383D",
+    "pct": 1.6
+   },
+   {
+    "hex": "#59616B",
+    "pct": 1.6
+   },
+   {
+    "hex": "#4D5663",
+    "pct": 1.3
+   }
+  ]
+ },
+ "duck/duck_丘比特.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#831419",
+  "subject_ratio": 0.653,
+  "unique_colors": 252,
+  "black_pct": 37.3,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 35.8
+   },
+   {
+    "hex": "#F7F7F7",
+    "pct": 28.0
+   },
+   {
+    "hex": "#6D1113",
+    "pct": 5.3
+   },
+   {
+    "hex": "#D2D2D1",
+    "pct": 4.4
+   },
+   {
+    "hex": "#CCCBCA",
+    "pct": 3.9
+   },
+   {
+    "hex": "#F29437",
+    "pct": 3.7
+   },
+   {
+    "hex": "#D0D0CE",
+    "pct": 1.5
+   },
+   {
+    "hex": "#F2A8A7",
+    "pct": 1.4
+   },
+   {
+    "hex": "#D37326",
+    "pct": 1.3
+   },
+   {
+    "hex": "#160504",
+    "pct": 0.5
+   }
+  ]
+ },
+ "duck/duck_刺客.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#831518",
+  "subject_ratio": 0.762,
+  "unique_colors": 99,
+  "black_pct": 24.7,
+  "top_colors": [
+   {
+    "hex": "#931416",
+    "pct": 26.6
+   },
+   {
+    "hex": "#3A3939",
+    "pct": 25.7
+   },
+   {
+    "hex": "#010000",
+    "pct": 20.0
+   },
+   {
+    "hex": "#670E10",
+    "pct": 13.1
+   },
+   {
+    "hex": "#681011",
+    "pct": 5.8
+   },
+   {
+    "hex": "#29292A",
+    "pct": 3.5
+   },
+   {
+    "hex": "#C73337",
+    "pct": 0.9
+   },
+   {
+    "hex": "#650D0E",
+    "pct": 0.8
+   },
+   {
+    "hex": "#160203",
+    "pct": 0.6
+   },
+   {
+    "hex": "#270506",
+    "pct": 0.5
+   }
+  ]
+ },
+ "duck/duck_变形.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#82161B",
+  "subject_ratio": 0.746,
+  "unique_colors": 251,
+  "black_pct": 23.8,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 22.9
+   },
+   {
+    "hex": "#5387BD",
+    "pct": 22.4
+   },
+   {
+    "hex": "#CDCAC0",
+    "pct": 15.9
+   },
+   {
+    "hex": "#CCC9BE",
+    "pct": 8.7
+   },
+   {
+    "hex": "#FBFBFB",
+    "pct": 5.1
+   },
+   {
+    "hex": "#3B5D83",
+    "pct": 4.4
+   },
+   {
+    "hex": "#E9823A",
+    "pct": 3.3
+   },
+   {
+    "hex": "#939187",
+    "pct": 3.2
+   },
+   {
+    "hex": "#5C0D11",
+    "pct": 2.3
+   },
+   {
+    "hex": "#681114",
+    "pct": 0.9
+   }
+  ]
+ },
+ "duck/duck_小丑.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#771317",
+  "subject_ratio": 0.708,
+  "unique_colors": 250,
+  "black_pct": 25.0,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 23.9
+   },
+   {
+    "hex": "#F4F4F4",
+    "pct": 22.2
+   },
+   {
+    "hex": "#BD1B23",
+    "pct": 10.4
+   },
+   {
+    "hex": "#C01B24",
+    "pct": 9.3
+   },
+   {
+    "hex": "#E89341",
+    "pct": 4.3
+   },
+   {
+    "hex": "#3E6DA6",
+    "pct": 4.2
+   },
+   {
+    "hex": "#D73D43",
+    "pct": 3.7
+   },
+   {
+    "hex": "#DC7E30",
+    "pct": 2.6
+   },
+   {
+    "hex": "#DD8031",
+    "pct": 2.4
+   },
+   {
+    "hex": "#406EA4",
+    "pct": 2.4
+   }
+  ]
+ },
+ "duck/duck_小黄鸭.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#881E15",
+  "subject_ratio": 0.499,
+  "unique_colors": 250,
+  "black_pct": 11.7,
+  "top_colors": [
+   {
+    "hex": "#F9D135",
+    "pct": 46.6
+   },
+   {
+    "hex": "#030000",
+    "pct": 9.8
+   },
+   {
+    "hex": "#E4A421",
+    "pct": 9.3
+   },
+   {
+    "hex": "#F48324",
+    "pct": 8.5
+   },
+   {
+    "hex": "#4C2713",
+    "pct": 3.8
+   },
+   {
+    "hex": "#F8CE34",
+    "pct": 3.0
+   },
+   {
+    "hex": "#FBE275",
+    "pct": 2.2
+   },
+   {
+    "hex": "#F48A7B",
+    "pct": 1.9
+   },
+   {
+    "hex": "#160200",
+    "pct": 1.3
+   },
+   {
+    "hex": "#FEFDFC",
+    "pct": 0.8
+   }
+  ]
+ },
+ "duck/duck_巫医.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#6C1118",
+  "subject_ratio": 0.761,
+  "unique_colors": 253,
+  "black_pct": 29.7,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 24.2
+   },
+   {
+    "hex": "#363535",
+    "pct": 23.0
+   },
+   {
+    "hex": "#686B75",
+    "pct": 12.5
+   },
+   {
+    "hex": "#C9C8AA",
+    "pct": 6.2
+   },
+   {
+    "hex": "#E6964B",
+    "pct": 4.7
+   },
+   {
+    "hex": "#262626",
+    "pct": 4.4
+   },
+   {
+    "hex": "#F4F4F0",
+    "pct": 4.0
+   },
+   {
+    "hex": "#550C10",
+    "pct": 2.1
+   },
+   {
+    "hex": "#555458",
+    "pct": 1.9
+   },
+   {
+    "hex": "#510A0E",
+    "pct": 1.8
+   }
+  ]
+ },
+ "duck/duck_异形.png": {
+  "size": [
+   1254,
+   1254
+  ],
+  "bg_hex": "#7D1112",
+  "subject_ratio": 0.478,
+  "unique_colors": 247,
+  "black_pct": 32.9,
+  "top_colors": [
+   {
+    "hex": "#010100",
+    "pct": 30.3
+   },
+   {
+    "hex": "#363C48",
+    "pct": 28.6
+   },
+   {
+    "hex": "#31333A",
+    "pct": 4.5
+   },
+   {
+    "hex": "#2E3139",
+    "pct": 3.5
+   },
+   {
+    "hex": "#25E737",
+    "pct": 3.5
+   },
+   {
+    "hex": "#3C9730",
+    "pct": 2.3
+   },
+   {
+    "hex": "#E4FCED",
+    "pct": 1.7
+   },
+   {
+    "hex": "#2B2D35",
+    "pct": 1.6
+   },
+   {
+    "hex": "#3CA532",
+    "pct": 1.4
+   },
+   {
+    "hex": "#E9FCF1",
+    "pct": 1.4
+   }
+  ]
+ },
+ "duck/duck_忍者.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#7A171C",
+  "subject_ratio": 0.676,
+  "unique_colors": 166,
+  "black_pct": 57.8,
+  "top_colors": [
+   {
+    "hex": "#343137",
+    "pct": 29.4
+   },
+   {
+    "hex": "#000000",
+    "pct": 22.2
+   },
+   {
+    "hex": "#201E1E",
+    "pct": 16.1
+   },
+   {
+    "hex": "#1E1D1E",
+    "pct": 14.9
+   },
+   {
+    "hex": "#FEFEFE",
+    "pct": 4.1
+   },
+   {
+    "hex": "#201E20",
+    "pct": 2.4
+   },
+   {
+    "hex": "#242324",
+    "pct": 1.7
+   },
+   {
+    "hex": "#5C5A63",
+    "pct": 1.6
+   },
+   {
+    "hex": "#A6A6A2",
+    "pct": 1.3
+   },
+   {
+    "hex": "#EAEAEA",
+    "pct": 1.1
+   }
+  ]
+ },
+ "duck/duck_投毒者.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#751216",
+  "subject_ratio": 0.409,
+  "unique_colors": 116,
+  "black_pct": 39.1,
+  "top_colors": [
+   {
+    "hex": "#463C3A",
+    "pct": 32.1
+   },
+   {
+    "hex": "#000000",
+    "pct": 27.7
+   },
+   {
+    "hex": "#E0E0E0",
+    "pct": 13.6
+   },
+   {
+    "hex": "#2B211E",
+    "pct": 6.3
+   },
+   {
+    "hex": "#2C2220",
+    "pct": 3.8
+   },
+   {
+    "hex": "#AAAAA9",
+    "pct": 2.2
+   },
+   {
+    "hex": "#DCDCDC",
+    "pct": 2.0
+   },
+   {
+    "hex": "#969695",
+    "pct": 2.0
+   },
+   {
+    "hex": "#B6B5B4",
+    "pct": 1.7
+   },
+   {
+    "hex": "#7B7876",
+    "pct": 0.6
+   }
+  ]
+ },
+ "duck/duck_掠夺者.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#7B1318",
+  "subject_ratio": 0.722,
+  "unique_colors": 251,
+  "black_pct": 21.1,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 19.9
+   },
+   {
+    "hex": "#64513E",
+    "pct": 16.6
+   },
+   {
+    "hex": "#F4F4F4",
+    "pct": 15.1
+   },
+   {
+    "hex": "#475165",
+    "pct": 12.9
+   },
+   {
+    "hex": "#463527",
+    "pct": 5.3
+   },
+   {
+    "hex": "#5A637A",
+    "pct": 5.2
+   },
+   {
+    "hex": "#B7B7B3",
+    "pct": 3.0
+   },
+   {
+    "hex": "#F0F0EE",
+    "pct": 2.8
+   },
+   {
+    "hex": "#570C0E",
+    "pct": 1.7
+   },
+   {
+    "hex": "#655340",
+    "pct": 1.4
+   }
+  ]
+ },
+ "duck/duck_杀手.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#73151A",
+  "subject_ratio": 0.593,
+  "unique_colors": 233,
+  "black_pct": 19.5,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 17.4
+   },
+   {
+    "hex": "#3D3D3C",
+    "pct": 10.1
+   },
+   {
+    "hex": "#E6E6E6",
+    "pct": 10.1
+   },
+   {
+    "hex": "#E38E35",
+    "pct": 6.1
+   },
+   {
+    "hex": "#CACAC9",
+    "pct": 5.4
+   },
+   {
+    "hex": "#D8D8D5",
+    "pct": 4.1
+   },
+   {
+    "hex": "#454543",
+    "pct": 3.2
+   },
+   {
+    "hex": "#C3732B",
+    "pct": 2.8
+   },
+   {
+    "hex": "#898985",
+    "pct": 2.7
+   },
+   {
+    "hex": "#91928A",
+    "pct": 2.5
+   }
+  ]
+ },
+ "duck/duck_炸弹.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#7A1519",
+  "subject_ratio": 0.607,
+  "unique_colors": 185,
+  "black_pct": 41.0,
+  "top_colors": [
+   {
+    "hex": "#4B4B4B",
+    "pct": 37.4
+   },
+   {
+    "hex": "#2B282C",
+    "pct": 22.8
+   },
+   {
+    "hex": "#000000",
+    "pct": 16.6
+   },
+   {
+    "hex": "#8A8A8D",
+    "pct": 14.1
+   },
+   {
+    "hex": "#CD6C13",
+    "pct": 1.4
+   },
+   {
+    "hex": "#24241D",
+    "pct": 0.9
+   },
+   {
+    "hex": "#D06E14",
+    "pct": 0.8
+   },
+   {
+    "hex": "#EAB21D",
+    "pct": 0.8
+   },
+   {
+    "hex": "#EBB321",
+    "pct": 0.5
+   },
+   {
+    "hex": "#363535",
+    "pct": 0.5
+   }
+  ]
+ },
+ "duck/duck_牧师_v2.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#77151A",
+  "subject_ratio": 0.776,
+  "unique_colors": 250,
+  "black_pct": 20.8,
+  "top_colors": [
+   {
+    "hex": "#020101",
+    "pct": 18.1
+   },
+   {
+    "hex": "#5D4230",
+    "pct": 14.5
+   },
+   {
+    "hex": "#624734",
+    "pct": 12.9
+   },
+   {
+    "hex": "#EEEEED",
+    "pct": 10.0
+   },
+   {
+    "hex": "#4A3324",
+    "pct": 7.0
+   },
+   {
+    "hex": "#EBB752",
+    "pct": 4.6
+   },
+   {
+    "hex": "#ED8B39",
+    "pct": 3.1
+   },
+   {
+    "hex": "#5B412E",
+    "pct": 2.5
+   },
+   {
+    "hex": "#BABAB6",
+    "pct": 2.2
+   },
+   {
+    "hex": "#3B3A3A",
+    "pct": 2.1
+   }
+  ]
+ },
+ "duck/duck_狙击手.png": {
+  "size": [
+   1000,
+   1000
+  ],
+  "bg_hex": "#700608",
+  "subject_ratio": 0.995,
+  "unique_colors": 15131,
+  "black_pct": 51.5,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 24.0
+   },
+   {
+    "hex": "#FDFDFD",
+    "pct": 3.2
+   },
+   {
+    "hex": "#4D622A",
+    "pct": 2.2
+   },
+   {
+    "hex": "#010101",
+    "pct": 2.1
+   },
+   {
+    "hex": "#000100",
+    "pct": 1.6
+   },
+   {
+    "hex": "#000002",
+    "pct": 1.1
+   },
+   {
+    "hex": "#010000",
+    "pct": 1.1
+   },
+   {
+    "hex": "#020202",
+    "pct": 1.0
+   },
+   {
+    "hex": "#4F622A",
+    "pct": 1.0
+   },
+   {
+    "hex": "#4E632B",
+    "pct": 0.9
+   }
+  ]
+ },
+ "duck/duck_超能力.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#7B1316",
+  "subject_ratio": 0.448,
+  "unique_colors": 253,
+  "black_pct": 30.0,
+  "top_colors": [
+   {
+    "hex": "#F3F3F3",
+    "pct": 38.7
+   },
+   {
+    "hex": "#010000",
+    "pct": 28.3
+   },
+   {
+    "hex": "#E38636",
+    "pct": 9.8
+   },
+   {
+    "hex": "#55090A",
+    "pct": 7.7
+   },
+   {
+    "hex": "#C1C0BE",
+    "pct": 1.4
+   },
+   {
+    "hex": "#9C4A87",
+    "pct": 1.3
+   },
+   {
+    "hex": "#C4C4C3",
+    "pct": 1.3
+   },
+   {
+    "hex": "#BCBCBB",
+    "pct": 1.0
+   },
+   {
+    "hex": "#B95D24",
+    "pct": 0.9
+   },
+   {
+    "hex": "#BC6126",
+    "pct": 0.8
+   }
+  ]
+ },
+ "duck/duck_身份窃贼.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#751417",
+  "subject_ratio": 0.775,
+  "unique_colors": 252,
+  "black_pct": 23.3,
+  "top_colors": [
+   {
+    "hex": "#E7E6E6",
+    "pct": 22.8
+   },
+   {
+    "hex": "#010000",
+    "pct": 21.7
+   },
+   {
+    "hex": "#550C0E",
+    "pct": 6.5
+   },
+   {
+    "hex": "#989896",
+    "pct": 6.4
+   },
+   {
+    "hex": "#FDFDFD",
+    "pct": 5.7
+   },
+   {
+    "hex": "#F2CC31",
+    "pct": 4.5
+   },
+   {
+    "hex": "#C47B23",
+    "pct": 3.4
+   },
+   {
+    "hex": "#C94223",
+    "pct": 2.6
+   },
+   {
+    "hex": "#EAD2A9",
+    "pct": 2.2
+   },
+   {
+    "hex": "#832A18",
+    "pct": 1.1
+   }
+  ]
+ },
+ "duck/duck_间谍.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#7E171C",
+  "subject_ratio": 0.675,
+  "unique_colors": 192,
+  "black_pct": 31.3,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 21.1
+   },
+   {
+    "hex": "#343138",
+    "pct": 13.2
+   },
+   {
+    "hex": "#E48132",
+    "pct": 10.2
+   },
+   {
+    "hex": "#51505C",
+    "pct": 10.2
+   },
+   {
+    "hex": "#3C3940",
+    "pct": 8.9
+   },
+   {
+    "hex": "#272527",
+    "pct": 6.9
+   },
+   {
+    "hex": "#504E5B",
+    "pct": 6.6
+   },
+   {
+    "hex": "#49474E",
+    "pct": 3.4
+   },
+   {
+    "hex": "#F7F7F8",
+    "pct": 3.1
+   },
+   {
+    "hex": "#4B4A53",
+    "pct": 3.0
+   }
+  ]
+ },
+ "duck/duck_隐形.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#81161B",
+  "subject_ratio": 0.623,
+  "unique_colors": 153,
+  "black_pct": 16.4,
+  "top_colors": [
+   {
+    "hex": "#7CBBDC",
+    "pct": 63.6
+   },
+   {
+    "hex": "#080807",
+    "pct": 14.2
+   },
+   {
+    "hex": "#5186A4",
+    "pct": 4.9
+   },
+   {
+    "hex": "#4D83A2",
+    "pct": 3.2
+   },
+   {
+    "hex": "#81BDDC",
+    "pct": 1.8
+   },
+   {
+    "hex": "#A3DCF3",
+    "pct": 1.4
+   },
+   {
+    "hex": "#9CD8F1",
+    "pct": 1.3
+   },
+   {
+    "hex": "#100D0C",
+    "pct": 1.1
+   },
+   {
+    "hex": "#5C94B3",
+    "pct": 0.7
+   },
+   {
+    "hex": "#98D3ED",
+    "pct": 0.6
+   }
+  ]
+ },
+ "duck/duck_静语者.png": {
+  "size": [
+   1254,
+   1254
+  ],
+  "bg_hex": "#781618",
+  "subject_ratio": 1.0,
+  "unique_colors": 205,
+  "black_pct": 8.3,
+  "top_colors": [
+   {
+    "hex": "#881517",
+    "pct": 81.4
+   },
+   {
+    "hex": "#010000",
+    "pct": 8.0
+   },
+   {
+    "hex": "#FDFDFD",
+    "pct": 6.2
+   },
+   {
+    "hex": "#F0A236",
+    "pct": 2.6
+   },
+   {
+    "hex": "#9C9C9C",
+    "pct": 0.3
+   },
+   {
+    "hex": "#EEA135",
+    "pct": 0.2
+   },
+   {
+    "hex": "#A2A2A2",
+    "pct": 0.2
+   },
+   {
+    "hex": "#160A08",
+    "pct": 0.1
+   },
+   {
+    "hex": "#671516",
+    "pct": 0.1
+   },
+   {
+    "hex": "#EC9D32",
+    "pct": 0.1
+   }
+  ]
+ },
+ "duck/duck_食鸟鸭.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#7A1518",
+  "subject_ratio": 0.395,
+  "unique_colors": 251,
+  "black_pct": 23.9,
+  "top_colors": [
+   {
+    "hex": "#C97032",
+    "pct": 23.3
+   },
+   {
+    "hex": "#000000",
+    "pct": 22.8
+   },
+   {
+    "hex": "#91461E",
+    "pct": 14.1
+   },
+   {
+    "hex": "#E6AAAE",
+    "pct": 10.1
+   },
+   {
+    "hex": "#C86E31",
+    "pct": 6.1
+   },
+   {
+    "hex": "#E2C9AC",
+    "pct": 3.4
+   },
+   {
+    "hex": "#914720",
+    "pct": 2.2
+   },
+   {
+    "hex": "#AB826B",
+    "pct": 1.9
+   },
+   {
+    "hex": "#8E441D",
+    "pct": 1.8
+   },
+   {
+    "hex": "#590E0E",
+    "pct": 1.6
+   }
+  ]
+ },
+ "duck/duck_鸭子.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#761518",
+  "subject_ratio": 0.625,
+  "unique_colors": 116,
+  "black_pct": 14.4,
+  "top_colors": [
+   {
+    "hex": "#A7B7BC",
+    "pct": 32.7
+   },
+   {
+    "hex": "#000000",
+    "pct": 13.3
+   },
+   {
+    "hex": "#4B0A0C",
+    "pct": 11.6
+   },
+   {
+    "hex": "#594A3B",
+    "pct": 11.2
+   },
+   {
+    "hex": "#CCDDE1",
+    "pct": 10.1
+   },
+   {
+    "hex": "#776551",
+    "pct": 3.6
+   },
+   {
+    "hex": "#E9F4F3",
+    "pct": 2.8
+   },
+   {
+    "hex": "#C6D7DB",
+    "pct": 2.7
+   },
+   {
+    "hex": "#443729",
+    "pct": 2.4
+   },
+   {
+    "hex": "#778384",
+    "pct": 1.9
+   }
+  ]
+ },
+ "duck/duck_默剧演员.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#7C161A",
+  "subject_ratio": 0.775,
+  "unique_colors": 248,
+  "black_pct": 30.3,
+  "top_colors": [
+   {
+    "hex": "#151516",
+    "pct": 28.8
+   },
+   {
+    "hex": "#F2F2F2",
+    "pct": 25.7
+   },
+   {
+    "hex": "#4C4D47",
+    "pct": 7.0
+   },
+   {
+    "hex": "#C7C6C5",
+    "pct": 5.4
+   },
+   {
+    "hex": "#BD262B",
+    "pct": 4.7
+   },
+   {
+    "hex": "#F29840",
+    "pct": 3.4
+   },
+   {
+    "hex": "#621214",
+    "pct": 2.4
+   },
+   {
+    "hex": "#EDECEC",
+    "pct": 1.7
+   },
+   {
+    "hex": "#D97825",
+    "pct": 1.7
+   },
+   {
+    "hex": "#423D36",
+    "pct": 1.6
+   }
+  ]
+ },
+ "neutral/neutral_决斗呆呆.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F7E7A9",
+  "subject_ratio": 0.576,
+  "unique_colors": 252,
+  "black_pct": 30.2,
+  "top_colors": [
+   {
+    "hex": "#F4D43E",
+    "pct": 29.7
+   },
+   {
+    "hex": "#000000",
+    "pct": 28.9
+   },
+   {
+    "hex": "#F4D541",
+    "pct": 10.8
+   },
+   {
+    "hex": "#D2AD35",
+    "pct": 2.6
+   },
+   {
+    "hex": "#D4B137",
+    "pct": 2.3
+   },
+   {
+    "hex": "#E98741",
+    "pct": 2.2
+   },
+   {
+    "hex": "#F7E07C",
+    "pct": 2.2
+   },
+   {
+    "hex": "#C7B67E",
+    "pct": 1.8
+   },
+   {
+    "hex": "#E8853E",
+    "pct": 1.7
+   },
+   {
+    "hex": "#D66B27",
+    "pct": 1.6
+   }
+  ]
+ },
+ "neutral/neutral_呆呆鸟.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F7E6AC",
+  "subject_ratio": 0.628,
+  "unique_colors": 251,
+  "black_pct": 28.1,
+  "top_colors": [
+   {
+    "hex": "#171717",
+    "pct": 26.8
+   },
+   {
+    "hex": "#F7D544",
+    "pct": 22.2
+   },
+   {
+    "hex": "#ED8837",
+    "pct": 13.5
+   },
+   {
+    "hex": "#FEFEFE",
+    "pct": 9.2
+   },
+   {
+    "hex": "#F8D03E",
+    "pct": 9.0
+   },
+   {
+    "hex": "#E6A42D",
+    "pct": 4.6
+   },
+   {
+    "hex": "#F7CE3D",
+    "pct": 2.7
+   },
+   {
+    "hex": "#D46725",
+    "pct": 2.6
+   },
+   {
+    "hex": "#FAE684",
+    "pct": 1.2
+   },
+   {
+    "hex": "#E6A632",
+    "pct": 1.0
+   }
+  ]
+ },
+ "neutral/neutral_喜鹊.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F6DE9D",
+  "subject_ratio": 0.824,
+  "unique_colors": 240,
+  "black_pct": 27.0,
+  "top_colors": [
+   {
+    "hex": "#4A535B",
+    "pct": 40.5
+   },
+   {
+    "hex": "#000000",
+    "pct": 23.5
+   },
+   {
+    "hex": "#B9C1C4",
+    "pct": 7.7
+   },
+   {
+    "hex": "#353C40",
+    "pct": 6.7
+   },
+   {
+    "hex": "#353A3D",
+    "pct": 5.0
+   },
+   {
+    "hex": "#FEFEFE",
+    "pct": 1.6
+   },
+   {
+    "hex": "#23231E",
+    "pct": 1.3
+   },
+   {
+    "hex": "#949595",
+    "pct": 1.2
+   },
+   {
+    "hex": "#2A2926",
+    "pct": 1.2
+   },
+   {
+    "hex": "#434444",
+    "pct": 0.8
+   }
+  ]
+ },
+ "neutral/neutral_布谷鸟.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F7E4A3",
+  "subject_ratio": 0.621,
+  "unique_colors": 212,
+  "black_pct": 14.0,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 13.5
+   },
+   {
+    "hex": "#F1EBD9",
+    "pct": 10.6
+   },
+   {
+    "hex": "#E3A573",
+    "pct": 8.4
+   },
+   {
+    "hex": "#9C9682",
+    "pct": 5.8
+   },
+   {
+    "hex": "#D79A68",
+    "pct": 5.8
+   },
+   {
+    "hex": "#A56D42",
+    "pct": 3.7
+   },
+   {
+    "hex": "#DCD6C5",
+    "pct": 3.6
+   },
+   {
+    "hex": "#837C68",
+    "pct": 3.2
+   },
+   {
+    "hex": "#F5F5E9",
+    "pct": 3.2
+   },
+   {
+    "hex": "#8C5431",
+    "pct": 3.1
+   }
+  ]
+ },
+ "neutral/neutral_渡鸦.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F9E9B3",
+  "subject_ratio": 0.797,
+  "unique_colors": 252,
+  "black_pct": 55.0,
+  "top_colors": [
+   {
+    "hex": "#131212",
+    "pct": 36.3
+   },
+   {
+    "hex": "#020202",
+    "pct": 16.0
+   },
+   {
+    "hex": "#A4D2F3",
+    "pct": 5.9
+   },
+   {
+    "hex": "#E1E7EC",
+    "pct": 3.9
+   },
+   {
+    "hex": "#3D61A9",
+    "pct": 2.5
+   },
+   {
+    "hex": "#A1A5B5",
+    "pct": 2.1
+   },
+   {
+    "hex": "#D9DDE9",
+    "pct": 2.0
+   },
+   {
+    "hex": "#78A2CB",
+    "pct": 1.7
+   },
+   {
+    "hex": "#915B3D",
+    "pct": 1.6
+   },
+   {
+    "hex": "#3C5EA8",
+    "pct": 1.5
+   }
+  ]
+ },
+ "neutral/neutral_猎鹰.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F6E5AD",
+  "subject_ratio": 0.496,
+  "unique_colors": 250,
+  "black_pct": 19.6,
+  "top_colors": [
+   {
+    "hex": "#010100",
+    "pct": 18.2
+   },
+   {
+    "hex": "#C58D2C",
+    "pct": 13.3
+   },
+   {
+    "hex": "#EEC03B",
+    "pct": 12.2
+   },
+   {
+    "hex": "#EDBE3B",
+    "pct": 10.7
+   },
+   {
+    "hex": "#343333",
+    "pct": 8.9
+   },
+   {
+    "hex": "#F0C13B",
+    "pct": 7.9
+   },
+   {
+    "hex": "#F5D371",
+    "pct": 7.0
+   },
+   {
+    "hex": "#5B5B5A",
+    "pct": 3.5
+   },
+   {
+    "hex": "#F5D26D",
+    "pct": 3.5
+   },
+   {
+    "hex": "#C7902D",
+    "pct": 2.3
+   }
+  ]
+ },
+ "neutral/neutral_秃鹫.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F7E6AE",
+  "subject_ratio": 0.538,
+  "unique_colors": 203,
+  "black_pct": 21.4,
+  "top_colors": [
+   {
+    "hex": "#9ABBCD",
+    "pct": 29.0
+   },
+   {
+    "hex": "#000000",
+    "pct": 20.0
+   },
+   {
+    "hex": "#98A0A6",
+    "pct": 8.8
+   },
+   {
+    "hex": "#A06E46",
+    "pct": 5.8
+   },
+   {
+    "hex": "#748C97",
+    "pct": 5.5
+   },
+   {
+    "hex": "#9E6C45",
+    "pct": 4.2
+   },
+   {
+    "hex": "#979EA5",
+    "pct": 4.0
+   },
+   {
+    "hex": "#C3CAD1",
+    "pct": 3.7
+   },
+   {
+    "hex": "#D3E6ED",
+    "pct": 2.3
+   },
+   {
+    "hex": "#734A2A",
+    "pct": 1.2
+   }
+  ]
+ },
+ "neutral/neutral_醍醐.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F7E6AE",
+  "subject_ratio": 0.587,
+  "unique_colors": 252,
+  "black_pct": 21.7,
+  "top_colors": [
+   {
+    "hex": "#000000",
+    "pct": 21.0
+   },
+   {
+    "hex": "#F4F4F4",
+    "pct": 13.0
+   },
+   {
+    "hex": "#EEEEEE",
+    "pct": 12.8
+   },
+   {
+    "hex": "#F0EEEE",
+    "pct": 12.4
+   },
+   {
+    "hex": "#AEB3B2",
+    "pct": 9.8
+   },
+   {
+    "hex": "#C5B583",
+    "pct": 5.7
+   },
+   {
+    "hex": "#B1B5B4",
+    "pct": 5.7
+   },
+   {
+    "hex": "#F0F0EE",
+    "pct": 5.4
+   },
+   {
+    "hex": "#F0EEF0",
+    "pct": 2.6
+   },
+   {
+    "hex": "#E87E28",
+    "pct": 1.7
+   }
+  ]
+ },
+ "neutral/neutral_鸽子.png": {
+  "size": [
+   1024,
+   1024
+  ],
+  "bg_hex": "#F6E6AE",
+  "subject_ratio": 0.555,
+  "unique_colors": 250,
+  "black_pct": 32.7,
+  "top_colors": [
+   {
+    "hex": "#8962A9",
+    "pct": 37.4
+   },
+   {
+    "hex": "#131312",
+    "pct": 29.0
+   },
+   {
+    "hex": "#F7D329",
+    "pct": 5.6
+   },
+   {
+    "hex": "#C5B688",
+    "pct": 4.6
+   },
+   {
+    "hex": "#664383",
+    "pct": 3.6
+   },
+   {
+    "hex": "#D6C796",
+    "pct": 1.8
+   },
+   {
+    "hex": "#DBA225",
+    "pct": 1.5
+   },
+   {
+    "hex": "#D99D24",
+    "pct": 1.2
+   },
+   {
+    "hex": "#B792D2",
+    "pct": 1.1
+   },
+   {
+    "hex": "#13110C",
+    "pct": 0.9
+   }
+  ]
+ }
+}
