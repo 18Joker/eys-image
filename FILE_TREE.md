@@ -120,8 +120,15 @@ eys-image/
 │           ├── goose_殡仪员_3.png
 │           ├── goose_殡仪员_4.png
 │           └── goose_殡仪员_5.png
+├── 海报/
+│   ├── 鹅鸭杀分享背景底图-v2/   # v3 分享图底图 5 张（compose_match_panel_v3.py 随机选用）
+│   ├── 鹅鸭杀分享背景/          # 分享底图 8 张（4 普通 + 4 大留白）
+│   └── 对战记录分享图/          # compose_match_panel.py 产出的对战记录分享图
 └── py/
     ├── batch_tasks.json
+    ├── compose_match_panel.py   # 对战记录分享面板生成器（13 席位 + 场上没有的牌）
+    ├── compose_match_panel_v2.py # v2：多底图布局表 + 我的位置高亮 + 阵营统计
+    ├── compose_match_panel_v3.py # v3：新版 3:4 全标题底图（标题由底图自带，只填卡片）
     ├── image_gallery.html
     ├── image_generate_v4.py
     ├── official2_gallery.html

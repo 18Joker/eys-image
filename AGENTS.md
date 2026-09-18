@@ -68,9 +68,9 @@
 | `check_keys.py` | 检查 API Key 可用性 |
 | `run_task.bat` / `run_task.ps1` | 一键跑批 |
 
-**运行环境（二选一）**：
-- conda 环境 `eys-ocr`（Pillow + requests 已装）：`D:\program\tools\conda\envs\eys-ocr\python.exe 脚本名`
-- WorkBuddy 托管 python（Pillow 已装）：`C:\Users\22322\.workbuddy\binaries\python\envs\default\python.exe 脚本名`
+**运行环境（二选一，2026-09-15 实测路径）**：
+- WorkBuddy 托管 python（Pillow 已装）：`C:\Users\22322\.workbuddy\binaries\python\envs\default\Scripts\python.exe 脚本名`（注意带 `Scripts\`，`envs\default\python.exe` 不存在）
+- conda 环境 `eys-ocr`（Pillow + requests 已装）：`D:\program\tools\conda\conda\envs\eys-ocr\python.exe 脚本名`（conda 根目录是双层 `conda\conda`，用前先确认存在）
 
 生图命令：`python image_generate_v5.py [-c 其他任务.json]`，跑完自动生成 `image_gallery.html` 网格预览。
 
