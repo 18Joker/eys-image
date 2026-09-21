@@ -6,7 +6,7 @@
 - "我的位置"：橙红底「我」角标 + 橙红序号标识，卡片边框保持真实阵营色（避免与中立金边混淆）
 - 头像按非透明包围盒等比缩放居中，不同角色视觉大小一致；序号留内边距、4 字以上角色名自动缩号
 - 可选圆体字体：把 TTF 放到 海报/fonts/round.ttf 自动启用（无则用微软雅黑）
-- 卡池 logo 来自 原图归档/my_Q版原图/{goose,duck,neutral}/；黑名单角色（猪头）不进场
+- 卡池 logo 来自 工坊/批次/my_Q版原图/{goose,duck,neutral}/；黑名单角色（猪头）不进场
 - 轮抽阵营数量上限：狼≤3、中立≤2、好人≤8 → 13 席下唯一合法组合 8好人/3鸭子/2中立
 - "场上没有的牌"2~3 张，按阵营概率加权：九成为鹅营，鸭/中立罕见
 - 保留：头像微锐化、官方身份互斥表 10 对角色不共局；合规：无二维码/引流元素
@@ -21,7 +21,7 @@ import time
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 BASE = r"D:\program\project\front\eys-image2"
-LOGO_DIR = os.path.join(BASE, "原图归档", "my_Q版原图")
+LOGO_DIR = os.path.join(BASE, "工坊", "批次", "my_Q版原图")
 ROLES_JSON = os.path.join(BASE, "config", "roles.json")
 OUT_DIR = os.path.join(BASE, "海报", "对战记录分享图")
 BG_DIR = os.path.join(BASE, "海报", "鹅鸭杀分享背景底图-v2")

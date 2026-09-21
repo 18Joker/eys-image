@@ -2,7 +2,7 @@
 """Generate an HTML gallery that references cat_theme original PNGs directly (no processing)."""
 import os
 
-BASE = r"D:\program\project\front\eys-image2\原图归档\cat_theme"
+BASE = r"D:\program\project\front\eys-image2\工坊\批次\cat_theme"
 OUT = os.path.join(BASE, "图片总览.html")
 
 CAMP_TITLES = {
