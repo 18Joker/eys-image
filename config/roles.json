@@ -1,5 +1,5 @@
 {
-  "version": "4.5.2",
+  "version": "4.6.0",
   "slotCount": 15,
   "defaultLogoSet": "style3",
   "previewRoleIds": {
@@ -196,7 +196,7 @@
       "name": "生存者",
       "officialName": "生存主义者",
       "faction": "goose",
-      "img": "/goose/goose_生存主义者_v2.png",
+      "img": "/goose/goose_生存主义者.png",
       "aliases": [
         "生存者",
         "生存",
@@ -752,7 +752,7 @@
       "name": "牧师",
       "officialName": "牧师",
       "faction": "duck",
-      "img": "/duck/duck_牧师_v2.png",
+      "img": "/duck/duck_牧师.png",
       "aliases": [
         "牧师",
         "ms",
