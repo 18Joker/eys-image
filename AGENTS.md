@@ -15,7 +15,7 @@
 | `美术特征档案/` | 官方美术特征档案、视觉提取提示词、评估对照板 —— **用户已决定废弃并自行删除** | ⚠️ 待删除，删后移除本行 |
 | `海报/`、`new/`、`docs/` | 宣传海报、新增素材、用户手册 | ✅ |
 | `config/roles.json` | 角色配置 | ✅ |
-| `py/` | 全部脚本（见 §4） | ✅ |
+| `py/` | 本地辅助脚本（压缩 / 预览 / 统计）+ **备选** Agnes 生图脚本（见 §4.1 主工具说明） | ✅ |
 | `cat_theme_tasks.json`、`风格测试任务*.json` | 批量生图任务清单（用户自备脚本执行，脚本不在本项目） | ✅ |
 | `FILE_TREE.md` | 文件树快照（部分条目已过时，改动目录结构时顺手核对） | ✅ |
 | `.workbuddy/` | AI 工作区数据 | ❌ |
@@ -43,30 +43,103 @@
 8. **文件删除的绝对红线（禁止自主删除）**：
    - **禁止自行删除**：AI **绝对禁止**在没有人工明确指令的情况下，擅自调用终端命令（`rm`、`del`、`unlink`、`git rm` 等）或编辑工具直接删除任何文件或文件夹。
    - **提议与列举机制**：发现冗余文件、废弃脚本或需清理内容时，只能以**表格或清单**形式向人类汇报，内容必须包含：① 文件完整路径；② 该文件的具体作用/功能；③ 建议删除的原因。
+9. **套图系列的参考图铁律（2026-10-03 用户两次纠正后确立）**：同一批套图里，**每张图只允许给「角色素体」这一类参考图**。
+   - **绝对禁止**把同批已生成的成图当第二参考图——GPT Image 2.5 会连构图一起模仿，导致该批所有角色共用同一套构图、彼此失去辨识度（2026-10-03 第二轮实测翻车）。
+   - 风格统一**靠 prompt 文字**锁死（画风、配色、描边、构图、背景逐项写死），不靠参考图。
+   - 参考图超过 2 张时按张数翻倍计费（2 张 = 8 分/张，4 张 = 16 分/张），成本要算清。
+10. **换装类套图的构图取向（2026-10-03 第四轮确立）**：官方 `official_camps_v3` logo 的辨识度来自**被极度夸张放大的头部符号**（占画面 70% 以上），脸只露下半部分。写 prompt 时优先走「巨型头套 + 露下半脸」或「头套 + 制服」两条路，**不要画成全身袍子**——大袍子会把角色本体的轮廓和官方标识一起遮掉，丢失「这是谁」。
+
    - **执行权归属**：所有删除操作**仅由人类本人确认后手动执行**，AI 不得代劳。
 
 ---
 
 ## 3. Prompt 编写规范（批量任务 JSON）
 
-- 字段（生图类）：`task_id` / `mode` 或 `type` / `prompt` / `aspect_ratio`(1:1) / `output_num` / `quality`(low) / `resolution`(1K) / `out_path`。Agnes 脚本用 `type`+`size`+`local_image_path`+`output_path`+`model`，photogpt 类用 `mode`+`aspect_ratio`+`resolution`+`out_path`，写前先看同目录现有 JSON 对齐字段。
+- 字段（**默认走 photogpt 执行器，字段以 `TASKS_JSON_FORMAT.md` 为唯一依据**）：`task_id` / `mode` / `model_variant` / `prompt` / `aspect_ratio` / `output_num` / `quality` / `resolution` / `input_urls` / `out_path`。默认组合与本项目约定见 §4.1。
+- 字段（仅备选 Agnes 脚本用）：`type` + `size` + `local_image_path` + `output_path` + `model`。**写之前先看同目录现有 JSON 对齐字段**。
+- 写完任务 JSON 必须过一遍 §4.1 第 2 步的断言自查；批量改 prompt 后**必须跑关键词断言脚本**（校验禁词 0 残留、必含关键词全命中），历史教训：靠肉眼查会漏 30+ 处。
 - 五段式结构：画风段 → 角色外观段 → 标志性道具/表情段 → 质感光效段 → 输出要求段（透明背景、居中、不裁切、无文字边框）。
 - 角色识别核心从 `official_camps_v3` 实图提炼（如警长=金色六角星徽、刺客=暗红准星+黑兜帽、呆呆鸟=呆滞错位眼+橙红扁嘴），不得凭空捏造角色特征。**唯一权威依据是 `official_camps_v3/` 里的实际图片，写 prompt 前必须开图核对**（原 `美术特征档案/官方美术特征档案.md` 已废弃，其中 D-22「鸭子」描述就与实图不符）。
 - 中文 prompt 内嵌引号必须用全角「“”」，半角引号会破坏 JSON。
-- **批量改 prompt 后必须跑关键词断言脚本**（校验禁词 0 残留、必含关键词全命中），历史教训：靠肉眼查会漏 30+ 处。
 - 单次 Write 超 30KB 会被截断：长 JSON 分片写入后用 python 合并并 `json.load` 校验。
 
 ---
 
-## 4. py/ 脚本与环境
+## 4. 生图工具
+
+> **⚠️ 动手生图前先读本节。** 本项目有两条生图路径，**默认走 §4.1 的 PhotoGPT Playwright 执行器**，只有在它明确做不到时才降级用 §4.2 的 Agnes 脚本。
+
+### 4.1 主工具：PhotoGPT Playwright 执行器（跨项目，默认走这条）
+
+风格化套图（换装 logo、Q 版贴纸、海报等）**一律走 photogpt 浏览器执行器**，脚本不在本项目内，**本项目只负责产出任务 JSON**。
+
+| 项 | 值 |
+|---|---|
+| 工具目录 | `D:\program\project\media-automation\tools\photogpt_playwright` |
+| 执行器 | `playwright_runner.py` |
+| **JSON 格式唯一依据** | `D:\program\project\media-automation\tools\photogpt_playwright\TASKS_JSON_FORMAT.md` —— **写任何任务 JSON 前必须先读它**，字段名/枚举值/宽高比/积分全在里面，本文只给本项目视角的补充约定 |
+| 工具自述 | 同目录 `README.md`（执行器内部机制、CDP 模式、代理、重试策略） |
+
+**默认参数组合（除非用户明确要求其他模式/画质，否则四个字段必须显式写出）**：
+
+```json
+"mode": "gpt_image_2_5",
+"model_variant": "Sunburst",
+"quality": "medium",
+"resolution": "1K"
+```
+
+- `mode` 与 `model_variant` 省略会落到 `poster` / `Flare`，**等于默认组合失效**，必须写全。
+- 参考图上限：gpt_image_2 / gpt_image_2_5 各 4 张，poster 1 张；超出会被截断。
+- gpt_image_2_5 宽高比只有 9 个（`自动`/`1:1`/`16:9`/`9:16`/`4:3`/`3:4`/`3:2`/`2:3`/`21:9`），**没有** 5:4 / 4:5 / 2:1 / 1:2 / 9:21，写了会 `no-option` 中止提交（不扣积分）。
+
+**工作流（固定四步，顺序不可跳）**：
+
+1. **建批次目录** `工坊/批次/YYYYMMDD_语义名/`，并在 `工坊/_台账.md` 登记一行（§7.2）。
+2. **写任务 JSON** 到批次目录内，命名 `任务_*.json`（**不要留在工具目录**，否则违反 §7 工坊制）。写完跑 §3 要求的关键词断言脚本自查。
+3. **跑批**（命令见下），跑完自动在该批次目录生成 `image_gallery.html` 网格预览。
+4. **看画廊挑图** → 把候选清单交给用户判断，AI 不代做取舍（§7.3）。
+
+**执行命令（解释器必须是 `media-automation` 环境，系统 python 缺 sqlalchemy 会直接崩）**：
+
+```bash
+cd /d/program/project/media-automation/tools/photogpt_playwright
+"D:/program/conda_config/envs/media-automation/python.exe" playwright_runner.py \
+  -t "D:\program\project\front\eys-image2\工坊\批次\<批次>\任务_xxx.json" \
+  -o "D:\program\project\front\eys-image2\工坊\批次\<批次>"
+```
+
+- `-t` 任务 JSON，`-o` 输出根目录。**本项目必须带 `-o` 指向批次目录**：图片按 JSON 里的 `out_path` 相对路径落盘，画廊 HTML 也固定写到 `-o` 目录（`playwright_runner.py:3420`）。不给 `-o` 时画廊会落进 `photogpt_playwright\output\`，用户看不到。
+- 本项目 JSON 惯例：`out_path` 写 `images/xxx.png` 相对路径（同批共用一个批次目录）；需要精确落到指定位置时才写绝对路径。
+- 其他常用参数：`--dry-run`（只注册与去重判定，不启动浏览器、不花积分，**大批量跑前先过一遍**）、`--status`（查账号额度）、`--list`（查任务表状态）、`--downgrade`（积分不足自动降级 low/1K/1张 重试）、`--proxy`（访问 photogpt.io）、`--open`（跑完打开画廊）、`-v`（详细日志）。
+
+**积分与去重（省钱两条硬知识）**：
+
+- 每日免费积分 **10**（24h 重置）。默认组合约 2 分/张；`gpt_image_2` 的 medium+1K 是 12 分/张，**超免费额度**，跑它必须显式写 `low`+`1K`（3 分/张）。余额不足的任务会被预检跳过记 failed，不会白扣。
+- **去重按生成参数算 sha256 指纹**（prompt/mode/比例/画质/分辨率/张数/参考图，2.5 另加 model_variant）。`task_id` 与 `out_path` **不参与指纹**——改文件名/输出路径重跑不会重新花积分，已成功的结果直接复用。
+- 反过来：**想重出一批同样的内容，必须微调 prompt（哪怕加一个词）让指纹变化**，否则会被静默跳过。
+
+**本项目专属红线**：
+
+- **套图只给「角色素体」参考图**，禁止拿同批已生成的成图当第二参考图（§2 红线 9）。
+- 参考图路径写绝对路径时 `\` 要转义成 `\\`（Windows 路径踩坑重灾区）；参考图不可用会直接把该任务标 failed 且不提交。
+- 站点改版/选择器失效属工具侧问题，**在本项目只记录现象，不改 photogpt 代码**；需要排查时读它的 `README.md` 与 `locators.py`。
+
+**环境坑（本机实测）**：
+- Git Bash 的 `ls` / `tail` / `dirname` 会报 shim 错误不可用；PowerShell 输出不回传。列目录/搜文件用内置 Glob/Grep 工具，跑脚本用 python 绝对路径。
+- 输出目录必须用绝对路径 `D:\program\project\front\eys-image2\...`。
+
+### 4.2 备选：Agnes AI 脚本（本项目 `py/`）
+
+仅在 photogpt 明确做不到（需要 2.5 没有的宽高比、Agnes 独有的图生图能力等）时才用，用前先跟用户确认。
 
 | 脚本 | 用途 |
 |---|---|
-| `image_generate_v5.py` | Agnes AI 批量生图，**推荐**（全局限流 + 按 Key 熔断，不易 503） |
-| `image_generate_v4.py` | 同功能基础并发版（下载重试 10 次） |
 | `compress_images.py` | 压缩输出到新目录（安全，不覆盖原图） |
 | `compress_inplace.py` | 就地压缩超阈值图片（palette 近无损 / lossless），原子替换 |
 | `gen_cat_theme_preview.py` | 生成 cat_theme 图片总览 HTML |
+| `image_generate_v5.py` | Agnes 批量生图（推荐：全局限流 + 按 Key 熔断） |
+| `image_generate_v4.py` | Agnes 基础并发版（下载重试 10 次） |
 | `check_keys.py` | 检查 API Key 可用性 |
 | `run_task.bat` / `run_task.ps1` | 一键跑批 |
 
@@ -74,11 +147,7 @@
 - WorkBuddy 托管 python（Pillow 已装）：`C:\Users\22322\.workbuddy\binaries\python\envs\default\Scripts\python.exe 脚本名`（注意带 `Scripts\`，`envs\default\python.exe` 不存在）
 - conda 环境 `eys-ocr`（Pillow + requests 已装）：`D:\program\tools\conda\conda\envs\eys-ocr\python.exe 脚本名`（conda 根目录是双层 `conda\conda`，用前先确认存在）
 
-生图命令：`python image_generate_v5.py [-c 其他任务.json]`，跑完自动生成 `image_gallery.html` 网格预览。
-
-**环境坑（本机实测）**：
-- Git Bash 的 `ls` / `tail` / `dirname` 会报 shim 错误不可用；PowerShell 输出不回传。列目录/搜文件用内置 Glob/Grep 工具，跑脚本用 python 绝对路径。
-- 输出目录要用绝对路径 `D:\program\project\front\eys-image2\...`。
+Agnes 生图命令：`python image_generate_v5.py [-c 其他任务.json]`，跑完自动生成 `image_gallery.html` 网格预览。字段用 `type` + `size` + `local_image_path` + `output_path` + `model`（与 photogpt 不同，详见 §3）。
 
 ---
 
@@ -127,8 +196,10 @@
 │   └── YYYYMMDD_语义名/
 │       ├── 任务_*.json        # 可多个，保留哪些由人类判断
 │       ├── images/            # 全部候选图（含落选），不重命名、不清理
-│       ├── image_gallery.html # 跑批自动落在任务 JSON 同目录（脚本既有行为）
+│       ├── 任务_*.json        # 本批生图任务清单（AI 生成，必须存这里，不要留在工具目录）
+│       ├── image_gallery.html # 跑批自动生成的网格预览（photogpt 执行器需 -o 指向本批次才会落这里）
 │       └── README.md          # 3~5 行：模型/尺寸/prompt 要点/挑中哪几张/落选原因
+├── 总览_*.html    # 跨批次汇总对照页（可选，多轮迭代后手写一个入口）
 ├── 脚本/           # 一次性脚本（生图|压缩|评估|预览|杂项 + _outputs/，见 §2.7）
 └── 待清理/         # 游离文件、zip、重复图；只进不出，等人类手工删（见 §2.8）
 ```
@@ -138,6 +209,7 @@
 2. 批次目录创建一次、原地待久；收尾**不改名、不挪位置**，只在 `_台账.md` 更新状态。
 3. 落选图不动不删——唯一不可再生样本，留在批次里当反面参照。
 4. `*.zip` 已被 gitignore；传输完即列入 `待清理/` 并汇报，禁止留在批次目录外随意堆放。
+5. **任务 JSON 与画廊 HTML 必须留在批次目录内**（2026-10-03 用户明确要求）。用 photogpt 执行器时务必带 `-o <批次目录>`，否则画廊会落进 `photogpt_playwright\output\`，用户看不到（见 §4.1）。
 
 ### 7.3 入库闸门
 
