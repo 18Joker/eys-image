@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>官方皮肤套图 · 28 张裁切结果</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #151519; color: #e8e8ea; font-family: "Microsoft YaHei", sans-serif;
+         padding: 26px 30px 56px; }
+  h1 { font-size: 22px; margin-bottom: 8px; }
+  .meta { color: #8e8e96; font-size: 13px; line-height: 1.9; margin-bottom: 22px; }
+  h2 { font-size: 16px; margin: 30px 0 14px; padding-bottom: 8px;
+       border-bottom: 1px solid #2c2c32; }
+  h2 span { color: #6a6a70; font-weight: normal; font-size: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 18px; }
+  .card { background: #1e1e22; border: 1px solid #303036; border-radius: 10px; padding: 11px; }
+  .thumb { width: 100%; aspect-ratio: 1; border-radius: 6px; margin-bottom: 8px;
+    background-color: #fff;
+    background-image: linear-gradient(45deg,#c2c2c8 25%,transparent 25%,transparent 75%,#c2c2c8 75%),
+                      linear-gradient(45deg,#c2c2c8 25%,transparent 25%,transparent 75%,#c2c2c8 75%);
+    background-size: 20px 20px; background-position: 0 0, 10px 10px; }
+  .thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .name { font-size: 12px; color: #b4b4ba; }
+  .name a { color: #6a9eff; text-decoration: none; }
+  .info { font-size: 11px; color: #6e6e76; margin-top: 2px; }
+  .tip { margin-top: 24px; padding: 13px 16px; background: #1e1e22; border-left: 3px solid #4a9eff;
+         border-radius: 0 6px 6px 0; font-size: 13px; line-height: 1.85; color: #b4b4ba; }
+</style>
+</head>
+<body>
+<h1>官方皮肤套图 · 28 张裁切结果</h1>
+<div class="meta">
+  来源：官方皮肤总览图（780×1044）· 白底吸附算法裁切（2026-10-06）<br>
+  <b>白底裁片，非透明底。</b>第四行砍脚 / 头顶特效（呆呆鸟???、星界幽灵）/ 侦探放大镜、
+  狙击枪管、渡鸦三叉戟等横向道具 / 第 3 行切顶，均已修复；
+  变形-渡鸦粘连处按语义劈分，裁片内外来像素已涂白。
+  点文件名可看原图大图。
+</div>
+<div id="root"></div>
+<div class="tip">
+  <b>请你自己看图判断</b>，我不代做取舍。边缘如有问题直接说角色名字，我用切线参数微调重裁。
+</div>
+<script>
+const DATA = [
+  ['鹅阵营 goose · 14 张', 'goose', ['警长', '正义使者', '侦探', '通灵', '法医', '加拿大鹅', '探测', '士兵', '观鸟', '肉汁', '复仇', '工程师', '星界', '模仿者']],
+  ['鸭阵营 duck · 10 张', 'duck', ['专杀', '刺客', '炸弹', '食鸟鸭', '狙击手', '隐形', '超能力', '小丑', '变形', '间谍']],
+  ['中立阵营 neutral · 4 张', 'neutral', ['鹈鹕', '呆呆鸟', '鸽子', '渡鸦']]
+];
+const root = document.getElementById("root");
+DATA.forEach(([title, camp, names]) => {
+  const h = document.createElement("h2");
+  h.innerHTML = title + '<span> · ' + names.length + ' 张</span>';
+  root.appendChild(h);
+  const grid = document.createElement("div");
+  grid.className = "grid";
+  names.forEach(n => {
+    const file = camp + "_" + n + ".png";
+    const path = file;
+    const c = document.createElement("div");
+    c.className = "card";
+    c.innerHTML = '<div class="thumb"><img src="' + path + '" alt="' + file + '"></div>'
+      + '<div class="name"><a href="' + path + '" target="_blank">' + file + '</a></div>'
+      + '<div class="info">点击查看原图</div>';
+    grid.appendChild(c);
+  });
+  root.appendChild(grid);
+});
+</script>
+</body>
+</html>

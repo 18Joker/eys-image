@@ -1,0 +1,486 @@
+{
+  "source": "C:////Users////22322////.workbuddy////clipboard-images////clipboard-2026-10-06T00-19-50-679Z-b3b666b8.jpg",
+  "source_size": [
+    780,
+    1044
+  ],
+  "items": [
+    {
+      "row": 1,
+      "col": 1,
+      "faction": "goose",
+      "name": "警长",
+      "file": "goose_警长.png",
+      "bbox": [
+        11,
+        21,
+        83,
+        153
+      ],
+      "size": [
+        73,
+        133
+      ]
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "faction": "duck",
+      "name": "专杀",
+      "file": "duck_专杀.png",
+      "bbox": [
+        92,
+        32,
+        191,
+        150
+      ],
+      "size": [
+        100,
+        119
+      ]
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "faction": "neutral",
+      "name": "鹈鹕",
+      "file": "neutral_鹈鹕.png",
+      "bbox": [
+        201,
+        21,
+        277,
+        153
+      ],
+      "size": [
+        77,
+        133
+      ]
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "faction": "neutral",
+      "name": "呆呆鸟",
+      "file": "neutral_呆呆鸟.png",
+      "bbox": [
+        299,
+        24,
+        384,
+        150
+      ],
+      "size": [
+        86,
+        127
+      ]
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "faction": "duck",
+      "name": "刺客",
+      "file": "duck_刺客.png",
+      "bbox": [
+        378,
+        23,
+        464,
+        150
+      ],
+      "size": [
+        87,
+        128
+      ]
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "faction": "duck",
+      "name": "炸弹",
+      "file": "duck_炸弹.png",
+      "bbox": [
+        472,
+        22,
+        566,
+        149
+      ],
+      "size": [
+        95,
+        128
+      ]
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "faction": "goose",
+      "name": "正义使者",
+      "file": "goose_正义使者.png",
+      "bbox": [
+        572,
+        20,
+        654,
+        149
+      ],
+      "size": [
+        83,
+        130
+      ]
+    },
+    {
+      "row": 1,
+      "col": 8,
+      "faction": "goose",
+      "name": "侦探",
+      "file": "goose_侦探.png",
+      "bbox": [
+        659,
+        18,
+        743,
+        152
+      ],
+      "size": [
+        85,
+        135
+      ]
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "faction": "goose",
+      "name": "通灵",
+      "file": "goose_通灵.png",
+      "bbox": [
+        6,
+        201,
+        91,
+        325
+      ],
+      "size": [
+        86,
+        125
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "faction": "duck",
+      "name": "食鸟鸭",
+      "file": "duck_食鸟鸭.png",
+      "bbox": [
+        97,
+        198,
+        189,
+        324
+      ],
+      "size": [
+        93,
+        127
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "faction": "goose",
+      "name": "法医",
+      "file": "goose_法医.png",
+      "bbox": [
+        203,
+        199,
+        268,
+        321
+      ],
+      "size": [
+        66,
+        123
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "faction": "goose",
+      "name": "加拿大鹅",
+      "file": "goose_加拿大鹅.png",
+      "bbox": [
+        299,
+        198,
+        371,
+        324
+      ],
+      "size": [
+        73,
+        127
+      ]
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "faction": "goose",
+      "name": "探测",
+      "file": "goose_探测.png",
+      "bbox": [
+        384,
+        206,
+        474,
+        333
+      ],
+      "size": [
+        91,
+        128
+      ]
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "faction": "goose",
+      "name": "士兵",
+      "file": "goose_士兵.png",
+      "bbox": [
+        486,
+        206,
+        574,
+        330
+      ],
+      "size": [
+        89,
+        125
+      ]
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "faction": "duck",
+      "name": "狙击手",
+      "file": "duck_狙击手.png",
+      "bbox": [
+        574,
+        213,
+        674,
+        332
+      ],
+      "size": [
+        101,
+        120
+      ]
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "faction": "goose",
+      "name": "观鸟",
+      "file": "goose_观鸟.png",
+      "bbox": [
+        680,
+        205,
+        762,
+        336
+      ],
+      "size": [
+        83,
+        132
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "faction": "goose",
+      "name": "肉汁",
+      "file": "goose_肉汁.png",
+      "bbox": [
+        6,
+        381,
+        93,
+        506
+      ],
+      "size": [
+        88,
+        126
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "faction": "goose",
+      "name": "复仇",
+      "file": "goose_复仇.png",
+      "bbox": [
+        109,
+        381,
+        191,
+        512
+      ],
+      "size": [
+        83,
+        132
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "faction": "goose",
+      "name": "工程师",
+      "file": "goose_工程师.png",
+      "bbox": [
+        191,
+        391,
+        290,
+        511
+      ],
+      "size": [
+        100,
+        121
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "faction": "duck",
+      "name": "隐形",
+      "file": "duck_隐形.png",
+      "bbox": [
+        294,
+        382,
+        376,
+        514
+      ],
+      "size": [
+        83,
+        133
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "faction": "duck",
+      "name": "超能力",
+      "file": "duck_超能力.png",
+      "bbox": [
+        401,
+        391,
+        474,
+        523
+      ],
+      "size": [
+        74,
+        133
+      ]
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "faction": "goose",
+      "name": "星界",
+      "file": "goose_星界.png",
+      "bbox": [
+        494,
+        391,
+        578,
+        524
+      ],
+      "size": [
+        85,
+        134
+      ]
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "faction": "neutral",
+      "name": "鸽子",
+      "file": "neutral_鸽子.png",
+      "bbox": [
+        589,
+        390,
+        668,
+        523
+      ],
+      "size": [
+        80,
+        134
+      ]
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "faction": "duck",
+      "name": "小丑",
+      "file": "duck_小丑.png",
+      "bbox": [
+        678,
+        391,
+        772,
+        524
+      ],
+      "size": [
+        95,
+        134
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "faction": "goose",
+      "name": "模仿者",
+      "file": "goose_模仿者.png",
+      "bbox": [
+        2,
+        621,
+        200,
+        938
+      ],
+      "size": [
+        199,
+        318
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "faction": "duck",
+      "name": "变形",
+      "file": "duck_变形.png",
+      "bbox": [
+        203,
+        642,
+        385,
+        945
+      ],
+      "size": [
+        183,
+        304
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "faction": "neutral",
+      "name": "渡鸦",
+      "file": "neutral_渡鸦.png",
+      "bbox": [
+        380,
+        656,
+        590,
+        937
+      ],
+      "size": [
+        211,
+        282
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "faction": "duck",
+      "name": "间谍",
+      "file": "duck_间谍.png",
+      "bbox": [
+        588,
+        654,
+        772,
+        942
+      ],
+      "size": [
+        185,
+        289
+      ]
+    }
+  ],
+  "note": "2026-10-06 白底吸附算法修正：纯白背景按非白像素连通域归属取框；修复第四行砍脚/头顶特效压线/侦探放大镜与狙击枪管被格心线切掉/帽尖压线；变形-渡鸦粘连本体按逐行白缝+接触带常数劈分（三叉戟整体归渡鸦）；裁片内非本格外来像素已涂白。外扩 3px 白边。"
+}

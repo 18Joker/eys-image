@@ -10,7 +10,11 @@
 |---|---|---|
 | `official/` | 官方原版参考图（240×240，50 张） | ✅ |
 | `official_camps_v3/` | **官方基准素材**（56 角色：鹅24/鸭23/中立9），评估与生成任务的对标来源 | ✅ |
+| `官方皮肤套图/` | **最终成品目录**（AI 优化后的透明底套图落盘处，2026-10-06 建）。层级与命名严格对齐 `official_camps_v3/`（`goose/duck/neutral/` + `<阵营>_<角色名>.png`），当前为空待成品。裁切坐标见目录内 `裁切坐标表.md` | ✅ |
+| `参考图/` | 生图参考图资料（**非交付物**）。当前：`官方皮肤套图/` 子目录下 28 张总览图白底裁片 + 看图.html 预览，供 AI 优化批次当参考图 | ✅ |
 | `official_v4/`、`american_retro_style_v3/`、`chibi_style_v1/` | 压缩后的成套产出 | ✅ |
+| `daidai/` | AI 生成的呆呆鸟风套图（55 张：鹅24/鸭22/中立9），纯白底原图 | ✅ |
+| `daidai_阵营背景/` | daidai 的阵营背景色版（2026-10-07 建，55 张 + 预览.html）。背景统一为 official_camps_v3 代表色：goose #DEDEDE / duck #7A1519 / neutral #F7E7A9；层级命名与 `daidai/` 完全一致，原图不动。处理脚本：`工坊/脚本/评估/daidai背景色全量_20261007.py` | ✅ |
 | `工坊/` | **生成产物唯一归集地**（批次图 / 任务 JSON / 预览 HTML / 一次性脚本 / 待清理），约 700M | ❌ `.gitignore` 首行整目录排除，永不入库（规范见 §7） |
 | `美术特征档案/` | 官方美术特征档案、视觉提取提示词、评估对照板 —— **用户已决定废弃并自行删除** | ⚠️ 待删除，删后移除本行 |
 | `海报/`、`new/`、`docs/` | 宣传海报、新增素材、用户手册 | ✅ |
@@ -102,9 +106,14 @@
 
 **执行命令（解释器必须是 `media-automation` 环境，系统 python 缺 sqlalchemy 会直接崩）**：
 
+> ⚠️ **解释器路径以 `%USERPROFILE%\.conda\environments.txt` 为准**。2026-10-05 本机实测：
+> `media-automation` 环境在 **`D:\c-envs\media-automation\python.exe`**；
+> 旧文档写的 `D:\program\conda_config\envs\...` 目录**根本不存在**，照抄会 `No such file or directory`。
+> 换机器/重装 conda 后先 `cat "$USERPROFILE/.conda/environments.txt"` 确认再改这里。
+
 ```bash
 cd /d/program/project/media-automation/tools/photogpt_playwright
-"D:/program/conda_config/envs/media-automation/python.exe" playwright_runner.py \
+"D:/c-envs/media-automation/python.exe" playwright_runner.py \
   -t "D:\program\project\front\eys-image2\工坊\批次\<批次>\任务_xxx.json" \
   -o "D:\program\project\front\eys-image2\工坊\批次\<批次>"
 ```
