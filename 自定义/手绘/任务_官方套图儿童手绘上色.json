@@ -1,0 +1,786 @@
+[
+  {
+    "task_id": "handcolor_goose_goose_侦探",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_侦探.png"
+    ],
+    "out_path": "images/goose/goose_侦探.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_冒险家",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_冒险家.png"
+    ],
+    "out_path": "images/goose/goose_冒险家.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_加拿大鹅",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_加拿大鹅.png"
+    ],
+    "out_path": "images/goose/goose_加拿大鹅.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_士兵",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_士兵.png"
+    ],
+    "out_path": "images/goose/goose_士兵.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_复仇",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_复仇.png"
+    ],
+    "out_path": "images/goose/goose_复仇.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_大白鹅",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_大白鹅.png"
+    ],
+    "out_path": "images/goose/goose_大白鹅.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_工程师",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_工程师.png"
+    ],
+    "out_path": "images/goose/goose_工程师.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_探测",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_探测.png"
+    ],
+    "out_path": "images/goose/goose_探测.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_星界",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_星界.png"
+    ],
+    "out_path": "images/goose/goose_星界.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_替罪者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_替罪者.png"
+    ],
+    "out_path": "images/goose/goose_替罪者.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_模仿者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_模仿者.png"
+    ],
+    "out_path": "images/goose/goose_模仿者.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_正义使者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_正义使者.png"
+    ],
+    "out_path": "images/goose/goose_正义使者.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_殡仪员",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_殡仪员.png"
+    ],
+    "out_path": "images/goose/goose_殡仪员.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_法医",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_法医.png"
+    ],
+    "out_path": "images/goose/goose_法医.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_清醒梦者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_清醒梦者.png"
+    ],
+    "out_path": "images/goose/goose_清醒梦者.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_猪头",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_猪头.png"
+    ],
+    "out_path": "images/goose/goose_猪头.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_生存主义者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_生存主义者.png"
+    ],
+    "out_path": "images/goose/goose_生存主义者.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_网红",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_网红.png"
+    ],
+    "out_path": "images/goose/goose_网红.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_肉汁",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_肉汁.png"
+    ],
+    "out_path": "images/goose/goose_肉汁.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_观鸟",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_观鸟.png"
+    ],
+    "out_path": "images/goose/goose_观鸟.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_警长",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_警长.png"
+    ],
+    "out_path": "images/goose/goose_警长.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_说客",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_说客.png"
+    ],
+    "out_path": "images/goose/goose_说客.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_跟踪",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_跟踪.png"
+    ],
+    "out_path": "images/goose/goose_跟踪.png"
+  },
+  {
+    "task_id": "handcolor_goose_goose_通灵",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#CFD9DD（冷调雾灰），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/goose/goose_通灵.png"
+    ],
+    "out_path": "images/goose/goose_通灵.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_专杀",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_专杀.png"
+    ],
+    "out_path": "images/duck/duck_专杀.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_丘比特",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_丘比特.png"
+    ],
+    "out_path": "images/duck/duck_丘比特.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_刺客",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_刺客.png"
+    ],
+    "out_path": "images/duck/duck_刺客.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_变形",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_变形.png"
+    ],
+    "out_path": "images/duck/duck_变形.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_小丑",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_小丑.png"
+    ],
+    "out_path": "images/duck/duck_小丑.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_小黄鸭",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_小黄鸭.png"
+    ],
+    "out_path": "images/duck/duck_小黄鸭.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_巫医",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_巫医.png"
+    ],
+    "out_path": "images/duck/duck_巫医.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_异形",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_异形.png"
+    ],
+    "out_path": "images/duck/duck_异形.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_忍者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_忍者.png"
+    ],
+    "out_path": "images/duck/duck_忍者.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_投毒者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_投毒者.png"
+    ],
+    "out_path": "images/duck/duck_投毒者.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_掠夺者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_掠夺者.png"
+    ],
+    "out_path": "images/duck/duck_掠夺者.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_杀手",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_杀手.png"
+    ],
+    "out_path": "images/duck/duck_杀手.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_炸弹",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_炸弹.png"
+    ],
+    "out_path": "images/duck/duck_炸弹.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_牧师",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_牧师.png"
+    ],
+    "out_path": "images/duck/duck_牧师.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_狙击手",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_狙击手.png"
+    ],
+    "out_path": "images/duck/duck_狙击手.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_超能力",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_超能力.png"
+    ],
+    "out_path": "images/duck/duck_超能力.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_身份窃贼",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_身份窃贼.png"
+    ],
+    "out_path": "images/duck/duck_身份窃贼.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_间谍",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_间谍.png"
+    ],
+    "out_path": "images/duck/duck_间谍.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_隐形",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_隐形.png"
+    ],
+    "out_path": "images/duck/duck_隐形.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_静语者",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_静语者.png"
+    ],
+    "out_path": "images/duck/duck_静语者.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_食鸟鸭",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_食鸟鸭.png"
+    ],
+    "out_path": "images/duck/duck_食鸟鸭.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_鸭子",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_鸭子.png"
+    ],
+    "out_path": "images/duck/duck_鸭子.png"
+  },
+  {
+    "task_id": "handcolor_duck_duck_默剧演员",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#D5A29A（豆沙砖红），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/duck/duck_默剧演员.png"
+    ],
+    "out_path": "images/duck/duck_默剧演员.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_决斗呆呆",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_决斗呆呆.png"
+    ],
+    "out_path": "images/neutral/neutral_决斗呆呆.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_呆呆鸟",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_呆呆鸟.png"
+    ],
+    "out_path": "images/neutral/neutral_呆呆鸟.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_喜鹊",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_喜鹊.png"
+    ],
+    "out_path": "images/neutral/neutral_喜鹊.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_布谷鸟",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_布谷鸟.png"
+    ],
+    "out_path": "images/neutral/neutral_布谷鸟.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_渡鸦",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_渡鸦.png"
+    ],
+    "out_path": "images/neutral/neutral_渡鸦.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_猎鹰",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_猎鹰.png"
+    ],
+    "out_path": "images/neutral/neutral_猎鹰.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_秃鹫",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_秃鹫.png"
+    ],
+    "out_path": "images/neutral/neutral_秃鹫.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_鸽子",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_鸽子.png"
+    ],
+    "out_path": "images/neutral/neutral_鸽子.png"
+  },
+  {
+    "task_id": "handcolor_neutral_neutral_鹈鹕",
+    "mode": "gpt_image_2_5",
+    "model_variant": "Sunburst",
+    "aspect_ratio": "1:1",
+    "output_num": 1,
+    "quality": "medium",
+    "resolution": "1K",
+    "prompt": "以这张《鹅鸭杀》官方图为唯一参考，画成小朋友在纸上手绘的彩色画。只改变绘画媒介，角色、构图、比例、姿势、服饰、道具都与原图一致，不增删、不重新设计，角色和道具的颜色照着参考图来。铅笔勾黑色轮廓，蜡笔和彩色铅笔上色：像真的用蜡笔在纸上涂出来的，能看出一笔笔来回涂的笔触，颜色有轻微不匀和叠色，偶尔涂出轮廓一点，保留蜡笔颗粒感；角色身上的白色部分用白蜡笔涂实。背景整张铺满#F7E8B2（奶油浅黄），用蜡笔或彩铅大面积轻涂，能看出笔触和轻微深浅不匀；不要数字绘画的平滑渐变、均匀平涂、光影高光、3D 立体感和电脑矢量感。主体居中、完整不裁切，不留白边，不加文字、水印、边框。",
+    "input_urls": [
+      "D:/program/project/front/eys-image2/official_camps_v3/neutral/neutral_鹈鹕.png"
+    ],
+    "out_path": "images/neutral/neutral_鹈鹕.png"
+  }
+]

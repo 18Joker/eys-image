@@ -35,7 +35,7 @@
 1. **图生图铁律：主体完全不变，仅修改目标元素。** 任何图生图 prompt 必须写明"保持主体/描边/平涂色块 100% 不变，唯一改动是 XXX"，并禁止 3D 化、写实化、加文字水印、裁切。参考 `py/batch_tasks.json` 现有 prompt 写法。
 2. **透明背景 PNG 禁止有损压缩**（WebP q82 之类会把透明边缘搞出毛边）。做预览页时直接用相对路径 `<img>` 引用原图 + CSS 控制显示尺寸，**不要起本地 http 服务、不要内嵌有损缩略图**；除非文件体积确实撑爆，才考虑内嵌且需用户确认。
 3. **流水线阶段间必须停下等用户确认 checkpoint**（如 Stage1 清晰度增强 → 确认 → Stage2 改背景色），禁止自动连续推进。
-4. **批量任务 JSON 先出方案再执行**；**一切生成产物（原图、预览 HTML、任务 JSON、统计输出、报告草稿）只许落 `工坊/`**，不进 git（细则见 §7）。
+4. **批量任务 JSON 先出方案再执行**；**一切生成产物（原图、预览 HTML、任务 JSON、统计输出、报告草稿）只许落 `工坊/`**，且生图输出路径一律写绝对路径（以 `D:\program\project\front\eys-image2\工坊\` 开头），不进 git（细则见 §7）。
 5. **API Key 安全**：Agnes AI 的 Key 内置于 `py/image_generate_v4.py` / `v5.py` 的 `API_KEYS` 列表。不要把 Key 复制到其他文件、日志、回复或外部仓库。
 6. 改动目录结构后更新 `FILE_TREE.md`；做完实质性工作后向 `.workbuddy/memory/` 当日日志追加记录。
 7. **一次性脚本规范**：
@@ -61,6 +61,7 @@
 
 - 字段（**默认走 photogpt 执行器，字段以 `TASKS_JSON_FORMAT.md` 为唯一依据**）：`task_id` / `mode` / `model_variant` / `prompt` / `aspect_ratio` / `output_num` / `quality` / `resolution` / `input_urls` / `out_path`。默认组合与本项目约定见 §4.1。
 - 字段（仅备选 Agnes 脚本用）：`type` + `size` + `local_image_path` + `output_path` + `model`。**写之前先看同目录现有 JSON 对齐字段**。
+- **输出路径（两条生图路径都适用）：`out_path` / `output_path` 一律写绝对路径，且必须位于 `工坊/批次/<当前批次>/images/` 下**；禁止相对路径，禁止指向项目根目录、`py/`、交付套图目录（§7.2）。
 - 写完任务 JSON 必须过一遍 §4.1 第 2 步的断言自查；批量改 prompt 后**必须跑关键词断言脚本**（校验禁词 0 残留、必含关键词全命中），历史教训：靠肉眼查会漏 30+ 处。
 - 五段式结构：画风段 → 角色外观段 → 标志性道具/表情段 → 质感光效段 → 输出要求段（透明背景、居中、不裁切、无文字边框）。
 - 角色识别核心从 `official_camps_v3` 实图提炼（如警长=金色六角星徽、刺客=暗红准星+黑兜帽、呆呆鸟=呆滞错位眼+橙红扁嘴），不得凭空捏造角色特征。**唯一权威依据是 `official_camps_v3/` 里的实际图片，写 prompt 前必须开图核对**（原 `美术特征档案/官方美术特征档案.md` 已废弃，其中 D-22「鸭子」描述就与实图不符）。
@@ -118,8 +119,13 @@ cd /d/program/project/media-automation/tools/photogpt_playwright
   -o "D:\program\project\front\eys-image2\工坊\批次\<批次>"
 ```
 
-- `-t` 任务 JSON，`-o` 输出根目录。**本项目必须带 `-o` 指向批次目录**：图片按 JSON 里的 `out_path` 相对路径落盘，画廊 HTML 也固定写到 `-o` 目录（`playwright_runner.py:3420`）。不给 `-o` 时画廊会落进 `photogpt_playwright\output\`，用户看不到。
-- 本项目 JSON 惯例：`out_path` 写 `images/xxx.png` 相对路径（同批共用一个批次目录）；需要精确落到指定位置时才写绝对路径。
+- `-t` 任务 JSON，`-o` 输出根目录。**本项目必须带 `-o` 指向批次目录**（画廊 HTML 固定写到 `-o` 目录，`playwright_runner.py:3420`）。不给 `-o` 时画廊会落进 `photogpt_playwright\output\`，用户看不到。
+- **本项目 JSON 硬性要求（覆盖工具默认的相对路径规则）：`out_path` 一律写绝对路径，指向 `工坊/批次/<当前批次>/images/`**，JSON 内反斜杠写成 `\\`：
+
+```json
+"out_path": "D:\\program\\project\\front\\eys-image2\\工坊\\批次\\20261018_批次名\\images\\xxx.png"
+```
+
 - 其他常用参数：`--dry-run`（只注册与去重判定，不启动浏览器、不花积分，**大批量跑前先过一遍**）、`--status`（查账号额度）、`--list`（查任务表状态）、`--downgrade`（积分不足自动降级 low/1K/1张 重试）、`--proxy`（访问 photogpt.io）、`--open`（跑完打开画廊）、`-v`（详细日志）。
 
 **积分与去重（省钱两条硬知识）**：
@@ -157,6 +163,8 @@ cd /d/program/project/media-automation/tools/photogpt_playwright
 - conda 环境 `eys-ocr`（Pillow + requests 已装）：`D:\program\tools\conda\conda\envs\eys-ocr\python.exe 脚本名`（conda 根目录是双层 `conda\conda`，用前先确认存在）
 
 Agnes 生图命令：`python image_generate_v5.py [-c 其他任务.json]`，跑完自动生成 `image_gallery.html` 网格预览。字段用 `type` + `size` + `local_image_path` + `output_path` + `model`（与 photogpt 不同，详见 §3）。
+
+`output_path` 同样必须写绝对路径，落在 `D:\program\project\front\eys-image2\工坊\批次\<当前批次>\images\` 下，不使用脚本对相对路径的解析规则。
 
 ---
 
@@ -214,7 +222,7 @@ Agnes 生图命令：`python image_generate_v5.py [-c 其他任务.json]`，跑�
 ```
 
 强制项：
-1. **生图脚本 `output_path` 必须指向 `工坊/批次/<当前批次>/images/`**，禁止写项目根目录、`py/`、`config/`、交付套图目录、`海报/`。
+1. **生图输出路径一律写绝对路径**：photogpt 的 `out_path` 与 Agnes 的 `output_path` 都必须指向 `D:\program\project\front\eys-image2\工坊\批次\<当前批次>\images\`；禁止相对路径，禁止写项目根目录、`py/`、`config/`、交付套图目录、`海报/`。
 2. 批次目录创建一次、原地待久；收尾**不改名、不挪位置**，只在 `_台账.md` 更新状态。
 3. 落选图不动不删——唯一不可再生样本，留在批次里当反面参照。
 4. `*.zip` 已被 gitignore；传输完即列入 `待清理/` 并汇报，禁止留在批次目录外随意堆放。
