@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高级主题皮肤 · 素材总览</title>
+<style>
+  :root {
+    --bg: #14161a;
+    --panel: #1c1f25;
+    --panel-2: #23262d;
+    --line: #2f333b;
+    --text: #e8ecf2;
+    --muted: #98a2b3;
+    --kitten: #f27e9b;
+    --owl: #e2b35b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 28px 60px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+  }
+  header { max-width: 1360px; margin: 0 auto 28px; }
+  h1 { margin: 0 0 8px; font-size: 24px; font-weight: 650; letter-spacing: .3px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .sub code {
+    background: var(--panel-2); padding: 1px 6px; border-radius: 4px;
+    font-size: 12px; color: #b9c4d4;
+  }
+  .tabs { display: flex; gap: 8px; margin: 22px 0 0; flex-wrap: wrap; }
+  .tab {
+    border: 1px solid var(--line); background: var(--panel); color: var(--muted);
+    padding: 7px 16px; border-radius: 999px; cursor: pointer; font-size: 13px;
+    transition: all .18s;
+  }
+  .tab:hover { color: var(--text); border-color: #3d434e; }
+  .tab.active { background: #2a2f37; color: #fff; border-color: #4a515c; }
+  section { max-width: 1360px; margin: 0 auto; }
+  .theme-block { margin-bottom: 40px; }
+  .theme-head {
+    display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+    padding-bottom: 10px; margin-bottom: 18px; border-bottom: 1px solid var(--line);
+  }
+  .theme-head h2 { margin: 0; font-size: 18px; font-weight: 650; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+  .meta { color: var(--muted); font-size: 12px; }
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(196px, 1fr)); gap: 14px;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    overflow: hidden; display: flex; flex-direction: column;
+  }
+  .thumb {
+    height: 150px; display: flex; align-items: center; justify-content: center;
+    padding: 10px;
+    background-color: #262a31;
+    background-image:
+      linear-gradient(45deg, #2e323a 25%, transparent 25%),
+      linear-gradient(-45deg, #2e323a 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #2e323a 75%),
+      linear-gradient(-45deg, transparent 75%, #2e323a 75%);
+    background-size: 16px 16px;
+    background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+  }
+  .thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .thumb img.tile { width: 100%; height: 100%; object-fit: cover; image-rendering: auto; }
+  .info { padding: 9px 11px 11px; border-top: 1px solid var(--line); }
+  .fname {
+    font-size: 12px; font-family: "SFMono-Regular", Consolas, monospace;
+    word-break: break-all; color: #cfd8e5;
+  }
+  .keyrow {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 8px; margin-top: 5px; font-size: 11px; color: var(--muted);
+  }
+  .key {
+    font-family: "SFMono-Regular", Consolas, monospace; color: #8fa4c0;
+  }
+  .badge {
+    font-size: 10px; padding: 1px 6px; border-radius: 999px;
+    border: 1px solid #45505f; color: #93a1b5; white-space: nowrap;
+  }
+  .badge.legacy { border-color: #6b5230; color: #d8a75b; background: #2e2517; }
+  .badge.dup { border-color: #5a3a52; color: #d58fbf; background: #2c1c28; }
+  .thumb { position: relative; }
+  .thumb .corner {
+    position: absolute; top: 7px; left: 7px; z-index: 2;
+    font-size: 10px; padding: 2px 7px; border-radius: 999px;
+    background: rgba(20,22,26,.86); backdrop-filter: blur(2px);
+  }
+  .corner.unused { color: #e0b062; border: 1px solid #6b5230; }
+  .corner.dup { color: #d58fbf; border: 1px solid #5a3a52; }
+  .kitten .dot { background: var(--kitten); }
+  .owl .dot { background: var(--owl); }
+  .hidden { display: none; }
+  footer { max-width: 1360px; margin: 40px auto 0; padding-top: 18px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>高级主题皮肤 · 素材总览</h1>
+  <p class="sub">
+    小程序云存储 <code>themes/kitten/</code> 与 <code>themes/owl/</code> 的线上实际文件，字节级原样归档。
+    本页直接 <code>&lt;img&gt;</code> 引用原图，未内嵌缩略图。共 <strong>23</strong> 个文件，
+    其中 <strong>22</strong> 个真正在小程序里渲染、<strong>1</strong> 个为云存储残留。
+  </p>
+  <p class="sub" style="margin-top:6px">
+    判定依据：逐行核对 eys 源码的组件挂载与门控条件（<code>features.*</code>），非照搬配置推断。
+    角标 <span class="corner unused" style="position:static;display:inline-block">未使用</span> = 端上永不请求；
+    <span class="corner dup" style="position:static;display:inline-block">≡</span> = 字节完全相同的副本。
+  </p>
+  <div class="tabs">
+    <button class="tab active" data-target="all">全部（23）</button>
+    <button class="tab" data-target="kitten">高级小猫（13，全在用）</button>
+    <button class="tab" data-target="owl">高级猫头鹰（10，9 在用）</button>
+  </div>
+</header>
+
+<section>
+  <div class="theme-block kitten" id="kitten">
+    <div class="theme-head">
+      <h2><span class="dot"></span>高级小猫 <span class="meta">kitten</span></h2>
+      <span class="meta">13 个文件 · 247.6 KB · 全部在用 · 背景层为无缝平铺（tile）</span>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/header-curtain.webp" alt=""></div>
+        <div class="info"><div class="fname">header-curtain.webp</div><div class="keyrow"><span class="key">headerCurtain</span><span class="badge">1400×600</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/header-mascot.webp" alt=""></div>
+        <div class="info"><div class="fname">header-mascot.webp</div><div class="keyrow"><span class="key">headerMascot</span><span class="badge">1080×540</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/pendant-left.webp" alt=""></div>
+        <div class="info"><div class="fname">pendant-left.webp</div><div class="keyrow"><span class="key">pendantLeft</span><span class="badge">300×450</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/sleep-cat.webp" alt=""></div>
+        <div class="info"><div class="fname">sleep-cat.webp</div><div class="keyrow"><span class="key">sleepCat</span><span class="badge">1000×500</span></div></div></div>
+      <div class="card"><div class="thumb"><img class="tile" src="高级小猫-kitten/bg-paw-tile.webp" alt=""></div>
+        <div class="info"><div class="fname">bg-paw-tile.webp</div><div class="keyrow"><span class="key">bgPattern</span><span class="badge">240×240 平铺</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/preview-thumb.webp" alt=""></div>
+        <div class="info"><div class="fname">preview-thumb.webp</div><div class="keyrow"><span class="key">previewThumb</span><span class="badge">480×300</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/section-icon.webp" alt=""></div>
+        <div class="info"><div class="fname">section-icon.webp</div><div class="keyrow"><span class="key">sectionIcon</span><span class="badge">96×96</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/card-paw.webp" alt=""></div>
+        <div class="info"><div class="fname">card-paw.webp</div><div class="keyrow"><span class="key">cardPaw</span><span class="badge">120×120</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/fab-icon.webp" alt=""></div>
+        <div class="info"><div class="fname">fab-icon.webp</div><div class="keyrow"><span class="key">fabIcon</span><span class="badge">144×144</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/paw-accent.webp" alt=""></div>
+        <div class="info"><div class="fname">paw-accent.webp</div><div class="keyrow"><span class="key">pawAccent</span><span class="badge">160×160</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/paw-small.webp" alt=""></div>
+        <div class="info"><div class="fname">paw-small.webp</div><div class="keyrow"><span class="key">pawSmall</span><span class="badge">120×120</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/my-paw.webp" alt=""></div>
+        <div class="info"><div class="fname">my-paw.webp</div><div class="keyrow"><span class="key">myPaw</span><span class="badge">120×120</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级小猫-kitten/tip-icon.webp" alt=""></div>
+        <div class="info"><div class="fname">tip-icon.webp</div><div class="keyrow"><span class="key">tipIcon</span><span class="badge">96×96</span></div></div></div>
+    </div>
+  </div>
+
+  <div class="theme-block owl" id="owl">
+    <div class="theme-head">
+      <h2><span class="dot"></span>高级猫头鹰 <span class="meta">owl</span></h2>
+      <span class="meta">10 个文件 · 439.0 KB · 9 个在用 / 1 个残留 · 含 1 组字节重复</span>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="thumb"><img src="高级猫头鹰-owl/header-curtain.webp" alt=""></div>
+        <div class="info"><div class="fname">header-curtain.webp</div><div class="keyrow"><span class="key">headerCurtain</span><span class="badge">1125×633</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级猫头鹰-owl/header-mascot.webp" alt=""></div>
+        <div class="info"><div class="fname">header-mascot.webp</div><div class="keyrow"><span class="key">headerMascot</span><span class="badge">900×507</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级猫头鹰-owl/pendant-bottom.webp" alt=""></div>
+        <div class="info"><div class="fname">pendant-bottom.webp</div><div class="keyrow"><span class="key">pendantBottom</span><span class="badge">256×256</span></div></div></div>
+      <div class="card"><div class="thumb"><span class="corner unused">未使用</span><img src="高级猫头鹰-owl/pendant-left.webp" alt=""></div>
+        <div class="info"><div class="fname">pendant-left.webp</div><div class="keyrow"><span class="key">—</span><span class="badge legacy">配置未引用</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级猫头鹰-owl/sleep-vines.webp" alt=""></div>
+        <div class="info"><div class="fname">sleep-vines.webp</div><div class="keyrow"><span class="key">sleepCat</span><span class="badge">560×560</span></div></div></div>
+      <div class="card"><div class="thumb"><img class="tile" src="高级猫头鹰-owl/bg-forest.webp" alt=""></div>
+        <div class="info"><div class="fname">bg-forest.webp</div><div class="keyrow"><span class="key">bgPattern</span><span class="badge">750×1333</span></div></div></div>
+      <div class="card"><div class="thumb"><span class="corner dup">≡ 与吉祥物同文件</span><img src="高级猫头鹰-owl/preview-thumb.webp" alt=""></div>
+        <div class="info"><div class="fname">preview-thumb.webp</div><div class="keyrow"><span class="key">previewThumb</span><span class="badge dup">字节重复</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级猫头鹰-owl/section-icon.webp" alt=""></div>
+        <div class="info"><div class="fname">section-icon.webp</div><div class="keyrow"><span class="key">sectionIcon</span><span class="badge">96×96</span></div></div></div>
+      <div class="card"><div class="thumb"><span class="corner dup">≈ 同源马灯</span><img src="高级猫头鹰-owl/tip-icon.webp" alt=""></div>
+        <div class="info"><div class="fname">tip-icon.webp</div><div class="keyrow"><span class="key">tipIcon</span><span class="badge">176×176</span></div></div></div>
+      <div class="card"><div class="thumb"><img src="高级猫头鹰-owl/lantern-reading.webp" alt=""></div>
+        <div class="info"><div class="fname">lantern-reading.webp</div><div class="keyrow"><span class="key">lantern</span><span class="badge">176×177</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  素材来源：<code>ai_config.themes_config</code> 指向的云存储 <code>themes/&lt;id&gt;/</code> ·
+  同步脚本 <code>py/sync_theme_assets.py</code> · 逐文件来源 URL 与 sha256 见各主题目录的 <code>素材清单.json</code>。
+</footer>
+
+<script>
+  document.querySelectorAll('.tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.tab').forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var target = btn.dataset.target;
+      document.querySelectorAll('.theme-block').forEach(function (block) {
+        block.classList.toggle('hidden', target !== 'all' && block.id !== target);
+      });
+    });
+  });
+</script>
+</body>
+</html>

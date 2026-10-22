@@ -26,6 +26,9 @@ eys-image2/
 │   ├── chibi_style_v2/              ✅ 66 文件
 │   ├── daidai/                      ✅ 呆呆鸟风套图 55 张（鹅24/鸭22/中立9），纯白底原图
 │   ├── daidai_阵营背景/              ✅ daidai 阵营背景色版 55 张 + 预览.html（2026-10-07 建；goose #DEDEDE / duck #7A1519 / neutral #F7E7A9，脚本：工坊/脚本/评估/daidai背景色全量_20261007.py）
+│   ├── 高级主题皮肤/                  ✅ 小程序高级主题线上素材归档（2026-10-22 建，23 个 webp + 预览.html + README.md）
+│   │   ├── 高级小猫-kitten/              13 文件 + 素材清单.json（themes/kitten/ 线上镜像）
+│   │   └── 高级猫头鹰-owl/               10 文件 + 素材清单.json（themes/owl/ 线上镜像，含 1 个配置未引用的遗留 pendant-left.webp）；同步脚本 py/sync_theme_assets.py
 │   └── 海报/                        ✅ 成品海报
 │       ├── 鹅鸭杀分享背景/              分享底图 8 张（4 普通 + 4 大留白）
 │       ├── 鹅鸭杀分享背景底图-v2/        新版 3:4 全标题底图（compose_match_panel_v3 随机选用）
@@ -47,6 +50,7 @@ eys-image2/
 │   │   ├── image_generate_v4.py         同功能基础并发版
 │   │   ├── compress_images.py           压缩输出到新目录
 │   │   ├── compress_inplace.py          就地近无损压缩，原子替换
+│   │   ├── sync_theme_assets.py         高级主题线上素材同步（云存储 themes/<id>/ → 高级主题皮肤/，生成素材清单.json）
 │   │   ├── compose_match_panel{,_v2,_v3}.py  对战记录分享面板；v3 卡池读 工坊/批次/my_Q版原图/
 │   │   ├── gen_cat_theme_preview.py     读 工坊/批次/cat_theme/ 生成总览 HTML
 │   │   ├── check_keys.py                API Key 可用性检查

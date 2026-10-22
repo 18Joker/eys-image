@@ -1,0 +1,158 @@
+{
+  "themeId": "owl",
+  "themeName": "高级猫头鹰",
+  "cdnHost": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la",
+  "storageDir": "themes/owl/",
+  "syncedAt": "2026-10-22T19:46:20",
+  "mode": "download",
+  "fileCount": 10,
+  "okCount": 10,
+  "failCount": 0,
+  "inUseCount": 9,
+  "totalBytes": 449492,
+  "duplicateByContent": [
+    [
+      "header-mascot.webp",
+      "preview-thumb.webp"
+    ]
+  ],
+  "notes": [
+    "本地文件与云存储 themes/<themeId>/ 下的文件字节完全一致（未做任何压缩或转码）。",
+    "inUse 为 true 表示小程序前端确有组件消费该素材；false = 云存储残留，端上永不请求。",
+    "inUse 依据 eys 源码逐行核对（consumer 列写了组件与门控条件），非照搬配置推断。",
+    "referenced 仅表示主题配置 assets 是否登记了该 key，不等于会被渲染。",
+    "duplicateByContent 列出同主题内 sha256 相同的文件组。"
+  ],
+  "files": [
+    {
+      "file": "header-curtain.webp",
+      "configKey": "headerCurtain",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "ThemeMascotBand Layer1 帷幕（curtainMode=widthFix）",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/header-curtain.webp",
+      "bytes": 103490,
+      "width": 1125,
+      "height": 633,
+      "sha256": "bac41660b8883385fe126254a4783725a6137f46422b7d965987315e5d60ea8b",
+      "status": "ok"
+    },
+    {
+      "file": "header-mascot.webp",
+      "configKey": "headerMascot",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "ThemeMascotBand Layer3 吉祥物（hasHeaderMascot 门控）",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/header-mascot.webp",
+      "bytes": 101348,
+      "width": 900,
+      "height": 507,
+      "sha256": "d1f56d11d5df1bb395c5996fc0cbb79e8b88b69995eb1bd7ebe435ad7f5e0de7",
+      "status": "ok"
+    },
+    {
+      "file": "pendant-bottom.webp",
+      "configKey": "pendantBottom",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "GroupRecordZone → ThemeSticker kind=\"pendant-bottom\"（hasPendants 门控）",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/pendant-bottom.webp",
+      "bytes": 25004,
+      "width": 256,
+      "height": 256,
+      "sha256": "56f713da1d2dd050206dc01083c5139cdaa6d341753b1fb3aa2bd29c15c36e36",
+      "status": "ok"
+    },
+    {
+      "file": "pendant-left.webp",
+      "configKey": null,
+      "referenced": false,
+      "inUse": false,
+      "consumer": "不渲染：配置未引用，且 owl features 无 pendantLeft；页面级 ThemePendantLeft 因 a.pendantLeft 为空不产出节点",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/pendant-left.webp",
+      "bytes": 13198,
+      "width": 200,
+      "height": 200,
+      "sha256": "d3ea6feb3c9fe7a6374daa8d98231b73372212c7ce389ec2ce5f7377d0165ce6",
+      "status": "ok"
+    },
+    {
+      "file": "sleep-vines.webp",
+      "configKey": "sleepCat",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "ExcludedRoles → ThemeSticker kind=\"sleep-cat\"",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/sleep-vines.webp",
+      "bytes": 58114,
+      "width": 560,
+      "height": 560,
+      "sha256": "8b4ab2b298421eb7b80c725f718e572ea945c18325f9542c70e4010e1191761b",
+      "status": "ok"
+    },
+    {
+      "file": "bg-forest.webp",
+      "configKey": "bgPattern",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "ThemeBackdrop（默认 image 模式，aspectFill）",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/bg-forest.webp",
+      "bytes": 15456,
+      "width": 750,
+      "height": 1333,
+      "sha256": "a42b2d8b3236eca49d8acdaaec13c09fb2cf70e4d4ef8a29679e6d0dc5f8e4a2",
+      "status": "ok"
+    },
+    {
+      "file": "preview-thumb.webp",
+      "configKey": "previewThumb",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "ThemePicker / ThemeShop / ThemeBuyChip 缩略图（⚠️ 与 header-mascot 字节完全相同）",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/preview-thumb.webp",
+      "bytes": 101348,
+      "width": 900,
+      "height": 507,
+      "sha256": "d1f56d11d5df1bb395c5996fc0cbb79e8b88b69995eb1bd7ebe435ad7f5e0de7",
+      "status": "ok"
+    },
+    {
+      "file": "section-icon.webp",
+      "configKey": "sectionIcon",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "ThemeSectionIcon 区块标题图标",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/section-icon.webp",
+      "bytes": 4758,
+      "width": 96,
+      "height": 96,
+      "sha256": "a52e3a1b1f08517de149f7cd0d5e1360ed72e872a53f0382cb9405db5b365e88",
+      "status": "ok"
+    },
+    {
+      "file": "tip-icon.webp",
+      "configKey": "tipIcon",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "TriviaTicker 冷知识条图标（⚠️ 与 lantern-reading 同源，视觉近乎相同）",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/tip-icon.webp",
+      "bytes": 13292,
+      "width": 176,
+      "height": 176,
+      "sha256": "aee3bc79f24f665abb8156a44c3567426e5bea4e29170dc2804252cfb36723e4",
+      "status": "ok"
+    },
+    {
+      "file": "lantern-reading.webp",
+      "configKey": "lantern",
+      "referenced": true,
+      "inUse": true,
+      "consumer": "GroupRecordZone → ThemeSticker kind=\"lantern\" 马灯",
+      "sourceUrl": "https://636c-cloudbase-d3gv7g5ad64245151-1440057854.tcb.qcloud.la/themes/owl/lantern-reading.webp",
+      "bytes": 13484,
+      "width": 176,
+      "height": 177,
+      "sha256": "a748e19bdd28c37e6933cf39c5779aafa63a307f4dc554fe943038935fb78a6b",
+      "status": "ok"
+    }
+  ]
+}
