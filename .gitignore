@@ -12,3 +12,5 @@ __pycache__/
 
 # 压缩中间产物（历史遗留，目录已不存在，保留以防脚本重建）
 .compare_tmp/
+.idea
+/eys-image.iml
