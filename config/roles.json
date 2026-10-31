@@ -1,5 +1,5 @@
 {
-  "version": "4.8.0",
+  "version": "4.9.0",
   "slotCount": 15,
   "defaultLogoSet": "style3",
   "previewRoleIds": {
@@ -976,6 +976,22 @@
         "呆",
         "鸟",
         "dodo"
+      ]
+    },
+    {
+      "id": "neutral_130",
+      "name": "爷爷",
+      "officialName": "爷爷",
+      "faction": "neutral",
+      "img": "/neutral/neutral_爷爷.png",
+      "aliases": [
+        "爷爷",
+        "葫芦爷爷",
+        "yy",
+        "yeye",
+        "爷",
+        "grandpa",
+        "grandfather"
       ]
     },
     {
